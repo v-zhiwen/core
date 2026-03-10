@@ -7,7 +7,7 @@
     "cve-list": [],
     "release-notes": "https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/preview2/11.0.0-preview.2.md",
     "runtime": {
-      "version": "11.0.0-preview.2.26154.117",
+      "version": "11.0.0-preview.2.26159.112",
       "version-display": "11.0.0-preview.2",
       "vs-version": "",
       "vs-mac-version": "",
@@ -15,195 +15,195 @@
         {
           "name": "dotnet-apphost-pack-linux-arm.tar.gz",
           "rid": "linux-arm",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26154.117/dotnet-apphost-pack-11.0.0-preview.2.26154.117-linux-arm.tar.gz",
-          "hash": "2697ddcde6be375d96d3cc6108c5c8834d93839f54e0f1b58f116cc77d5c75730dd7ef06f643c1b207ba65fe670c30cc3123da9c1d91e04088cad7b27a7c6962"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26159.112/dotnet-apphost-pack-11.0.0-preview.2.26159.112-linux-arm.tar.gz",
+          "hash": "c9cdc0f6231b1058fbd9febe9025c3372262b965505afaae39b2acbd6864a9c45552aaa7696d643d7f39067e5c634641a8ffbb9705475314b8cafcb0b3b83866"
         },
         {
           "name": "dotnet-apphost-pack-linux-arm64.tar.gz",
           "rid": "linux-arm64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26154.117/dotnet-apphost-pack-11.0.0-preview.2.26154.117-linux-arm64.tar.gz",
-          "hash": "f716423745db2471a06049a794d4fb5d05effda431fe3747b6be28b27163a83ef90db5adca8fab57e1590f09d7fe6e9dea7b9d9266e22789372d95dc9042fac5"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26159.112/dotnet-apphost-pack-11.0.0-preview.2.26159.112-linux-arm64.tar.gz",
+          "hash": "63019b7e83143303a4e9f152da07986d9c87bb4f070988cf38d16e9995c404eba379624cabca915457068a8d0ea3eb235ebb440f5538d1bb7b8adbb4629510d4"
         },
         {
           "name": "dotnet-apphost-pack-linux-bionic-arm64.tar.gz",
           "rid": "linux-bionic-arm64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26154.117/dotnet-apphost-pack-11.0.0-preview.2.26154.117-linux-bionic-arm64.tar.gz",
-          "hash": "4a29475035b319b1385dd9a1c2a2115f16395955285833f2312fc782b3ccb1497e74f68acb100f4337fa7a33ec76ebea467dd4917b68409ba1a8b25c10a4870b"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26159.112/dotnet-apphost-pack-11.0.0-preview.2.26159.112-linux-bionic-arm64.tar.gz",
+          "hash": "9c9839285ddbfb39eb7fce85c028075a352989659e35de9fc0acb5b65562341c153374fb3820de82eb7139272268451b9b68b686a3753f2259954ce6fa9a6bc0"
         },
         {
           "name": "dotnet-apphost-pack-linux-bionic-x64.tar.gz",
           "rid": "linux-bionic-x64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26154.117/dotnet-apphost-pack-11.0.0-preview.2.26154.117-linux-bionic-x64.tar.gz",
-          "hash": "eb43c708a425fea2a48f26e45a7e838d98d9e32902cdab0eb1c72f9a501208b51f7e899c85042f94dc060abddb39e9bfec98b7c82fa81a91bfa69e8392563659"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26159.112/dotnet-apphost-pack-11.0.0-preview.2.26159.112-linux-bionic-x64.tar.gz",
+          "hash": "f5551f9113b84c8e9fc958d23b2685d1b014ba7f034c8c13a5d3682d15b27dc50848026843667a55269ae6121d87b31a7aab00956beba90dda2a0eccbc419a94"
         },
         {
           "name": "dotnet-apphost-pack-linux-musl-arm.tar.gz",
           "rid": "linux-musl-arm",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26154.117/dotnet-apphost-pack-11.0.0-preview.2.26154.117-linux-musl-arm.tar.gz",
-          "hash": "06f3e3eb0cccb2827c481f2d07b42321428d7dede1182730f4ddb12e4ac43f27e9532145dc3d0941df38e590651588093d25eeb1d781f592d0bc2b62ec0129e4"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26159.112/dotnet-apphost-pack-11.0.0-preview.2.26159.112-linux-musl-arm.tar.gz",
+          "hash": "1002abb71604857d6fd79771365a958374d1113196a876f064ccdc6f8db82dfd8b7a81c75b69b9c316fc9e6a2613b2937ae56bfa20af7eb8b3aa2e6d636a488b"
         },
         {
           "name": "dotnet-apphost-pack-linux-musl-arm64.tar.gz",
           "rid": "linux-musl-arm64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26154.117/dotnet-apphost-pack-11.0.0-preview.2.26154.117-linux-musl-arm64.tar.gz",
-          "hash": "d7b947129f7598964d18d2a7aa854c86441160434da26dcfc94c3a41010ee3a13d60b638dfbb2feb250580933138dd61042d3ddebbde9f80f2d562356d906d94"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26159.112/dotnet-apphost-pack-11.0.0-preview.2.26159.112-linux-musl-arm64.tar.gz",
+          "hash": "70bd06ce43fc6da739a0426ae2a17c2139e07b16e2489838cc904f19b1ff58006f3820e82bfea79cf99aaaa9b418c01698155dae77f9efca4dd1a544f6ab5875"
         },
         {
           "name": "dotnet-apphost-pack-linux-musl-x64.tar.gz",
           "rid": "linux-musl-x64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26154.117/dotnet-apphost-pack-11.0.0-preview.2.26154.117-linux-musl-x64.tar.gz",
-          "hash": "02154f90367a64441f9139ce54ecb0dbab984b9ffcd47489a136844e021f1f9ea266e823fc7e553e388894bb83b59d9d911d36f6d0dcce4c9f6215b83e87fb1e"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26159.112/dotnet-apphost-pack-11.0.0-preview.2.26159.112-linux-musl-x64.tar.gz",
+          "hash": "eea565cdf9f9293de95deb54e54cc75ec433b533ecc5dc7476b2702c0e1547528d27fd6d6406c23a2aa1e2fe71f84a4110a4e4c640f5d101fd0b660dce748a10"
         },
         {
           "name": "dotnet-apphost-pack-linux-x64.tar.gz",
           "rid": "linux-x64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26154.117/dotnet-apphost-pack-11.0.0-preview.2.26154.117-linux-x64.tar.gz",
-          "hash": "31f5a49448b4ea162135ba94547d67889dbb905d2fa2a788b02f12565014a4380353275bae6d82b10b9460f1e17204f3e8a2e1450c4e3be00f90e55ada43a5b9"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26159.112/dotnet-apphost-pack-11.0.0-preview.2.26159.112-linux-x64.tar.gz",
+          "hash": "c24e5ae872420e06c4e8a762dcc047ade70c2e9ba7e4ee62ced3c39edd12c7953ebec6bdf31fc82c816bd0b9625fcb1af53930826bcf96c5e356fbf361e037d9"
         },
         {
           "name": "dotnet-apphost-pack-osx-arm64.tar.gz",
           "rid": "osx-arm64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26154.117/dotnet-apphost-pack-11.0.0-preview.2.26154.117-osx-arm64.tar.gz",
-          "hash": "b68b804a5dc1077a367cb4b2ba585ffd2c219a8499c5fd029b773d6a97f044567e9fb000836b54e40cd05b6e1d5c70a7c23840087f6b2e72e07a794a225d33ff"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26159.112/dotnet-apphost-pack-11.0.0-preview.2.26159.112-osx-arm64.tar.gz",
+          "hash": "db33307e20cedab7d6dcd60895b5f4284d2426a1337e10335a118d3c2ab189d06d5a7e1f6527cd776d0442424d311898710c11a35097481ff86126366f43948d"
         },
         {
           "name": "dotnet-apphost-pack-osx-x64.tar.gz",
           "rid": "osx-x64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26154.117/dotnet-apphost-pack-11.0.0-preview.2.26154.117-osx-x64.tar.gz",
-          "hash": "1892f7e7fbca371daa0941550a8d2a6e44c963dde63030edd6d03f734ea3af774a6bcdb54833d7875f86ab1bf0ba4d4aae65be4cf519879a2176e8056d94a94c"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26159.112/dotnet-apphost-pack-11.0.0-preview.2.26159.112-osx-x64.tar.gz",
+          "hash": "dda0523bbac79ba983be711ac2592d025bf61fb8cfa069dfcb3fca56d1a921c7d9fc6cb017fbeb2ae31fd31af3d69ef0bd444a01881471c3c9103e6ac3c981d1"
         },
         {
           "name": "dotnet-apphost-pack-win-arm64.zip",
           "rid": "win-arm64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26154.117/dotnet-apphost-pack-11.0.0-preview.2.26154.117-win-arm64.zip",
-          "hash": "d417fd995d46eef572d77e11c2cb3f6aba3e88ef50f91936d636965bcdecd4b6aebcb48f5f50aa8db04b53d645efef29cfd0d6b385d24650d8e0f736c5cf2d49"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26159.112/dotnet-apphost-pack-11.0.0-preview.2.26159.112-win-arm64.zip",
+          "hash": "9f263d954443dc43c3443649f3a1e282b85c4e81555f5977f6d473cc823581490d126030a0b6b7ec21f9e9f3f2d886b8867932771d3339b271a692a9fcc13b96"
         },
         {
           "name": "dotnet-apphost-pack-win-x64.zip",
           "rid": "win-x64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26154.117/dotnet-apphost-pack-11.0.0-preview.2.26154.117-win-x64.zip",
-          "hash": "9447a79c2e7cc33f0c946c1f6bc0ae04f261fbb4ebc52224778481bdd4463b6862f96fea337a2300871d2d38b20016d538a8c5d55d668030af90988fb015b7da"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26159.112/dotnet-apphost-pack-11.0.0-preview.2.26159.112-win-x64.zip",
+          "hash": "1e774a238a21bda0439030ee1d37b81aaff07e58900bbc43370dc9061b98bd0056b4b8172ad538359e06426075b0a840414c6044a8fe8061db77510b76142371"
         },
         {
           "name": "dotnet-apphost-pack-win-x86.zip",
           "rid": "win-x86",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26154.117/dotnet-apphost-pack-11.0.0-preview.2.26154.117-win-x86.zip",
-          "hash": "6441e9d176d89ea38e1c2a51e202362996c46e919e2e6bff33a778dbb3d1089972e2f3270ce07c108ccd929f33e4d3d1472cf842bed6bb5c0e0795b1965469d0"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26159.112/dotnet-apphost-pack-11.0.0-preview.2.26159.112-win-x86.zip",
+          "hash": "7e27ec249889389f27713936a75eb9607131c6bea74737830820793f48823afd2e6c83904fa9883f0360d69335647a582b9248b4bf9b7c27a21ffeafaf500cb4"
         },
         {
           "name": "dotnet-runtime-linux-arm.tar.gz",
           "rid": "linux-arm",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26154.117/dotnet-runtime-11.0.0-preview.2.26154.117-linux-arm.tar.gz",
-          "hash": "72bf7b7c192bd2335b880162c95e288263702dd41af592166f2216c44c9e86b60e5170a2bec02d59a211cd82dfdaf37dafe8d58854259be3b6a45651c77f4593"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26159.112/dotnet-runtime-11.0.0-preview.2.26159.112-linux-arm.tar.gz",
+          "hash": "8a3e01747fd7e1fcc351f417bb98615e0264e8ed1a97b805fc3a3e5cb6dddee55b4595cec57f65a4064e30849e9d9ad79116c2c2baa5835b9bc063f98e7e47fe"
         },
         {
           "name": "dotnet-runtime-linux-arm64.tar.gz",
           "rid": "linux-arm64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26154.117/dotnet-runtime-11.0.0-preview.2.26154.117-linux-arm64.tar.gz",
-          "hash": "96ab5575b161c08175700cebbd4a78f97df80973a8070a940d714876d5a180a7e5df0679757a88c49a351c3f13d3c2eb6c20e211588e0fd959a268862f2f6e65"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26159.112/dotnet-runtime-11.0.0-preview.2.26159.112-linux-arm64.tar.gz",
+          "hash": "43630fedd8ca7fdc302b16b9a648d4c06ef1d2627398cca653c604944857c20050225b38f0a1c5a316d9bee70f3507f28007c9a6500db7470f156bcba58d8413"
         },
         {
           "name": "dotnet-runtime-linux-bionic-arm64.tar.gz",
           "rid": "linux-bionic-arm64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26154.117/dotnet-runtime-11.0.0-preview.2.26154.117-linux-bionic-arm64.tar.gz",
-          "hash": "42214552cadfb62cff7b20d07387abeb506064a1f6a9b1005603c04beaac5a21b3039ec6bd230b1b9e4b54368480c2c674377d2dab4fc7843de0a8ae077fb9ff"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26159.112/dotnet-runtime-11.0.0-preview.2.26159.112-linux-bionic-arm64.tar.gz",
+          "hash": "52290ccbc5cf00bcf9db9195877a0bb2994ef20d7b8967917e2278a6c972fce5573a0cdb45767f7564ae1b449d079123cbf2e0c640d34827678ce5d9f55f0c57"
         },
         {
           "name": "dotnet-runtime-linux-bionic-x64.tar.gz",
           "rid": "linux-bionic-x64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26154.117/dotnet-runtime-11.0.0-preview.2.26154.117-linux-bionic-x64.tar.gz",
-          "hash": "0c571f87e463a917dfb75269791762277d7776dfe1c782ec7f1badaeb0cf87fa82815d480710ed054aabb94fe8a79fe0c3c55eb6714b9a14155c091195a84cc8"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26159.112/dotnet-runtime-11.0.0-preview.2.26159.112-linux-bionic-x64.tar.gz",
+          "hash": "ab426b89dde2eb78d1982ce74e6b8f0e9c3fdc3b606b92debeeb77bc98e0d0f47e30e3c54c52736a8770947d94ab74875bc8801fac3653822ea0bc11e6e8ba26"
         },
         {
           "name": "dotnet-runtime-linux-musl-arm.tar.gz",
           "rid": "linux-musl-arm",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26154.117/dotnet-runtime-11.0.0-preview.2.26154.117-linux-musl-arm.tar.gz",
-          "hash": "e9d5e9506dbd0ad01e81046f1f2525a08efe9b88b327a8f67b6f4d8c7bc4bac3130fa7a35f51666bfd22ae5078743a684b757db2120fa35ca6c34daad72f754a"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26159.112/dotnet-runtime-11.0.0-preview.2.26159.112-linux-musl-arm.tar.gz",
+          "hash": "9b99020f5f19aee73cbca1030058559b054aa0cd2b7f4520ea2dfaa6b2725b6f56820c8ae6217092c3146ec4b4baa0b1f5495241e9048a873a486253bf221a7a"
         },
         {
           "name": "dotnet-runtime-linux-musl-arm64.tar.gz",
           "rid": "linux-musl-arm64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26154.117/dotnet-runtime-11.0.0-preview.2.26154.117-linux-musl-arm64.tar.gz",
-          "hash": "b8a12b2e73fc14ec6f0cfa43dcccbf05823fb2273eddc1ce828a2bb6d8a631b2443d7a0d75c9b84b8ef055f5b5ff4ef46ce23a5d645ab1a91408aab203d112f0"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26159.112/dotnet-runtime-11.0.0-preview.2.26159.112-linux-musl-arm64.tar.gz",
+          "hash": "509b4c948b1d9f1869603050e44df9e28f636d4096c00ae52d06e364233713e78ecf1fd35f999498681aab8b41a59c44a692cc84b4f9259aae3acf98daa991eb"
         },
         {
           "name": "dotnet-runtime-linux-musl-x64.tar.gz",
           "rid": "linux-musl-x64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26154.117/dotnet-runtime-11.0.0-preview.2.26154.117-linux-musl-x64.tar.gz",
-          "hash": "31fb3f31f9c3d7450b7875c94c70bcb3a446692053d15185e3fcb9185834970324257ed31a1ffec620e86336e14e7a11280a452f5d80e9b8fcb3938100985428"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26159.112/dotnet-runtime-11.0.0-preview.2.26159.112-linux-musl-x64.tar.gz",
+          "hash": "87cc6023b1ff8ac4f65fd8bcae98234932ff3dbbb05791c1cf1950ff5d25c3bfee35e4c8bdf68b21b699acc26fcbb5dff0dc844c23b0a791c5963e42f38c3f47"
         },
         {
           "name": "dotnet-runtime-linux-x64.tar.gz",
           "rid": "linux-x64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26154.117/dotnet-runtime-11.0.0-preview.2.26154.117-linux-x64.tar.gz",
-          "hash": "3ad06006067fdd07c07c5e57f43273bfd6ec3608868efcd6c213b5fafb8ff7a1c56abcc296e2fb725ce7089f2264eb24c86a62f4538a917c59ee8192e280182e"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26159.112/dotnet-runtime-11.0.0-preview.2.26159.112-linux-x64.tar.gz",
+          "hash": "11e6bfe1bb16e2a35ac682ae1597e1540a8fb7fc706ec424fa3f0bbe5d65da87c70c43abf01bb43d2417e335930aeaeb4d653219fbc83791a049d2f050c178a5"
         },
         {
           "name": "dotnet-runtime-osx-arm64.pkg",
           "rid": "osx-arm64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26154.117/dotnet-runtime-11.0.0-preview.2.26154.117-osx-arm64.pkg",
-          "hash": "8e30efa68f62eac4c418fafc0ee4d84b3a805576a7135fee8e66c7fd1ce6b2c772215a1dd1c33106dbab1e2df44b237d74e401ac882f8fec9ff0687df841edfd"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26159.112/dotnet-runtime-11.0.0-preview.2.26159.112-osx-arm64.pkg",
+          "hash": "17b0869a65bd7fd601803e09877d077e08995dfb146c7caf8ef2f0a228c5077343ac96d3580786fd84de347e59c347ea2c10c34122de836545ceca41bf3f5f37"
         },
         {
           "name": "dotnet-runtime-osx-arm64.tar.gz",
           "rid": "osx-arm64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26154.117/dotnet-runtime-11.0.0-preview.2.26154.117-osx-arm64.tar.gz",
-          "hash": "44235034b864a874403a4f8b4cb4c0904a177451b1c894bb76b1bd815ddc46cd925e958e37455fe8b83ff9200e3ed4354e2d359c30dce66e58298f1338ba261a"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26159.112/dotnet-runtime-11.0.0-preview.2.26159.112-osx-arm64.tar.gz",
+          "hash": "e1d676cac9ee7f583721047bcbe153e903ef4a7374e8a41a1f2e25fe5c37ccb993da61a4300b8d5d86396c464bd5ec90ffe1366484c32c3efa66f5bc4166876a"
         },
         {
           "name": "dotnet-runtime-osx-x64.pkg",
           "rid": "osx-x64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26154.117/dotnet-runtime-11.0.0-preview.2.26154.117-osx-x64.pkg",
-          "hash": "c126e76a5a7e8b92be4d8fd51c0eeb15b4d0d975040738992e09d189e726c8e33a53db56d09fb1def033a69b19220352af3fb001272a556abc4c811c88515a22"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26159.112/dotnet-runtime-11.0.0-preview.2.26159.112-osx-x64.pkg",
+          "hash": "283f538902c9b667ac1c149554000acf16c99ec1377d72b777a01ed4689542e20aee65fc2cc4636ff2bb840a895a8bf9aed13133cec826d7bc917d7221648c9b"
         },
         {
           "name": "dotnet-runtime-osx-x64.tar.gz",
           "rid": "osx-x64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26154.117/dotnet-runtime-11.0.0-preview.2.26154.117-osx-x64.tar.gz",
-          "hash": "bfe8dc9aad06469d201a59be9ac4245f44a1c7dedb6b24af14cf498ec447855363ed0a69ea58cbd44da08337e9bc9220a1811b5a8fecf002f3ea322012c65f73"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26159.112/dotnet-runtime-11.0.0-preview.2.26159.112-osx-x64.tar.gz",
+          "hash": "5ed4dd693a848e399d96052a1f425b46d491529faa7c4bb0d782a115109cfddfee5f08bd1a8083e27b0d0b35344528f98f24c72b95f980e431c45b0c16dc4820"
         },
         {
           "name": "dotnet-runtime-win-arm64.exe",
           "rid": "win-arm64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26154.117/dotnet-runtime-11.0.0-preview.2.26154.117-win-arm64.exe",
-          "hash": "33ce02f7daf1b4e8a4a865e33577d2b84f81153c274fa99c56fd33195ce852db65d547018a448f91e44e139e3fa12110a2c9196f4f97307f1dd2c66818a144ac"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26159.112/dotnet-runtime-11.0.0-preview.2.26159.112-win-arm64.exe",
+          "hash": "1d39d6aedc388cfec41011c54404674a84592dd7cf12c1dd23e19bae8593f332c2208409a021a4efb270ccedf41b4d13b7dfed4b44b62cc0c4016e6b87c33c4b"
         },
         {
           "name": "dotnet-runtime-win-arm64.zip",
           "rid": "win-arm64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26154.117/dotnet-runtime-11.0.0-preview.2.26154.117-win-arm64.zip",
-          "hash": "5e94f0335d318450117ed84c310b42be88bbde639becd5fca192edd5028999630851d02315f8b0457328f8eae2273924d51ddb8ca7b4dccf5d07fc1d1768df68"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26159.112/dotnet-runtime-11.0.0-preview.2.26159.112-win-arm64.zip",
+          "hash": "485bbc95d471020be57feb49a7a74e1724f28b2b05b25775d7255ee2b2ea0dbcd64c756708a097861aaf96d4fc04f4637d56f31653425743c966c58ac149a588"
         },
         {
           "name": "dotnet-runtime-win-x64.exe",
           "rid": "win-x64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26154.117/dotnet-runtime-11.0.0-preview.2.26154.117-win-x64.exe",
-          "hash": "9abeafc71baf0fec4ec5e968f81608b0be25842f111a05ea4c3e11bfc0343d90ec4dd8d14383eb8a7198db0a56034d10931304aaa71b1f88e343f641ba372332"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26159.112/dotnet-runtime-11.0.0-preview.2.26159.112-win-x64.exe",
+          "hash": "5c1c82d2063cf8e9b78a51f9b9aaa9c80557cb6933f5ea3c1d0e69397bba2a341287f9acfd095326fcd7d5729a17ef2783b49af8d6a46e69607bdda6fafa0f68"
         },
         {
           "name": "dotnet-runtime-win-x64.zip",
           "rid": "win-x64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26154.117/dotnet-runtime-11.0.0-preview.2.26154.117-win-x64.zip",
-          "hash": "8fc2788451db3d3cf9544c96bfab4a05393223a4e3efebb8ca9ab1ba6ee3165a96fd61bdc99c11b40f7bedb1f53a7398405023b2fef2a50b22af485f38e35d07"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26159.112/dotnet-runtime-11.0.0-preview.2.26159.112-win-x64.zip",
+          "hash": "7642de16fc631701c249d836af18b1a968b4aaa7ac39231b9670119c091dcd5a49e2fbd888dbf41601729c5682e765fce7b9b5164654b14c3fba29f76c887da1"
         },
         {
           "name": "dotnet-runtime-win-x86.exe",
           "rid": "win-x86",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26154.117/dotnet-runtime-11.0.0-preview.2.26154.117-win-x86.exe",
-          "hash": "5cdcbb406f9c89e6ed39f487012d2fbfcd6ef7be450b5604c02a319ca76cc491e90fa34010c03d3917062c2e3bc1f1639f78e4afe3bd7888ca5a42d2d08f10ea"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26159.112/dotnet-runtime-11.0.0-preview.2.26159.112-win-x86.exe",
+          "hash": "b2418a9061579acb8e09cf9362529b12b0706b0f293cbd92e2d464978d4766db94d68306b5d87b7a897e0a2748c793265ba45a2e046332311adcea4a94c6a509"
         },
         {
           "name": "dotnet-runtime-win-x86.zip",
           "rid": "win-x86",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26154.117/dotnet-runtime-11.0.0-preview.2.26154.117-win-x86.zip",
-          "hash": "ebba8ab85a0f8e1c4d7c4456bc01ab304cd7aa0a0ce9c363cb7eef3e11eef3ea73d991275711ae6ac95a1266fb38df8ff5b293f03716bca94067e7cfa166f04c"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/11.0.0-preview.2.26159.112/dotnet-runtime-11.0.0-preview.2.26159.112-win-x86.zip",
+          "hash": "5fe2a664c99caf38f6583c0f4ecee5f399da134d9b6c784159fe74a5bab19a2aea2156f22dd089aebc3493558b84e7e3b6e958a693debdb70496f3d78bbb984b"
         }
       ]
     },
     "sdk": {
-      "version": "11.0.100-preview.2.26154.117",
+      "version": "11.0.100-preview.2.26159.112",
       "version-display": "11.0.100-preview.2",
-      "runtime-version": "11.0.0-preview.2.26154.117",
+      "runtime-version": "11.0.0-preview.2.26159.112",
       "vs-version": "",
       "vs-mac-version": "",
       "vs-support": "",
@@ -215,106 +215,106 @@
         {
           "name": "dotnet-sdk-linux-arm.tar.gz",
           "rid": "linux-arm",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26154.117/dotnet-sdk-11.0.100-preview.2.26154.117-linux-arm.tar.gz",
-          "hash": "8745f7b7bd9f8dd00b0627f03331eca81f5948842f9353ff0ec2c408ae5a9f79fffce46f373ce3d541ea1134807c43553dbbfab8138b69c6d642e337ccb8337a"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26159.112/dotnet-sdk-11.0.100-preview.2.26159.112-linux-arm.tar.gz",
+          "hash": "8442c8d529d09d054c0001d7ad25bea8cc0b330c9dcdcf6617a935978022d1ffd2c2e1c239c6ed620a0be74fcc125b472ae74a8059fe1a9969486b97be3afed6"
         },
         {
           "name": "dotnet-sdk-linux-arm64.tar.gz",
           "rid": "linux-arm64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26154.117/dotnet-sdk-11.0.100-preview.2.26154.117-linux-arm64.tar.gz",
-          "hash": "cb1c70e12dae8310ca5d826649b73fad7aa46792458fd8929cfaac173436e69b5a1d892e1b92042ade2d5dfebd85a9d59e38da6f37e7a328bf43d2c124ec306c"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26159.112/dotnet-sdk-11.0.100-preview.2.26159.112-linux-arm64.tar.gz",
+          "hash": "7235147a21979a969a5e9047d284a1ebf5d61e0949717d17f9ddc15905e5c7727adbbaf1440fda2c6c75679638e9800652cd3de6d3550bffc70e55f20571c084"
         },
         {
           "name": "dotnet-sdk-linux-musl-arm.tar.gz",
           "rid": "linux-musl-arm",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26154.117/dotnet-sdk-11.0.100-preview.2.26154.117-linux-musl-arm.tar.gz",
-          "hash": "d7ce1d50b7af70362563f91ce40462f5acc89974e1ff8aff6d7c3f12370cdf1b04be5b9462d29032de74e4ea9452c40fd3e36cfc67a241048a7aabf147ca88db"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26159.112/dotnet-sdk-11.0.100-preview.2.26159.112-linux-musl-arm.tar.gz",
+          "hash": "e18624f901a70f1cbc42a9da1c9a77368aa39ba192b8c13712fc0b0f44c648e0d999556e520919a0896125d53401f8e6397b5c22d874200df49c1b5b2fd0a3d1"
         },
         {
           "name": "dotnet-sdk-linux-musl-arm64.tar.gz",
           "rid": "linux-musl-arm64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26154.117/dotnet-sdk-11.0.100-preview.2.26154.117-linux-musl-arm64.tar.gz",
-          "hash": "540ed2c807086a84f33e9595e6280a1575499465ceafaa00ef15b5c9226c86e66612f6e4ae88e19a78ea502b33b4c47db085b05e10d0aa592c4b68d7f653b6df"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26159.112/dotnet-sdk-11.0.100-preview.2.26159.112-linux-musl-arm64.tar.gz",
+          "hash": "3b99a2af8dda44fe067570121f884194af242173306e63169d6bee3eb24638f536311d7f99920e6d05b77855a45bb322197ae8876ea33d1591482f3c567f4044"
         },
         {
           "name": "dotnet-sdk-linux-musl-x64.tar.gz",
           "rid": "linux-musl-x64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26154.117/dotnet-sdk-11.0.100-preview.2.26154.117-linux-musl-x64.tar.gz",
-          "hash": "98c28262e42b0dcaa7822aef6d8ef24ff8b0687380c5984a8871dde95552010eb4dd43afccf2d7a2badbddc309fd37d22a786a5de9705b650edd6177ad861f45"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26159.112/dotnet-sdk-11.0.100-preview.2.26159.112-linux-musl-x64.tar.gz",
+          "hash": "3e06783fce0ba576e2dc144b68907b9322c0d0a4bd5e511d2d20a12faa51e145e6b49d15acf12241fb7ca634a9511e35cad6d17d642933d4c60dc15920072c79"
         },
         {
           "name": "dotnet-sdk-linux-x64.tar.gz",
           "rid": "linux-x64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26154.117/dotnet-sdk-11.0.100-preview.2.26154.117-linux-x64.tar.gz",
-          "hash": "abd5dd4812c1f83241e243ba32ca8afda9c835bac9d1e4a2eb2f2c8e85c8755c1d58b2e0aeac252ebbe5f10b9976610062133bb27fd222fef086da3382a6d186"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26159.112/dotnet-sdk-11.0.100-preview.2.26159.112-linux-x64.tar.gz",
+          "hash": "5418a43fe4f0bb15dcd4d97011f64b9ae473e190fdd46432ad0e7b91331a1628301a40f7e5bfb3e364f0a42e22729b0597b66fb45d46c9d4a17917cea09084cd"
         },
         {
           "name": "dotnet-sdk-osx-arm64.pkg",
           "rid": "osx-arm64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26154.117/dotnet-sdk-11.0.100-preview.2.26154.117-osx-arm64.pkg",
-          "hash": "10aa80175ede5bf1217aad242f8ed8a9cc7291c4e926575da89f08aa406072a3fa1888c8a0063664a5832b9c3ea98234e52378b332556754f71ca335ed9efdfd"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26159.112/dotnet-sdk-11.0.100-preview.2.26159.112-osx-arm64.pkg",
+          "hash": "83e38acf9b23886305dc5ef5cd4b18c2e8c95f23f2f3fe3959b495037fdbd391ac8c1dbc02713815de3f1276a586eda370dd1e262fc541e68d6427521d028501"
         },
         {
           "name": "dotnet-sdk-osx-arm64.tar.gz",
           "rid": "osx-arm64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26154.117/dotnet-sdk-11.0.100-preview.2.26154.117-osx-arm64.tar.gz",
-          "hash": "4b13f2fa741b4bda433fb07346d82fa36ce79a068f10b0df46cb03adce9d454862c04cac6076c4ab429e23fe60093c3de5caeb85eab85327d1d7f9b4f4fde5d6"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26159.112/dotnet-sdk-11.0.100-preview.2.26159.112-osx-arm64.tar.gz",
+          "hash": "e2ee0935b1cc57573caa05d9f3698cdb098ab894b1056be0a63aad547d85d5dccfb7e36104e99089dfd885cf21b2276ebc5166ed5da9a3212807b1dd30fcf839"
         },
         {
           "name": "dotnet-sdk-osx-x64.pkg",
           "rid": "osx-x64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26154.117/dotnet-sdk-11.0.100-preview.2.26154.117-osx-x64.pkg",
-          "hash": "608ae3b8c6635156d52a2931145f3c597dbc744e704a2120f62e7c10e6a9789b16c72b4cb7a67eb011728811b2f843db01ba1de3971fb3d0d13f3e87ec4ce797"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26159.112/dotnet-sdk-11.0.100-preview.2.26159.112-osx-x64.pkg",
+          "hash": "babdb130049134647ae373d36f9e46e8df10b6b92ec873ea713fb514972bd06229fe100f76c3c76677cbc98f61e652606aba8d558589cb6ce0275bc99b16c422"
         },
         {
           "name": "dotnet-sdk-osx-x64.tar.gz",
           "rid": "osx-x64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26154.117/dotnet-sdk-11.0.100-preview.2.26154.117-osx-x64.tar.gz",
-          "hash": "4d852534cd77db49629a8f1da62ace062552595ef1f6b689ef5406255439bfece35b71700b102ff81473b7f8b75afc341f40408250f3e68d6f532135a1754c77"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26159.112/dotnet-sdk-11.0.100-preview.2.26159.112-osx-x64.tar.gz",
+          "hash": "b63950d9a311dd4d08274c57f4c2bbc48aa705585d6c3650992715c8c190e7364e6832e6539e23b389613c97d855fdcf29c2413337d11be4b629865c9da7d404"
         },
         {
           "name": "dotnet-sdk-win-arm64.exe",
           "rid": "win-arm64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26154.117/dotnet-sdk-11.0.100-preview.2.26154.117-win-arm64.exe",
-          "hash": "35470ba44b5f87ff5777fade0df57ad70abb151103b9b9b39f0da588fe39467b06cdb0913975bd0fcf9bcea6b11df52b89b71af41e55cebd49d60aa29c5b78ca"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26159.112/dotnet-sdk-11.0.100-preview.2.26159.112-win-arm64.exe",
+          "hash": "e637f090fbfc132d319a68ea8d2420da91b8097bb25b0c167e7ae9c93de95879dd2d48184c41bfd53f8f7519ed619c6cdf466c436ec58f5e5b5af44b7f491507"
         },
         {
           "name": "dotnet-sdk-win-arm64.zip",
           "rid": "win-arm64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26154.117/dotnet-sdk-11.0.100-preview.2.26154.117-win-arm64.zip",
-          "hash": "2effecba855c02957d3dc3cb16dff376d8e73c5f63a470c3046a1cf2c04206c319bfa1ed824e01e6cb6dca746ea4f4e59b85213d351a4dc2a44b8983c279d176"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26159.112/dotnet-sdk-11.0.100-preview.2.26159.112-win-arm64.zip",
+          "hash": "ed9a56bf6c2be71a17dc2c6882ef79ea3e7d8c7fe8f94753f042894b1fb8d0f1ce394fada65b734b717a692b0dd95842315dcb866e3d58ce2763f3c66310e993"
         },
         {
           "name": "dotnet-sdk-win-x64.exe",
           "rid": "win-x64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26154.117/dotnet-sdk-11.0.100-preview.2.26154.117-win-x64.exe",
-          "hash": "588cc0389fa9b6676adf3f400da7d0dc2031dcfba4431bc0465259a427ab524ad73c1fb336f7a48c01f1d3838428c1224a5fd704fe1c46ba5cb6655ae3dd1d6d"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26159.112/dotnet-sdk-11.0.100-preview.2.26159.112-win-x64.exe",
+          "hash": "6811b9e4d225d1de5f200a950cd663966b1d809bf171f458a02087d58fa9a95ae61fa3022a8f21cdd4769867f53d2ff4b47bae8c6edd16b403d230d413f7a3cb"
         },
         {
           "name": "dotnet-sdk-win-x64.zip",
           "rid": "win-x64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26154.117/dotnet-sdk-11.0.100-preview.2.26154.117-win-x64.zip",
-          "hash": "ec1a5d829a42e197a16fedf8a93c65fed6852b3a127c0931880c519ac1916ae96ee4123310bb80eb9b825e84c2ca704aba81a6bd1cb3a0d3b1bef655af471343"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26159.112/dotnet-sdk-11.0.100-preview.2.26159.112-win-x64.zip",
+          "hash": "d797707fa9fa9892035f92e82669dc854c07a65655ef03b7ac95a8e8865dcf9a614faf83e999425c0d26fe30cc761203814bc9d7ee35a75a49d7cea9cfce7738"
         },
         {
           "name": "dotnet-sdk-win-x86.exe",
           "rid": "win-x86",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26154.117/dotnet-sdk-11.0.100-preview.2.26154.117-win-x86.exe",
-          "hash": "7c85ccea45e0c8f595980fa4015818741004de41008fb25be33fae61d9805b1843b80513e07e53a9b27d34c28436b97e72e8c04550a9763d1f3a37a203c9c04c"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26159.112/dotnet-sdk-11.0.100-preview.2.26159.112-win-x86.exe",
+          "hash": "c1989e5c257c4dd601abb1c2a2b174ccbc2d3d336b6f5fc5de13aec0f5f2e746f3bdb92a1c603f5fee7698fcebcd171156c787c848e19b53c76cbbc668654cee"
         },
         {
           "name": "dotnet-sdk-win-x86.zip",
           "rid": "win-x86",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26154.117/dotnet-sdk-11.0.100-preview.2.26154.117-win-x86.zip",
-          "hash": "b0ab4f96e5cee7cf8ca428b0b1a1ae3235151b6cc9c1c4529d93fddcf5c4f603dfc1503a00f11db5f3cdf51f0c1d12baf670f55b3e9053c23463b3a37db42041"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26159.112/dotnet-sdk-11.0.100-preview.2.26159.112-win-x86.zip",
+          "hash": "5a1d0e39db61480bc1a46f490c088283395f74ff1b207b6aba2933cd592f3e04ce6b1cd2c3df3bb6b34835d2cdfa660de5b8f42bbf4ca9e93c4fbaeb10213de0"
         }
       ]
     },
     "sdks": [
       {
-        "version": "11.0.100-preview.2.26154.117",
+        "version": "11.0.100-preview.2.26159.112",
         "version-display": "11.0.100-preview.2",
-        "runtime-version": "11.0.0-preview.2.26154.117",
+        "runtime-version": "11.0.0-preview.2.26159.112",
         "vs-version": "",
         "vs-mac-version": "",
         "vs-support": "",
@@ -326,356 +326,356 @@
           {
             "name": "dotnet-sdk-linux-arm.tar.gz",
             "rid": "linux-arm",
-            "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26154.117/dotnet-sdk-11.0.100-preview.2.26154.117-linux-arm.tar.gz",
-            "hash": "8745f7b7bd9f8dd00b0627f03331eca81f5948842f9353ff0ec2c408ae5a9f79fffce46f373ce3d541ea1134807c43553dbbfab8138b69c6d642e337ccb8337a"
+            "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26159.112/dotnet-sdk-11.0.100-preview.2.26159.112-linux-arm.tar.gz",
+            "hash": "8442c8d529d09d054c0001d7ad25bea8cc0b330c9dcdcf6617a935978022d1ffd2c2e1c239c6ed620a0be74fcc125b472ae74a8059fe1a9969486b97be3afed6"
           },
           {
             "name": "dotnet-sdk-linux-arm64.tar.gz",
             "rid": "linux-arm64",
-            "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26154.117/dotnet-sdk-11.0.100-preview.2.26154.117-linux-arm64.tar.gz",
-            "hash": "cb1c70e12dae8310ca5d826649b73fad7aa46792458fd8929cfaac173436e69b5a1d892e1b92042ade2d5dfebd85a9d59e38da6f37e7a328bf43d2c124ec306c"
+            "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26159.112/dotnet-sdk-11.0.100-preview.2.26159.112-linux-arm64.tar.gz",
+            "hash": "7235147a21979a969a5e9047d284a1ebf5d61e0949717d17f9ddc15905e5c7727adbbaf1440fda2c6c75679638e9800652cd3de6d3550bffc70e55f20571c084"
           },
           {
             "name": "dotnet-sdk-linux-musl-arm.tar.gz",
             "rid": "linux-musl-arm",
-            "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26154.117/dotnet-sdk-11.0.100-preview.2.26154.117-linux-musl-arm.tar.gz",
-            "hash": "d7ce1d50b7af70362563f91ce40462f5acc89974e1ff8aff6d7c3f12370cdf1b04be5b9462d29032de74e4ea9452c40fd3e36cfc67a241048a7aabf147ca88db"
+            "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26159.112/dotnet-sdk-11.0.100-preview.2.26159.112-linux-musl-arm.tar.gz",
+            "hash": "e18624f901a70f1cbc42a9da1c9a77368aa39ba192b8c13712fc0b0f44c648e0d999556e520919a0896125d53401f8e6397b5c22d874200df49c1b5b2fd0a3d1"
           },
           {
             "name": "dotnet-sdk-linux-musl-arm64.tar.gz",
             "rid": "linux-musl-arm64",
-            "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26154.117/dotnet-sdk-11.0.100-preview.2.26154.117-linux-musl-arm64.tar.gz",
-            "hash": "540ed2c807086a84f33e9595e6280a1575499465ceafaa00ef15b5c9226c86e66612f6e4ae88e19a78ea502b33b4c47db085b05e10d0aa592c4b68d7f653b6df"
+            "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26159.112/dotnet-sdk-11.0.100-preview.2.26159.112-linux-musl-arm64.tar.gz",
+            "hash": "3b99a2af8dda44fe067570121f884194af242173306e63169d6bee3eb24638f536311d7f99920e6d05b77855a45bb322197ae8876ea33d1591482f3c567f4044"
           },
           {
             "name": "dotnet-sdk-linux-musl-x64.tar.gz",
             "rid": "linux-musl-x64",
-            "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26154.117/dotnet-sdk-11.0.100-preview.2.26154.117-linux-musl-x64.tar.gz",
-            "hash": "98c28262e42b0dcaa7822aef6d8ef24ff8b0687380c5984a8871dde95552010eb4dd43afccf2d7a2badbddc309fd37d22a786a5de9705b650edd6177ad861f45"
+            "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26159.112/dotnet-sdk-11.0.100-preview.2.26159.112-linux-musl-x64.tar.gz",
+            "hash": "3e06783fce0ba576e2dc144b68907b9322c0d0a4bd5e511d2d20a12faa51e145e6b49d15acf12241fb7ca634a9511e35cad6d17d642933d4c60dc15920072c79"
           },
           {
             "name": "dotnet-sdk-linux-x64.tar.gz",
             "rid": "linux-x64",
-            "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26154.117/dotnet-sdk-11.0.100-preview.2.26154.117-linux-x64.tar.gz",
-            "hash": "abd5dd4812c1f83241e243ba32ca8afda9c835bac9d1e4a2eb2f2c8e85c8755c1d58b2e0aeac252ebbe5f10b9976610062133bb27fd222fef086da3382a6d186"
+            "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26159.112/dotnet-sdk-11.0.100-preview.2.26159.112-linux-x64.tar.gz",
+            "hash": "5418a43fe4f0bb15dcd4d97011f64b9ae473e190fdd46432ad0e7b91331a1628301a40f7e5bfb3e364f0a42e22729b0597b66fb45d46c9d4a17917cea09084cd"
           },
           {
             "name": "dotnet-sdk-osx-arm64.pkg",
             "rid": "osx-arm64",
-            "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26154.117/dotnet-sdk-11.0.100-preview.2.26154.117-osx-arm64.pkg",
-            "hash": "10aa80175ede5bf1217aad242f8ed8a9cc7291c4e926575da89f08aa406072a3fa1888c8a0063664a5832b9c3ea98234e52378b332556754f71ca335ed9efdfd"
+            "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26159.112/dotnet-sdk-11.0.100-preview.2.26159.112-osx-arm64.pkg",
+            "hash": "83e38acf9b23886305dc5ef5cd4b18c2e8c95f23f2f3fe3959b495037fdbd391ac8c1dbc02713815de3f1276a586eda370dd1e262fc541e68d6427521d028501"
           },
           {
             "name": "dotnet-sdk-osx-arm64.tar.gz",
             "rid": "osx-arm64",
-            "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26154.117/dotnet-sdk-11.0.100-preview.2.26154.117-osx-arm64.tar.gz",
-            "hash": "4b13f2fa741b4bda433fb07346d82fa36ce79a068f10b0df46cb03adce9d454862c04cac6076c4ab429e23fe60093c3de5caeb85eab85327d1d7f9b4f4fde5d6"
+            "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26159.112/dotnet-sdk-11.0.100-preview.2.26159.112-osx-arm64.tar.gz",
+            "hash": "e2ee0935b1cc57573caa05d9f3698cdb098ab894b1056be0a63aad547d85d5dccfb7e36104e99089dfd885cf21b2276ebc5166ed5da9a3212807b1dd30fcf839"
           },
           {
             "name": "dotnet-sdk-osx-x64.pkg",
             "rid": "osx-x64",
-            "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26154.117/dotnet-sdk-11.0.100-preview.2.26154.117-osx-x64.pkg",
-            "hash": "608ae3b8c6635156d52a2931145f3c597dbc744e704a2120f62e7c10e6a9789b16c72b4cb7a67eb011728811b2f843db01ba1de3971fb3d0d13f3e87ec4ce797"
+            "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26159.112/dotnet-sdk-11.0.100-preview.2.26159.112-osx-x64.pkg",
+            "hash": "babdb130049134647ae373d36f9e46e8df10b6b92ec873ea713fb514972bd06229fe100f76c3c76677cbc98f61e652606aba8d558589cb6ce0275bc99b16c422"
           },
           {
             "name": "dotnet-sdk-osx-x64.tar.gz",
             "rid": "osx-x64",
-            "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26154.117/dotnet-sdk-11.0.100-preview.2.26154.117-osx-x64.tar.gz",
-            "hash": "4d852534cd77db49629a8f1da62ace062552595ef1f6b689ef5406255439bfece35b71700b102ff81473b7f8b75afc341f40408250f3e68d6f532135a1754c77"
+            "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26159.112/dotnet-sdk-11.0.100-preview.2.26159.112-osx-x64.tar.gz",
+            "hash": "b63950d9a311dd4d08274c57f4c2bbc48aa705585d6c3650992715c8c190e7364e6832e6539e23b389613c97d855fdcf29c2413337d11be4b629865c9da7d404"
           },
           {
             "name": "dotnet-sdk-win-arm64.exe",
             "rid": "win-arm64",
-            "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26154.117/dotnet-sdk-11.0.100-preview.2.26154.117-win-arm64.exe",
-            "hash": "35470ba44b5f87ff5777fade0df57ad70abb151103b9b9b39f0da588fe39467b06cdb0913975bd0fcf9bcea6b11df52b89b71af41e55cebd49d60aa29c5b78ca"
+            "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26159.112/dotnet-sdk-11.0.100-preview.2.26159.112-win-arm64.exe",
+            "hash": "e637f090fbfc132d319a68ea8d2420da91b8097bb25b0c167e7ae9c93de95879dd2d48184c41bfd53f8f7519ed619c6cdf466c436ec58f5e5b5af44b7f491507"
           },
           {
             "name": "dotnet-sdk-win-arm64.zip",
             "rid": "win-arm64",
-            "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26154.117/dotnet-sdk-11.0.100-preview.2.26154.117-win-arm64.zip",
-            "hash": "2effecba855c02957d3dc3cb16dff376d8e73c5f63a470c3046a1cf2c04206c319bfa1ed824e01e6cb6dca746ea4f4e59b85213d351a4dc2a44b8983c279d176"
+            "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26159.112/dotnet-sdk-11.0.100-preview.2.26159.112-win-arm64.zip",
+            "hash": "ed9a56bf6c2be71a17dc2c6882ef79ea3e7d8c7fe8f94753f042894b1fb8d0f1ce394fada65b734b717a692b0dd95842315dcb866e3d58ce2763f3c66310e993"
           },
           {
             "name": "dotnet-sdk-win-x64.exe",
             "rid": "win-x64",
-            "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26154.117/dotnet-sdk-11.0.100-preview.2.26154.117-win-x64.exe",
-            "hash": "588cc0389fa9b6676adf3f400da7d0dc2031dcfba4431bc0465259a427ab524ad73c1fb336f7a48c01f1d3838428c1224a5fd704fe1c46ba5cb6655ae3dd1d6d"
+            "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26159.112/dotnet-sdk-11.0.100-preview.2.26159.112-win-x64.exe",
+            "hash": "6811b9e4d225d1de5f200a950cd663966b1d809bf171f458a02087d58fa9a95ae61fa3022a8f21cdd4769867f53d2ff4b47bae8c6edd16b403d230d413f7a3cb"
           },
           {
             "name": "dotnet-sdk-win-x64.zip",
             "rid": "win-x64",
-            "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26154.117/dotnet-sdk-11.0.100-preview.2.26154.117-win-x64.zip",
-            "hash": "ec1a5d829a42e197a16fedf8a93c65fed6852b3a127c0931880c519ac1916ae96ee4123310bb80eb9b825e84c2ca704aba81a6bd1cb3a0d3b1bef655af471343"
+            "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26159.112/dotnet-sdk-11.0.100-preview.2.26159.112-win-x64.zip",
+            "hash": "d797707fa9fa9892035f92e82669dc854c07a65655ef03b7ac95a8e8865dcf9a614faf83e999425c0d26fe30cc761203814bc9d7ee35a75a49d7cea9cfce7738"
           },
           {
             "name": "dotnet-sdk-win-x86.exe",
             "rid": "win-x86",
-            "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26154.117/dotnet-sdk-11.0.100-preview.2.26154.117-win-x86.exe",
-            "hash": "7c85ccea45e0c8f595980fa4015818741004de41008fb25be33fae61d9805b1843b80513e07e53a9b27d34c28436b97e72e8c04550a9763d1f3a37a203c9c04c"
+            "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26159.112/dotnet-sdk-11.0.100-preview.2.26159.112-win-x86.exe",
+            "hash": "c1989e5c257c4dd601abb1c2a2b174ccbc2d3d336b6f5fc5de13aec0f5f2e746f3bdb92a1c603f5fee7698fcebcd171156c787c848e19b53c76cbbc668654cee"
           },
           {
             "name": "dotnet-sdk-win-x86.zip",
             "rid": "win-x86",
-            "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26154.117/dotnet-sdk-11.0.100-preview.2.26154.117-win-x86.zip",
-            "hash": "b0ab4f96e5cee7cf8ca428b0b1a1ae3235151b6cc9c1c4529d93fddcf5c4f603dfc1503a00f11db5f3cdf51f0c1d12baf670f55b3e9053c23463b3a37db42041"
+            "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.2.26159.112/dotnet-sdk-11.0.100-preview.2.26159.112-win-x86.zip",
+            "hash": "5a1d0e39db61480bc1a46f490c088283395f74ff1b207b6aba2933cd592f3e04ce6b1cd2c3df3bb6b34835d2cdfa660de5b8f42bbf4ca9e93c4fbaeb10213de0"
           }
         ]
       }
     ],
     "aspnetcore-runtime": {
-      "version": "11.0.0-preview.2.26154.117",
+      "version": "11.0.0-preview.2.26159.112",
       "version-display": "11.0.0-preview.2",
       "version-aspnetcoremodule": [
-        "21.0.26064.0"
+        "21.0.26068.0"
       ],
       "vs-version": "",
       "files": [
         {
           "name": "aspnetcore-runtime-linux-arm.tar.gz",
           "rid": "linux-arm",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26154.117/aspnetcore-runtime-11.0.0-preview.2.26154.117-linux-arm.tar.gz",
-          "hash": "3fac099f98b7064031243771e4f649d6ba1e7f1377fb033404825b892c8a1d1c4d28fdd749d668d9f36bb65e43cb82bd692b2c8e3ab63849990670e82b811df2"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26159.112/aspnetcore-runtime-11.0.0-preview.2.26159.112-linux-arm.tar.gz",
+          "hash": "d94402c1eb0a2910967b5b1f358fbd5a50b46e701e86c1a8390cbaf9ecbd9f01663c3185542a2070c9c74dd01a6a02be567efd4d319321f6dab08c8ebf3b2fe6"
         },
         {
           "name": "aspnetcore-runtime-linux-arm64.tar.gz",
           "rid": "linux-arm64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26154.117/aspnetcore-runtime-11.0.0-preview.2.26154.117-linux-arm64.tar.gz",
-          "hash": "5012dd524ff478a3330eee32277d88c6164fa56e5cebccf60bda3a08046236682085332cbf6cde150dc14209787b5fdd2c0c6d627e91623caf13fa4f5ebfb4c1"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26159.112/aspnetcore-runtime-11.0.0-preview.2.26159.112-linux-arm64.tar.gz",
+          "hash": "711914b72530c8b6ba49e5077942893a52bf5508cc082b09ae04f5c72ae4a09dd78699ffcad16dd25a2fe43d586533f897dcdb5c82ab2982ff6b4ad6fdfe5a58"
         },
         {
           "name": "aspnetcore-runtime-linux-musl-arm.tar.gz",
           "rid": "linux-musl-arm",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26154.117/aspnetcore-runtime-11.0.0-preview.2.26154.117-linux-musl-arm.tar.gz",
-          "hash": "e7d798ffa7fafc6212c754d00c28d95c520a775cc75be151a1c07e9c5adfe67374667541f033c8c8398d11fda5c5439081425ed5ebef28fa22b1443e5276951f"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26159.112/aspnetcore-runtime-11.0.0-preview.2.26159.112-linux-musl-arm.tar.gz",
+          "hash": "eed80d6ff4ad92cc81a49ec89a202099e8676525925ad04d401e7ad231043db5545ae428f157220679f07c1f69ffd0493b95e612ad242a7d6fb9baee8bbc09c6"
         },
         {
           "name": "aspnetcore-runtime-linux-musl-arm64.tar.gz",
           "rid": "linux-musl-arm64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26154.117/aspnetcore-runtime-11.0.0-preview.2.26154.117-linux-musl-arm64.tar.gz",
-          "hash": "b32a6ad48e02a5e17066ab474e1190c419656f2d13a8b413cd67705d70a14f71100dce5facd82a84fb3ffd8ca2cc148a882a716c7fd587ef782b4601b0484a45"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26159.112/aspnetcore-runtime-11.0.0-preview.2.26159.112-linux-musl-arm64.tar.gz",
+          "hash": "b3bd534f80301148e92d2b3ce233e20069a1d880206e6feef34265cb9773fe8ede9ddf8bf55f4aae178976161ff39460b2e17f12cad89f8af062489c30e0c054"
         },
         {
           "name": "aspnetcore-runtime-linux-musl-x64.tar.gz",
           "rid": "linux-musl-x64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26154.117/aspnetcore-runtime-11.0.0-preview.2.26154.117-linux-musl-x64.tar.gz",
-          "hash": "e4abca837676de31731eb451c815a0611078f82c78afcc64dc023fc9f1a5e47f9e97b291e93c86180c8e878fb8d909d3e621c0638cb97e251dc1f1963069bdbf"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26159.112/aspnetcore-runtime-11.0.0-preview.2.26159.112-linux-musl-x64.tar.gz",
+          "hash": "de5b1c20fe661a5a936684bb138a8ba81f291dd1cb19ad0c8c6641c9ffa213014a68a662655258b94fc482fa2f50bb666c6494659d0dafba59873c9e66810df3"
         },
         {
           "name": "aspnetcore-runtime-linux-x64.tar.gz",
           "rid": "linux-x64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26154.117/aspnetcore-runtime-11.0.0-preview.2.26154.117-linux-x64.tar.gz",
-          "hash": "6e6bd231494a0a575ca56dad335217d3a317d23ad1e2a2c0821e33e6d704c7180e0d43472031cf75bb8c7da5905ef1ec5edb2ce00612d1d1ceb0ae6a20fea08d"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26159.112/aspnetcore-runtime-11.0.0-preview.2.26159.112-linux-x64.tar.gz",
+          "hash": "4c02fbb66bc4b7389e0f43c0ea96a3046954eb3c7ad06bf0f8d90997c2e603dd0a3929e2b29b9e8933cc76341fb5e62ebe5bcb83d9a31419bdd1195904ff5af6"
         },
         {
           "name": "aspnetcore-runtime-osx-arm64.tar.gz",
           "rid": "osx-arm64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26154.117/aspnetcore-runtime-11.0.0-preview.2.26154.117-osx-arm64.tar.gz",
-          "hash": "be68387b5a6b0fabafb44392a6319f0174ef21552e953293e0b5d0619dc69bf8e79382e9255f4b1aebb861c6a35e34e2cb1a1f7cf823f99579951a3af582bdfa"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26159.112/aspnetcore-runtime-11.0.0-preview.2.26159.112-osx-arm64.tar.gz",
+          "hash": "b4e62546ceb52b630382c577546ee2e8f376cd82ff0859d0ff6efcab30e808b3d9b1efb2538249dfaf06bcdd96093cba627f93d2816547436ecef2fbd2ff574d"
         },
         {
           "name": "aspnetcore-runtime-osx-x64.tar.gz",
           "rid": "osx-x64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26154.117/aspnetcore-runtime-11.0.0-preview.2.26154.117-osx-x64.tar.gz",
-          "hash": "fa78676c59238253e814252384e1c23b045d6b9f0e7e7ac464046bd674790f268692290c37bb3a24941f0b694b31fd757fbecbbfedaed479952589d2fb7ee98d"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26159.112/aspnetcore-runtime-11.0.0-preview.2.26159.112-osx-x64.tar.gz",
+          "hash": "4bd050df9ae392c38b6abf720762bddf7fac57ab4ef7d03f256c8ace8a0218886e10bed7f608fb9398ff158edf7a313df16fb5be9e09ec5695eefa28368e69a3"
         },
         {
           "name": "aspnetcore-runtime-win-arm64.exe",
           "rid": "win-arm64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26154.117/aspnetcore-runtime-11.0.0-preview.2.26154.117-win-arm64.exe",
-          "hash": "42aa992cae3864882209380360663c7c8f3fcef43f91dba3da696ee2e1349f1f4daff7c8f733f56ee61255d47a9669b20443762685a4abcbbacfd7494d53bc13"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26159.112/aspnetcore-runtime-11.0.0-preview.2.26159.112-win-arm64.exe",
+          "hash": "144587f446e40136c9de4a79c6c8cd5c9ffb1a6778ad0ff88937a8bd95e63f108e5115376dcc23d3f6ad7c0902c4c9efca56981c37fadf8d452c018d06072cab"
         },
         {
           "name": "aspnetcore-runtime-win-arm64.zip",
           "rid": "win-arm64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26154.117/aspnetcore-runtime-11.0.0-preview.2.26154.117-win-arm64.zip",
-          "hash": "6d8e602b7d6512ebff1e57961cbb4d463d022eb75064f2977ba0d81c1e51c68982771ad7ce9b7be3738d0274a86c2b4548999a141285115a82ab0a7c8ef9fc99"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26159.112/aspnetcore-runtime-11.0.0-preview.2.26159.112-win-arm64.zip",
+          "hash": "f937d4c3bd352ae12de9ec08354c7ef234ba546ca5ad17f36158f7017950b8fc0902d492abc23fbdc4dab115ed494b9995b2b0ce7c39734f8ae31758faddaa4d"
         },
         {
           "name": "aspnetcore-runtime-win-x64.exe",
           "rid": "win-x64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26154.117/aspnetcore-runtime-11.0.0-preview.2.26154.117-win-x64.exe",
-          "hash": "d1e867d0f3dc0efa64c1b9ac5faff1d2bbf786e6ff21fc796718c8972044f824b1c0228925a6b6c5b9f29e8e4e685b929fa4b6855f3a1977c987a07bfa3dc174"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26159.112/aspnetcore-runtime-11.0.0-preview.2.26159.112-win-x64.exe",
+          "hash": "4b6aa777c81fe8900c0095569947c10d3ff5a7d29119c2dd660c81b35bb78af39bb0f4bbdca6a23eb687ddcdcd23b9b6da52fa2f5e7f0354216592f8ae899818"
         },
         {
           "name": "aspnetcore-runtime-win-x64.zip",
           "rid": "win-x64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26154.117/aspnetcore-runtime-11.0.0-preview.2.26154.117-win-x64.zip",
-          "hash": "8d4636eb2bed23464dbb92db5c041740e5adf17980744aceadd3618570e7fa1aba943cc64870c5802dacdec59a7826496f9ff9ea966319c1421bf216e25ff078"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26159.112/aspnetcore-runtime-11.0.0-preview.2.26159.112-win-x64.zip",
+          "hash": "d83f10102f576674395a648e9ec13f81af8ad76610ea805bdbde0b2159e9a065f11743e70064790fffde109dcf16b00ae093d0384defe41bc76b7d8ba3653a68"
         },
         {
           "name": "aspnetcore-runtime-win-x86.exe",
           "rid": "win-x86",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26154.117/aspnetcore-runtime-11.0.0-preview.2.26154.117-win-x86.exe",
-          "hash": "a714c0ac1091602efc732182979d39d9234b18e26814f52ebaf197c9ab6dde1207dbfb51724546409955cb03b7b1ce7c6da9ede688dfb364df4222914495e787"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26159.112/aspnetcore-runtime-11.0.0-preview.2.26159.112-win-x86.exe",
+          "hash": "ce3b1f99995bdafa9568032a630af6d2bb9b6726a7f5f5e8a4e648d7fd43ee29970015255abbd0d3456e4065efdb39d1ca6d07023c8c9e189b87576f2cc62bc1"
         },
         {
           "name": "aspnetcore-runtime-win-x86.zip",
           "rid": "win-x86",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26154.117/aspnetcore-runtime-11.0.0-preview.2.26154.117-win-x86.zip",
-          "hash": "062307d3eef79a9114af10dc3817f4f2affdd21602bac089f34acae291b30ce8d062d205d976d0180ebb3d90ab14188444e8cd9a72f78baf953a2e4ab685b886"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26159.112/aspnetcore-runtime-11.0.0-preview.2.26159.112-win-x86.zip",
+          "hash": "44f9409db0452049a9950ae8d76d2e715331f3ff01d9ace3141ee0a3c418e3d5365b7f2b4d04f96a569346e307265433cb8701aebecd343dd9b2d6998057c8e6"
         },
         {
           "name": "aspnetcore-runtime-composite-linux-arm.tar.gz",
           "rid": "linux-arm",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26154.117/aspnetcore-runtime-composite-11.0.0-preview.2.26154.117-linux-arm.tar.gz",
-          "hash": "4722b15fe762fd47320434c5326f5179bbd874cdc4a1e61fcbbfb5ae2022f4d4be1e3bc541ea7c84ffc773c5c4ac2f10922dd06eaa46380de6e1e632d4ebcf99"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26159.112/aspnetcore-runtime-composite-11.0.0-preview.2.26159.112-linux-arm.tar.gz",
+          "hash": "eaec4729b5e7b2f2f3d74904a6f1cba8671be626cb45b5c26da35ef62baef73f0f322041c81ccdd67783220d093afd046343de0804d39d34673d8523960729d6"
         },
         {
           "name": "aspnetcore-runtime-composite-linux-arm64.tar.gz",
           "rid": "linux-arm64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26154.117/aspnetcore-runtime-composite-11.0.0-preview.2.26154.117-linux-arm64.tar.gz",
-          "hash": "c4e1a1fe7f8f9204432d965943e185832667faa76287f0e609db6c30d5aa72ad37d762b1407963cc70d60362e0cb02192e90f07a241dc3b261e3a5f7f86555fa"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26159.112/aspnetcore-runtime-composite-11.0.0-preview.2.26159.112-linux-arm64.tar.gz",
+          "hash": "9df0be1766398fb90614b3f2484e28283232bccc1b9b6f6202935605fd395129d2d0ae4dc59193ef35d0e74112ee84d056be4a5f9173ddf1df0cc512a4c61668"
         },
         {
           "name": "aspnetcore-runtime-composite-linux-musl-arm.tar.gz",
           "rid": "linux-musl-arm",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26154.117/aspnetcore-runtime-composite-11.0.0-preview.2.26154.117-linux-musl-arm.tar.gz",
-          "hash": "bab335b5f62a0d4e3dedc0fc8fa54d4eeb869e1538db5a96464ee49c69e998f71247ff4b70ea573548acf4732d6c8ecbbe96ff91a2a04933fae3c353d333fab5"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26159.112/aspnetcore-runtime-composite-11.0.0-preview.2.26159.112-linux-musl-arm.tar.gz",
+          "hash": "e3240fb7f31e5c9515c33f4f96a00dcfeb198c252b8748ec75f9c117b4cd5b76cb1a94c71dfacf8a26afa7d8492098e9c4b5eff9456cee5f6603feb2ba141ebe"
         },
         {
           "name": "aspnetcore-runtime-composite-linux-musl-arm64.tar.gz",
           "rid": "linux-musl-arm64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26154.117/aspnetcore-runtime-composite-11.0.0-preview.2.26154.117-linux-musl-arm64.tar.gz",
-          "hash": "a80d6f1057a17ecd4b133a2acc0d234ab137d44f67ccf855ed6840e9d4f9b6d534266b346ca63bbfd4c12675e11dffa4461ec80a17829b4cb4dc9407c3ff1ed4"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26159.112/aspnetcore-runtime-composite-11.0.0-preview.2.26159.112-linux-musl-arm64.tar.gz",
+          "hash": "a6373991247a15960a2572ceb732480ef458edfeec0dac3ad83bd79e103a3587c9b6a3cf5debd45bb571a8b85c84957c8575ecdbb5591238e663a31ec8e144bd"
         },
         {
           "name": "aspnetcore-runtime-composite-linux-musl-x64.tar.gz",
           "rid": "linux-musl-x64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26154.117/aspnetcore-runtime-composite-11.0.0-preview.2.26154.117-linux-musl-x64.tar.gz",
-          "hash": "6b6c03577717141ef8f111da6dd8e5d67f1c65e318abe381c35d18dd898b9b85012d95ba383a6c2038e62cdedf1b797c62f44bbad2a062464a54ae794983b63f"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26159.112/aspnetcore-runtime-composite-11.0.0-preview.2.26159.112-linux-musl-x64.tar.gz",
+          "hash": "1dd7c43d2887d4be1a233b332bd6fc8a5b60cb41471e5649e80dea986284f82e3b59ba6c5622448592092c3cbabcc9ded3c8553c967a92160fce844d3c014b77"
         },
         {
           "name": "aspnetcore-runtime-composite-linux-x64.tar.gz",
           "rid": "linux-x64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26154.117/aspnetcore-runtime-composite-11.0.0-preview.2.26154.117-linux-x64.tar.gz",
-          "hash": "531c8fc33b50a8cffd2c03077b62e7ac7ce51f8225197774fa9cb27faaf4992d50e50bd9c85d8437beb9c0f5e4c213ee41ad3dbbe525163056be95301140c62e"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26159.112/aspnetcore-runtime-composite-11.0.0-preview.2.26159.112-linux-x64.tar.gz",
+          "hash": "2605243bec18293150d6892622015c75a600d883c5b889c807b07375b140b6df9bbe246edf22534cfa18b376397aa1c0879c8e1f40ae2717c72912352ec4fb38"
         },
         {
           "name": "aspnetcore-runtime-composite-osx-arm64.tar.gz",
           "rid": "osx-arm64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26154.117/aspnetcore-runtime-composite-11.0.0-preview.2.26154.117-osx-arm64.tar.gz",
-          "hash": "6776f0ea1e85568f9dc06bcb20565901b300c205b657b48454a539b075b3edbc3423c754735e6682cf6e72917d93ae6d07a7a76df76de0edb4ee9ca3e63e951f"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26159.112/aspnetcore-runtime-composite-11.0.0-preview.2.26159.112-osx-arm64.tar.gz",
+          "hash": "877f661127f734c88e2e4e104077915193864aa70d47787575c9011a30a897a41c94ca5b3e1ef14011774f242b12ce5c366a895579c4b1bbd36d160b17ec8509"
         },
         {
           "name": "aspnetcore-runtime-composite-osx-x64.tar.gz",
           "rid": "osx-x64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26154.117/aspnetcore-runtime-composite-11.0.0-preview.2.26154.117-osx-x64.tar.gz",
-          "hash": "0138a18008911cb8e17334fce06be7b3f9a27b443bbd02eae489c60209bfbd47a1f0328204902656a3a89956cc8d3144d8ce1fddf04580c6a228a11d7b4b84fa"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26159.112/aspnetcore-runtime-composite-11.0.0-preview.2.26159.112-osx-x64.tar.gz",
+          "hash": "040ae01d0a466b637f651305d7706cc95eb561e66540aa42d87a326c54acfed8290678a5641af5468703e7562ffe5f8678d1947761454140e2377586495b7332"
         },
         {
           "name": "aspnetcore-targeting-pack-linux-arm.tar.gz",
           "rid": "linux-arm",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26154.117/aspnetcore-targeting-pack-11.0.0-preview.2.26154.117-linux-arm.tar.gz",
-          "hash": "593ed41d160f8ed4bb1f7b77390ff4bf27ce03001d17551e44dc7aff9d42b1dd8e6f2d522d74fa4ac4f1a61481541c0ef2e596fe07b5329fd0e367626febad73"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26159.112/aspnetcore-targeting-pack-11.0.0-preview.2.26159.112-linux-arm.tar.gz",
+          "hash": "cbbd7fc1780f49e615d64200b5c53a2804b3b1050b973a293fa1b17d444a91f1f083a416a278b4ea2eca95e17846004327152fea5bb90d09c1714bed74e326cd"
         },
         {
           "name": "aspnetcore-targeting-pack-linux-arm64.tar.gz",
           "rid": "linux-arm64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26154.117/aspnetcore-targeting-pack-11.0.0-preview.2.26154.117-linux-arm64.tar.gz",
-          "hash": "eefc4b03380475b97ee9a8a51f7530850977ec347d4bddd06f474d1562aea66df67dc56eeeee8a2bebe2b3274e8dc66468d9fc46874357e8e2dbc0aa5a00944b"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26159.112/aspnetcore-targeting-pack-11.0.0-preview.2.26159.112-linux-arm64.tar.gz",
+          "hash": "a4476cecdbc347bcf3914b521a3b55e1aa6c867fd6f447820063066815c884ffb6db7de64a64640d762b818da4985935f1c074274742892b6ad734cefac2b9c8"
         },
         {
           "name": "aspnetcore-targeting-pack-linux-musl-arm.tar.gz",
           "rid": "linux-musl-arm",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26154.117/aspnetcore-targeting-pack-11.0.0-preview.2.26154.117-linux-musl-arm.tar.gz",
-          "hash": "15069a9231d815b7007688651377daa0f6ec0baae90c0dc23caa21b298a73ed1c4251714e687ebd325fc9c77ef7d7248654e34dec2799bf0444e9a1174dd6c3f"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26159.112/aspnetcore-targeting-pack-11.0.0-preview.2.26159.112-linux-musl-arm.tar.gz",
+          "hash": "7a5a89628c723b4b4d35ec63ccd20f31cbc964bef00ef8ebb8a3765102be85d0edcccee34435ded73869c1e2f2e783f69657b946a4317a433370c8bef8150a16"
         },
         {
           "name": "aspnetcore-targeting-pack-linux-musl-arm64.tar.gz",
           "rid": "linux-musl-arm64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26154.117/aspnetcore-targeting-pack-11.0.0-preview.2.26154.117-linux-musl-arm64.tar.gz",
-          "hash": "a7fa46a11d9741c0070360312894b2a3c9c9bc134c1da3fa214b9799776728beaa67b6c5d2ff18357e0805ee3be8c886ba19e85a95914c228d99aed0b7480780"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26159.112/aspnetcore-targeting-pack-11.0.0-preview.2.26159.112-linux-musl-arm64.tar.gz",
+          "hash": "96125e1361a951e1a5d0b62ce1888b61a1a880cf789c9d4df78664cdac5c19d2248e29ddb0fe62c908c0ba53e5f5ed4669ac86adc74fa03da5c251f5178e3428"
         },
         {
           "name": "aspnetcore-targeting-pack-linux-musl-x64.tar.gz",
           "rid": "linux-musl-x64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26154.117/aspnetcore-targeting-pack-11.0.0-preview.2.26154.117-linux-musl-x64.tar.gz",
-          "hash": "a6adfc9407eaf19a02bd0e7619c857eebd85b17f137852218ba788d74f936e2a93b42c2ec93774be466cfb283b6da7201c88ba5311411dbae959fe61b1fc6bbd"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26159.112/aspnetcore-targeting-pack-11.0.0-preview.2.26159.112-linux-musl-x64.tar.gz",
+          "hash": "70236b53827d9054492efd11cfaacc0b985be4b70f9723170c279e4bf2969756fa2f51397d249d40c89ba3f0270081b74d15a313b0e8d3db9013915997f380d4"
         },
         {
           "name": "aspnetcore-targeting-pack-linux-x64.tar.gz",
           "rid": "linux-x64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26154.117/aspnetcore-targeting-pack-11.0.0-preview.2.26154.117-linux-x64.tar.gz",
-          "hash": "5507ed323203e93680d1d9dc555dcb00424d15b44f02fad8c61ca6066ee1f61656415d6ee2a631c91d46f9d9e196b9655b13d4bd80c458dddcd8f57f0f22268a"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26159.112/aspnetcore-targeting-pack-11.0.0-preview.2.26159.112-linux-x64.tar.gz",
+          "hash": "b53d09fd677324d60aa453f983ec248869d2ba26ad5119206767d1f410887a35c848b61ee2327fe45debae314fc7dc5a3ba67455618ab3388d9887071da1df04"
         },
         {
           "name": "aspnetcore-targeting-pack-osx-arm64.tar.gz",
           "rid": "osx-arm64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26154.117/aspnetcore-targeting-pack-11.0.0-preview.2.26154.117-osx-arm64.tar.gz",
-          "hash": "f81293325f95cca60c42ab3c8f2166a580ba3ed1c85d4587e0665dc1d4ed1f9700abfac2180ae4fce69c0a3cf2923aeb767626b64df1f8903cc468e8c2e703c1"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26159.112/aspnetcore-targeting-pack-11.0.0-preview.2.26159.112-osx-arm64.tar.gz",
+          "hash": "9624b1afaf18742359b654eb6eaea817f5fa41eb231d3c89265431eb12050fd9c4bb02d3a46c69dfe5df79dddd7cad243bc735ad91f6132eb47064bfbd12db41"
         },
         {
           "name": "aspnetcore-targeting-pack-osx-x64.tar.gz",
           "rid": "osx-x64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26154.117/aspnetcore-targeting-pack-11.0.0-preview.2.26154.117-osx-x64.tar.gz",
-          "hash": "6cdf19681bb48afaec64732c45d35e3dcc3d99e0d4635f232d866014bd693e5777cf2a0c9935698ed47b881d7a1f6195bc62aeaedc97fdd6e08b1027feae964a"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26159.112/aspnetcore-targeting-pack-11.0.0-preview.2.26159.112-osx-x64.tar.gz",
+          "hash": "eea14c454b2b85216603ecf58515de805f752b1d76eaebc8f37e09d525014c1eb376f0c3af91b0133aca16dd83cd36b3475c2e1aa4deadf0828bd3c0bf1d83e1"
         },
         {
           "name": "aspnetcore-targeting-pack-win-arm64.zip",
           "rid": "win-arm64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26154.117/aspnetcore-targeting-pack-11.0.0-preview.2.26154.117-win-arm64.zip",
-          "hash": "8195d8e70504700b9d5a71e41e138829b2f7cff54bd858271c1b3257ee9f4b69542141d219f017f5df74acfde822ecf88586aca09a51f95f62de13549bd949f6"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26159.112/aspnetcore-targeting-pack-11.0.0-preview.2.26159.112-win-arm64.zip",
+          "hash": "e4b08295b5fdc6f67e6a48e3013e9bb69eeb01072d87c25655813d52a7c5ac03957d5914c536ff611ee6dc109a1357133945b72079f69d6104e3a3c23b5838df"
         },
         {
           "name": "aspnetcore-targeting-pack-win-x64.zip",
           "rid": "win-x64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26154.117/aspnetcore-targeting-pack-11.0.0-preview.2.26154.117-win-x64.zip",
-          "hash": "2a606e6a167beacbb46e291d20b5603fff718e77466b93720814a8b0b43a8e274e3e88e5f8864c197a071de7040b7df37f5447376aa3aa156e84e1d9fc3e8117"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26159.112/aspnetcore-targeting-pack-11.0.0-preview.2.26159.112-win-x64.zip",
+          "hash": "699408e57b2370519a792dfec47df62d95d72d765992cf9806d0188d6e509619214341936450951c01c7db729592b0405ae072d04f583283e25a482a16716bea"
         },
         {
           "name": "aspnetcore-targeting-pack-win-x86.zip",
           "rid": "win-x86",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26154.117/aspnetcore-targeting-pack-11.0.0-preview.2.26154.117-win-x86.zip",
-          "hash": "664a588a88ca5ee346698bf1fdf583d50bd621de002570f63e06a59f82f7f93adc81330b7ef6e70cdadc659cdd3d7c6051e3e5a093ba04c77a08056428b7f7ca"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26159.112/aspnetcore-targeting-pack-11.0.0-preview.2.26159.112-win-x86.zip",
+          "hash": "953dc0266e95f24fb523e680519afccbab542008909705834287b217b622cee29c387ac966c5f90060f6aac268fb18f656891851032ca5c65d1db5be4342dfc9"
         },
         {
           "name": "dotnet-hosting-win.exe",
           "rid": "",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26154.117/dotnet-hosting-11.0.0-preview.2.26154.117-win.exe",
-          "hash": "089951c85d2a8ae38f33c81fb142f65ca38af04d3f02689174b2591e904b9f9b1c27d37f71206364aa1f5ca9bc35212077bc292ef3930e516ce6e912f0fb2d7a",
+          "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/11.0.0-preview.2.26159.112/dotnet-hosting-11.0.0-preview.2.26159.112-win.exe",
+          "hash": "59c621449fd1714098b6f0b21c7ad3b8c941e73fd07852d73178ab411810530b3af802d0a6db1be0eaaf96df11304de03f9d44042f0ffd4de66a7c0e9935cbb1",
           "akams": "https://aka.ms/dotnetcore-11-0-windowshosting"
         }
       ]
     },
     "windowsdesktop": {
-      "version": "11.0.0-preview.2.26154.117",
+      "version": "11.0.0-preview.2.26159.112",
       "version-display": "11.0.0-preview.2",
       "files": [
         {
           "name": "windowsdesktop-runtime-win-arm64.exe",
           "rid": "win-arm64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/11.0.0-preview.2.26154.117/windowsdesktop-runtime-11.0.0-preview.2.26154.117-win-arm64.exe",
-          "hash": "028dae13b9395a3421af9e958c1e63ef6dc3061d80d5f7777508b2a0f1471ed1106c19ec4928eefd8c1fa8fb0f4cf3ffdc0a61f5f6e30c4ca031732167c50968"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/11.0.0-preview.2.26159.112/windowsdesktop-runtime-11.0.0-preview.2.26159.112-win-arm64.exe",
+          "hash": "407bb9865a408fce608e03dc87c4a484ed863fa7c587bf937ec130d870d979b73fe52dfb9f178985438d4c09980e1967a8ca6b8f74ea57f719cf7c3cde453793"
         },
         {
           "name": "windowsdesktop-runtime-win-arm64.zip",
           "rid": "win-arm64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/11.0.0-preview.2.26154.117/windowsdesktop-runtime-11.0.0-preview.2.26154.117-win-arm64.zip",
-          "hash": "eb99ee28dce5586f5f6e66000e7d71b430fe1d84ac5d5fe9307f25c5eff6c6c7ff66981cc9345224b20c568923a76409ba1c7e544a61683063b550181e755642"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/11.0.0-preview.2.26159.112/windowsdesktop-runtime-11.0.0-preview.2.26159.112-win-arm64.zip",
+          "hash": "1b8f596e04d511a1494d3742b7cef619a60315a290eb5b10d61d4b51ad2ca2ee589ceb087e30d1f7e9c2dba4753270fefe0c1ae217bb961fe4d3e4c5efb40d11"
         },
         {
           "name": "windowsdesktop-runtime-win-x64.exe",
           "rid": "win-x64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/11.0.0-preview.2.26154.117/windowsdesktop-runtime-11.0.0-preview.2.26154.117-win-x64.exe",
-          "hash": "db81e9c7f54b7a492427a9b7cb56f01a9bc0cb86e07feca26f56c72f4de3792faa0fb60a329a4d622fca2d324874d85c9b368ae46a3ae7298c3d5261ec0300d4"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/11.0.0-preview.2.26159.112/windowsdesktop-runtime-11.0.0-preview.2.26159.112-win-x64.exe",
+          "hash": "2f91d19c7baf1a762f49b9b69ed4edf5a7c686895ac75176dceb9ad2a351c4aaa52bb677fcafd7d3985070cf2fc689e03e2177893a5f1a55ed2c30bea39ebc93"
         },
         {
           "name": "windowsdesktop-runtime-win-x64.zip",
           "rid": "win-x64",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/11.0.0-preview.2.26154.117/windowsdesktop-runtime-11.0.0-preview.2.26154.117-win-x64.zip",
-          "hash": "4a87e79f153fdb02ab48bc9261ff979436f0eba2e92bda0af299c42775d5abc03da7d9fcfeeb722bad70aa28edf1fbddc8bea9ad129b3a6f6d7a31a273d2a11b"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/11.0.0-preview.2.26159.112/windowsdesktop-runtime-11.0.0-preview.2.26159.112-win-x64.zip",
+          "hash": "9a3c2e0bdb33949fb7061099f1788ac9a029c9715732d641f21171f354dabe107a7eb7bf7d4179b71457a88c43447c7dd35a743d3c70a7fcdde1e95a53289661"
         },
         {
           "name": "windowsdesktop-runtime-win-x86.exe",
           "rid": "win-x86",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/11.0.0-preview.2.26154.117/windowsdesktop-runtime-11.0.0-preview.2.26154.117-win-x86.exe",
-          "hash": "b04ff1f217844a078973ffc09d4fdb2298645c7b89dab3709484a07467d8dd0c4d6ea5eeb58daeb9038af5b14e4f5f53e91b76214176d15fa5696820c17b55ff"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/11.0.0-preview.2.26159.112/windowsdesktop-runtime-11.0.0-preview.2.26159.112-win-x86.exe",
+          "hash": "7561bf07cc490f3d9189430aadb737b5ff26f80547674aee9fd932df751b65f7ffe9acd4e982702a26b273d9c8f3ee630aa3ef665feb9a8e0e761a7595895bc2"
         },
         {
           "name": "windowsdesktop-runtime-win-x86.zip",
           "rid": "win-x86",
-          "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/11.0.0-preview.2.26154.117/windowsdesktop-runtime-11.0.0-preview.2.26154.117-win-x86.zip",
-          "hash": "1c44fdbd4a1b92a821873b9ad276c7e9def9d789235030ef94c5e2721e8129ac9be0c176b9d1d9e0997c96a9c728db64c7e0737c36e9d4d8bf870187add1a5d9"
+          "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/11.0.0-preview.2.26159.112/windowsdesktop-runtime-11.0.0-preview.2.26159.112-win-x86.zip",
+          "hash": "b43b82b7333b3adfb307d0b370044cd4db8ce834c7e4bafe4f161b60699324ccfc5ab739cf76b92b57aa92ffe033d9e460775fc750d469a4349c45c2a2556ec7"
         }
       ]
     }
