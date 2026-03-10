@@ -10,6 +10,7 @@
 
 | Date | Release |
 | :-- | :-- |
+| 2026/03/10 | [11.0.0-preview.2](./11.0.0-preview.2/11.0.0-preview.2.md) |
 | 2026/02/10 | [11.0.0 Preview 1](preview/preview1/README.md) |
 
 ### .NET Libraries
