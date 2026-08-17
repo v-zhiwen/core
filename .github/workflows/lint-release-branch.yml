@@ -1,0 +1,78 @@
+---
+# FORK-ONLY helper. Do not send this file upstream to dotnet/core.
+#
+# Purpose
+#   Run the same super-linter checks that dotnet/core runs on a pull request,
+#   but against a release-notes branch in this fork, BEFORE the upstream PR is
+#   opened. See dotnet/release#2380.
+#
+# Why this is dispatched manually instead of triggered by push
+#   Release branches are cut from dotnet/core main and pushed here, so they
+#   carry upstream's copy of .github/workflows/super-linter.yml, which only
+#   triggers on push to main and on pull_request. For push events GitHub reads
+#   workflow files from the pushed commit, so adding a push trigger in this fork
+#   would have no effect on those branches -- it would require changing the file
+#   upstream. workflow_dispatch reads the workflow from the ref it is dispatched
+#   on (main, here), so this file can lint any branch without touching upstream.
+#
+# Usage
+#   gh workflow run lint-release-branch.yml --repo v-zhiwen/core \
+#     -f branch=08_11_2026_8.0.30_9.0.19_10.0.11
+#
+# Linter settings below intentionally mirror .github/workflows/super-linter.yml
+# so results match what dotnet/core will report. Keep them in sync.
+name: Lint release branch (fork only)
+
+# yamllint disable rule:truthy
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: Branch to lint (e.g. 08_11_2026_8.0.30_9.0.19_10.0.11)
+        required: true
+        type: string
+      base:
+        description: Base branch to compare against for changed files
+        required: false
+        default: main
+        type: string
+      all_codebase:
+        description: Lint every file instead of only files changed vs base
+        required: false
+        default: false
+        type: boolean
+# yamllint enable rule:truthy
+
+permissions:
+  contents: read
+  packages: read
+  statuses: write
+
+jobs:
+  run-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        # actions/checkout v4.2.2
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ inputs.branch }}
+          # Full git history is needed to get a proper list of changed files
+          # within `super-linter`.
+          fetch-depth: 0
+
+      - name: Lint Code Base
+        # github/super-linter v7
+        uses: github/super-linter@b807e99ddd37e444d189cfd2c2ca1274d8ae8ef1
+        env:
+          VALIDATE_ALL_CODEBASE: ${{ inputs.all_codebase }}
+          VALIDATE_JSCPD: false
+          VALIDATE_NATURAL_LANGUAGE: false
+          VALIDATE_MARKDOWN_PRETTIER: false
+          VALIDATE_JSON_PRETTIER: false
+          # Exclude GitHub skills and generated workflows
+          # yamllint disable rule:line-length
+          FILTER_REGEX_EXCLUDE: (.github/agents/.*|.github/skills/.*|.github/workflows/copilot-setup-steps\.yml|.github/workflows/agentics-maintenance\.yml|.github/workflows/.*\.lock\.yml|.github/workflows/lint-release-branch\.yml)
+          # yamllint enable rule:line-length
+          DEFAULT_BRANCH: ${{ inputs.base }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
