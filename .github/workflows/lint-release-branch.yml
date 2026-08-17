@@ -19,6 +19,12 @@
 #   gh workflow run lint-release-branch.yml --repo v-zhiwen/core \
 #     -f branch=08_11_2026_8.0.30_9.0.19_10.0.11
 #
+#   Sync this fork's main from dotnet/core before dispatching. Changed files are
+#   computed as base..branch, so drift in a stale main shows up as extra
+#   findings. Note that a branch whose release has already merged upstream
+#   reports nothing, because main already contains its files -- to re-check one,
+#   pass the commit it was cut from as ase.
+#
 # Linter settings below intentionally mirror .github/workflows/super-linter.yml
 # so results match what dotnet/core will report. Keep them in sync.
 name: Lint release branch (fork only)
