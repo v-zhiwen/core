@@ -23,7 +23,7 @@
 #   computed as base..branch, so drift in a stale main shows up as extra
 #   findings. Note that a branch whose release has already merged upstream
 #   reports nothing, because main already contains its files -- to re-check one,
-#   pass the commit it was cut from as ase.
+#   pass the commit it was cut from as the base input.
 #
 # Linter settings below intentionally mirror .github/workflows/super-linter.yml
 # so results match what dotnet/core will report. Keep them in sync.
