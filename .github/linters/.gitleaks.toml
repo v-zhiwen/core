@@ -13,6 +13,13 @@
 # square-access-token rule (which scans for EAAA[A-Za-z0-9_-]{60+}). The
 # files are tool-generated, not authored, so allowlisting them by path is
 # the right scope.
+#
+# release-notes/**/release.json and releases.json are the same class of file.
+# Every artifact carries a 128-char hex SHA512 in its "hash" field, and one
+# starting with "eaac..." matches the facebook-page-access-token rule (which
+# scans for EAA[A-Za-z0-9]{90+}). These files hold only public download URLs
+# and their checksums, so a path allowlist is the right scope here too.
+# Example: release-notes/8.0/releases.json, the 8.0.23 osx-x64 runtime hash.
 
 [extend]
 useDefault = true
@@ -23,4 +30,5 @@ paths = [
   '''release-notes/.+/changes\.json''',
   '''release-notes/.+/features\.json''',
   '''release-notes/.+/build-metadata\.json''',
+  '''release-notes/.+/releases?\.json''',
 ]
