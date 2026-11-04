@@ -1,0 +1,38 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/schemas/v1/dotnet-patch-detail-index.json",
+  "kind": "patch",
+  "title": ".NET Patch Release Index - 5.0.0-preview.1",
+  "version": "5.0.0-preview.1",
+  "date": "2020-03-16T00:00:00\u002B00:00",
+  "support_phase": "preview",
+  "security": false,
+  "cve_records": null,
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/5.0/preview/preview1/index.json"
+    },
+    "major": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/5.0/index.json",
+      "title": ".NET Major Release Index - 5.0"
+    },
+    "month": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2020/03/index.json",
+      "title": ".NET Month Timeline Index - March 2020"
+    },
+    "root": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/index.json",
+      "title": ".NET Release Index"
+    }
+  },
+  "_embedded": {
+    "runtime": {
+      "version": "5.0.0-preview.1.20120.5",
+      "_links": {
+        "release-notes": {
+          "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/5.0/preview/5.0.0-preview.1.md",
+          "type": "application/markdown"
+        }
+      }
+    }
+  }
+}

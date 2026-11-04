@@ -1,0 +1,156 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/schemas/v1/dotnet-release-timeline-index.json",
+  "kind": "month",
+  "title": ".NET Month Timeline Index - May 2017",
+  "year": "2017",
+  "month": "05",
+  "date": "2017-05-10T00:00:00\u002B00:00",
+  "security": true,
+  "prev_month_date": "2017-03-07T00:00:00\u002B00:00",
+  "cve_records": [
+    "CVE-2017-0247"
+  ],
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2017/05/index.json"
+    },
+    "prev-month": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2017/03/index.json",
+      "title": "Previous month - March 2017"
+    },
+    "timeline": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/index.json",
+      "title": ".NET Release Timeline Index"
+    },
+    "year": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2017/index.json",
+      "title": ".NET Year Timeline Index - 2017"
+    }
+  },
+  "_embedded": {
+    "patches": {
+      "2.0": {
+        "version": "2.0.0-preview1",
+        "date": "2017-05-10T00:00:00\u002B00:00",
+        "year": "2017",
+        "month": "05",
+        "security": false,
+        "support_phase": "preview",
+        "major_release": "2.0",
+        "sdk_version": "2.0.0-preview1-005977",
+        "sdk_versions": [
+          "2.0.0-preview1-005977"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/2.0/2.0.0-preview1/index.json"
+          }
+        }
+      },
+      "1.1": {
+        "version": "1.1.2",
+        "date": "2017-05-09T00:00:00\u002B00:00",
+        "year": "2017",
+        "month": "05",
+        "security": true,
+        "support_phase": "active",
+        "major_release": "1.1",
+        "sdk_version": "1.0.4",
+        "sdk_versions": [
+          "1.0.4"
+        ],
+        "cve_records": [
+          "CVE-2017-0247"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/1.1/1.1.2/index.json"
+          }
+        }
+      },
+      "1.0": {
+        "version": "1.0.5",
+        "date": "2017-05-09T00:00:00\u002B00:00",
+        "year": "2017",
+        "month": "05",
+        "security": true,
+        "support_phase": "active",
+        "major_release": "1.0",
+        "sdk_version": "1.0.4",
+        "sdk_versions": [
+          "1.0.4"
+        ],
+        "cve_records": [
+          "CVE-2017-0247"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/1.0/1.0.5/index.json"
+          }
+        }
+      }
+    },
+    "releases": [
+      {
+        "version": "2.0.0-preview1",
+        "date": "2017-05-10T00:00:00\u002B00:00",
+        "year": "2017",
+        "month": "05",
+        "security": false,
+        "support_phase": "preview",
+        "major_release": "2.0",
+        "sdk_version": "2.0.0-preview1-005977",
+        "sdk_versions": [
+          "2.0.0-preview1-005977"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/2.0/2.0.0-preview1/index.json"
+          }
+        }
+      },
+      {
+        "version": "1.1.2",
+        "date": "2017-05-09T00:00:00\u002B00:00",
+        "year": "2017",
+        "month": "05",
+        "security": true,
+        "support_phase": "active",
+        "major_release": "1.1",
+        "sdk_version": "1.0.4",
+        "sdk_versions": [
+          "1.0.4"
+        ],
+        "cve_records": [
+          "CVE-2017-0247"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/1.1/1.1.2/index.json"
+          }
+        }
+      },
+      {
+        "version": "1.0.5",
+        "date": "2017-05-09T00:00:00\u002B00:00",
+        "year": "2017",
+        "month": "05",
+        "security": true,
+        "support_phase": "active",
+        "major_release": "1.0",
+        "sdk_version": "1.0.4",
+        "sdk_versions": [
+          "1.0.4"
+        ],
+        "cve_records": [
+          "CVE-2017-0247"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/1.0/1.0.5/index.json"
+          }
+        }
+      }
+    ]
+  }
+}

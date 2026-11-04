@@ -1,0 +1,658 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Index of major .NET releases with full lifecycle information",
+  "type": [
+    "object",
+    "null"
+  ],
+  "properties": {
+    "$schema": {
+      "description": "URI of the JSON Schema that validates this document",
+      "type": "string",
+      "format": "uri"
+    },
+    "kind": {
+      "description": "Type of release document, always \u0027index\u0027 for version-based indexes",
+      "enum": [
+        "root",
+        "major",
+        "patch",
+        "sdk",
+        "manifest",
+        "band",
+        "sdk-download",
+        "downloads",
+        "component-download",
+        "llms",
+        "content",
+        "unknown"
+      ]
+    },
+    "title": {
+      "description": "Concise title for the document",
+      "type": "string"
+    },
+    "ai_note": {
+      "description": "Note for AI assistants on how to navigate this graph",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "description": {
+      "description": "Description of the index scope",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "latest_major": {
+      "description": "Latest major .NET version (e.g., \u002710.0\u0027)",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "latest_lts_major": {
+      "description": "Latest LTS major .NET version (e.g., \u002710.0\u0027)",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "latest_year": {
+      "description": "Latest year with .NET releases (cross-reference to timeline)",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "_links": {
+      "description": "HAL\u002BJSON links for hypermedia navigation",
+      "type": "object",
+      "additionalProperties": {
+        "description": "HAL\u002BJSON hypermedia link providing navigation to related resources",
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "href": {
+            "description": "Absolute URL to the linked resource",
+            "type": "string"
+          },
+          "title": {
+            "description": "Descriptive title for the linked resource",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "type": {
+            "description": "MIME type of the linked resource. Omit for HAL\u002BJSON (default).",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "templated": {
+            "description": "Indicates that the href is a URI template (RFC 6570)",
+            "type": [
+              "boolean",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "href"
+        ]
+      }
+    },
+    "usage": {
+      "description": "Usage links to documentation and help resources",
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "_links": {
+          "description": "HAL\u002BJSON links for usage-related resources",
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/properties/_links/additionalProperties"
+          }
+        }
+      }
+    },
+    "glossary": {
+      "description": "Glossary of terms and definitions",
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": {
+        "type": [
+          "string",
+          "null"
+        ]
+      }
+    },
+    "_embedded": {
+      "description": "Embedded major version entries",
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "releases": {
+          "description": "List of patch releases for this major version",
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "description": "Major version entry within the root index, containing full lifecycle information",
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "version": {
+                "description": "Major version identifier (e.g., \u00278.0\u0027, \u00279.0\u0027)",
+                "type": "string"
+              },
+              "target_framework": {
+                "description": "Target framework moniker for this version (e.g., \u0027net10.0\u0027, \u0027netcoreapp3.1\u0027)",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "release_type": {
+                "description": "Release type: lts (Long-Term Support) or sts (Standard-Term Support)",
+                "enum": [
+                  "lts",
+                  "sts",
+                  null
+                ]
+              },
+              "support_phase": {
+                "description": "Current support phase (preview, go-live, active, maintenance, eol)",
+                "enum": [
+                  "preview",
+                  "go-live",
+                  "active",
+                  "maintenance",
+                  "eol",
+                  null
+                ]
+              },
+              "supported": {
+                "description": "Whether this version is currently supported",
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              },
+              "security": {
+                "description": "True if this release includes security fixes",
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              },
+              "cve_count": {
+                "description": "Number of CVEs affecting this release",
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "ga_date": {
+                "description": "General Availability date when this version was released",
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "format": "date-time"
+              },
+              "eol_date": {
+                "description": "End of Life date when support ends",
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "format": "date-time"
+              },
+              "cve_records": {
+                "description": "CVE identifiers affecting this release",
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "items": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "runtime_patches": {
+                "description": "Runtime patch versions for this major version released in the period",
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "items": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "sdk_release": {
+                "description": "Highest SDK version for this major version released in the period",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "years": {
+                "description": "Years with releases for this major version (cross-reference to timeline)",
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "items": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "_links": {
+                "description": "HAL\u002BJSON links for navigation to this major version\u0027s content",
+                "type": "object",
+                "additionalProperties": {
+                  "$ref": "#/properties/_links/additionalProperties"
+                }
+              }
+            },
+            "required": [
+              "version"
+            ]
+          }
+        },
+        "sdk_feature_bands": {
+          "description": "SDK feature bands for this major version (8.0\u002B)",
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "description": "Individual SDK feature band entry containing version metadata and navigation links",
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "version": {
+                "description": "Latest SDK version in this feature band (e.g., \u00279.0.307\u0027)",
+                "type": "string"
+              },
+              "band": {
+                "description": "Feature band identifier (e.g., \u00279.0.3xx\u0027)",
+                "type": "string"
+              },
+              "date": {
+                "description": "Release date of the latest SDK in this feature band",
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "format": "date-time"
+              },
+              "label": {
+                "description": "Descriptive label for the feature band",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "support_phase": {
+                "description": "Support phase (preview, go-live, active, maintenance, eol)",
+                "enum": [
+                  "preview",
+                  "go-live",
+                  "active",
+                  "maintenance",
+                  "eol",
+                  null
+                ]
+              },
+              "_links": {
+                "description": "HAL\u002BJSON links for navigation to this feature band\u0027s content",
+                "type": "object",
+                "additionalProperties": {
+                  "$ref": "#/properties/_links/additionalProperties"
+                }
+              }
+            },
+            "required": [
+              "version",
+              "band",
+              "date",
+              "label",
+              "support_phase",
+              "_links"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "links": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/properties/_links/additionalProperties"
+      }
+    },
+    "patch": {
+      "type": "object",
+      "properties": {
+        "version": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "year": {
+          "type": "string",
+          "pattern": "^[0-9]{4}$"
+        },
+        "month": {
+          "type": "string",
+          "pattern": "^(0[1-9]|1[0-2])$"
+        },
+        "security": {
+          "type": "boolean"
+        },
+        "support_phase": {
+          "enum": [
+            "preview",
+            "go-live",
+            "active",
+            "maintenance",
+            "eol"
+          ]
+        },
+        "major_release": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sdk_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sdk_versions": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "cve_records": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "_links": {
+          "$ref": "#/$defs/links"
+        }
+      },
+      "required": [
+        "version",
+        "date",
+        "year",
+        "month",
+        "security",
+        "support_phase",
+        "_links"
+      ],
+      "additionalProperties": false
+    },
+    "sdk_feature_band": {
+      "type": "object",
+      "properties": {
+        "version": {
+          "type": "string"
+        },
+        "band": {
+          "type": "string"
+        },
+        "date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "label": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "support_phase": {
+          "enum": [
+            "preview",
+            "go-live",
+            "active",
+            "maintenance",
+            "eol",
+            null
+          ]
+        },
+        "_links": {
+          "$ref": "#/$defs/links"
+        }
+      },
+      "required": [
+        "version",
+        "band",
+        "date",
+        "label",
+        "support_phase",
+        "_links"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "allOf": [
+    {
+      "properties": {
+        "kind": {
+          "enum": [
+            "root",
+            "major"
+          ]
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "enum": [
+              "root"
+            ]
+          }
+        },
+        "required": [
+          "kind"
+        ]
+      },
+      "then": {
+        "properties": {
+          "_embedded": {
+            "type": "object",
+            "properties": {
+              "releases": {
+                "$ref": "#/properties/_embedded/properties/releases"
+              }
+            },
+            "required": [
+              "releases"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "_links",
+          "_embedded"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "enum": [
+              "major"
+            ]
+          }
+        },
+        "required": [
+          "kind"
+        ]
+      },
+      "then": {
+        "properties": {
+          "target_framework": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "latest_patch": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "latest_patch_date": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          },
+          "latest_security_patch": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "latest_security_patch_date": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          },
+          "release_type": {
+            "enum": [
+              "lts",
+              "sts",
+              null
+            ]
+          },
+          "support_phase": {
+            "enum": [
+              "preview",
+              "go-live",
+              "active",
+              "maintenance",
+              "eol",
+              null
+            ]
+          },
+          "supported": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "ga_date": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          },
+          "eol_date": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          },
+          "_embedded": {
+            "type": "object",
+            "properties": {
+              "patches": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/$defs/patch"
+                }
+              },
+              "cve_records": {
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "items": {
+                  "type": "string"
+                }
+              },
+              "sdk_feature_bands": {
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "items": {
+                  "$ref": "#/$defs/sdk_feature_band"
+                }
+              }
+            },
+            "required": [
+              "patches"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "_links",
+          "_embedded"
+        ]
+      }
+    }
+  ],
+  "required": [
+    "kind",
+    "title"
+  ],
+  "unevaluatedProperties": false
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/schemas/v1/dotnet-patch-detail-index.json",
+  "kind": "patch",
+  "title": ".NET Patch Release Index - 2.2.103",
+  "version": "2.2.103",
+  "date": "2019-01-16T00:00:00\u002B00:00",
+  "support_phase": "active",
+  "security": true,
+  "cve_records": [
+    "CVE-2019-0545",
+    "CVE-2019-0548",
+    "CVE-2019-0564"
+  ],
+  "prev_patch_date": "2019-01-08T00:00:00\u002B00:00",
+  "prev_security_patch_date": "2019-01-08T00:00:00\u002B00:00",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/2.2/2.2.103/index.json"
+    },
+    "prev-patch": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/2.2/2.2.1/index.json",
+      "title": "Previous patch release - 2.2.1"
+    },
+    "prev-security-patch": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/2.2/2.2.1/index.json",
+      "title": "Previous security patch release - 2.2.1"
+    },
+    "major": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/2.2/index.json",
+      "title": ".NET Major Release Index - 2.2"
+    },
+    "month": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2019/01/index.json",
+      "title": ".NET Month Timeline Index - January 2019"
+    },
+    "root": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/index.json",
+      "title": ".NET Release Index"
+    }
+  },
+  "_embedded": {
+    "documentation": {
+      "release-notes": {
+        "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/2.2/2.2.1/2.2.1.md",
+        "type": "application/markdown"
+      }
+    }
+  }
+}

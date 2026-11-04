@@ -1,0 +1,72 @@
+{
+  "kind": "manifest",
+  "title": ".NET 7.0 Manifest",
+  "version": "7.0",
+  "label": ".NET 7.0",
+  "target_framework": "net7.0",
+  "release_type": "sts",
+  "support_phase": "eol",
+  "supported": false,
+  "ga_date": "2022-11-08T00:00:00+00:00",
+  "eol_date": "2024-05-14T00:00:00+00:00",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/7.0/manifest.json"
+    },
+    "compatibility-html": {
+      "href": "https://learn.microsoft.com/dotnet/core/compatibility/7.0",
+      "title": "Breaking changes in .NET 7",
+      "type": "text/html"
+    },
+    "downloads-html": {
+      "href": "https://dotnet.microsoft.com/download/dotnet/7.0",
+      "title": ".NET 7 Downloads",
+      "type": "text/html"
+    },
+    "eol-blog-html": {
+      "href": "https://devblogs.microsoft.com/dotnet/dotnet-7-end-of-support/",
+      "title": ".NET 7 is now end-of-life",
+      "type": "text/html"
+    },
+    "linux-packages-html": {
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/7.0/linux-packages.md",
+      "title": "Linux Packages (HTML)",
+      "type": "text/html"
+    },
+    "linux-packages-markdown": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/7.0/linux-packages.md",
+      "title": "Linux Packages",
+      "type": "application/markdown"
+    },
+    "release-blog-html": {
+      "href": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-7/",
+      "title": "Announcing .NET 7",
+      "type": "text/html"
+    },
+    "supported-os-html": {
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/7.0/supported-os.md",
+      "title": "Supported OSes (HTML)",
+      "type": "text/html"
+    },
+    "supported-os-json": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/7.0/supported-os.json",
+      "title": "Supported OSes",
+      "type": "application/json"
+    },
+    "supported-os-markdown": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/7.0/supported-os.md",
+      "title": "Supported OSes",
+      "type": "application/markdown"
+    },
+    "usage-html": {
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/7.0/README.md",
+      "title": "Release Notes (HTML)",
+      "type": "text/html"
+    },
+    "whats-new-html": {
+      "href": "https://learn.microsoft.com/dotnet/core/whats-new/dotnet-7",
+      "title": "What\u0027s new in .NET 7",
+      "type": "text/html"
+    }
+  }
+}

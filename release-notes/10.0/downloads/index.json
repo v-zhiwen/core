@@ -1,0 +1,97 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/schemas/v1/dotnet-downloads-index.json",
+  "kind": "downloads",
+  "version": "10.0",
+  "title": ".NET 10.0 Downloads",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/10.0/downloads/index.json"
+    },
+    "major": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/10.0/index.json",
+      "title": ".NET 10.0"
+    }
+  },
+  "_embedded": {
+    "components": [
+      {
+        "name": "runtime",
+        "title": ".NET Runtime",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/10.0/downloads/runtime.json"
+          }
+        }
+      },
+      {
+        "name": "aspnetcore",
+        "title": "ASP.NET Core Runtime",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/10.0/downloads/aspnetcore.json"
+          }
+        }
+      },
+      {
+        "name": "windowsdesktop",
+        "title": "Windows Desktop Runtime",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/10.0/downloads/windowsdesktop.json"
+          }
+        }
+      },
+      {
+        "name": "sdk",
+        "title": ".NET SDK",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/10.0/downloads/sdk.json"
+          }
+        }
+      }
+    ],
+    "feature_bands": [
+      {
+        "version": "10.0.4xx",
+        "title": ".NET SDK 10.0.4xx",
+        "support_phase": "active",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/10.0/downloads/sdk-10.0.4xx.json"
+          }
+        }
+      },
+      {
+        "version": "10.0.3xx",
+        "title": ".NET SDK 10.0.3xx",
+        "support_phase": "eol",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/10.0/downloads/sdk-10.0.3xx.json"
+          }
+        }
+      },
+      {
+        "version": "10.0.2xx",
+        "title": ".NET SDK 10.0.2xx",
+        "support_phase": "eol",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/10.0/downloads/sdk-10.0.2xx.json"
+          }
+        }
+      },
+      {
+        "version": "10.0.1xx",
+        "title": ".NET SDK 10.0.1xx",
+        "support_phase": "active",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/10.0/downloads/sdk-10.0.1xx.json"
+          }
+        }
+      }
+    ]
+  }
+}

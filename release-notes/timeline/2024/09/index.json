@@ -1,0 +1,130 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/schemas/v1/dotnet-release-timeline-index.json",
+  "kind": "month",
+  "title": ".NET Month Timeline Index - September 2024",
+  "year": "2024",
+  "month": "09",
+  "date": "2024-09-24T00:00:00\u002B00:00",
+  "security": true,
+  "prev_month_date": "2024-08-13T00:00:00\u002B00:00",
+  "prev_security_month_date": "2024-07-09T00:00:00\u002B00:00",
+  "cve_records": [
+    "CVE-2024-38167",
+    "CVE-2024-38168"
+  ],
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2024/09/index.json"
+    },
+    "prev-month": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2024/08/index.json",
+      "title": "Previous month - August 2024"
+    },
+    "prev-security-month": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2024/07/index.json",
+      "title": "Previous security month - July 2024"
+    },
+    "timeline": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/index.json",
+      "title": ".NET Release Timeline Index"
+    },
+    "year": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2024/index.json",
+      "title": ".NET Year Timeline Index - 2024"
+    }
+  },
+  "_embedded": {
+    "patches": {
+      "8.0": {
+        "version": "8.0.8",
+        "date": "2024-09-24T00:00:00\u002B00:00",
+        "year": "2024",
+        "month": "09",
+        "security": true,
+        "support_phase": "active",
+        "major_release": "8.0",
+        "sdk_version": "8.0.402",
+        "sdk_versions": [
+          "8.0.402",
+          "8.0.401",
+          "8.0.400",
+          "8.0.304",
+          "8.0.108"
+        ],
+        "cve_records": [
+          "CVE-2024-38167",
+          "CVE-2024-38168"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/8.0/8.0.8/index.json"
+          }
+        }
+      },
+      "9.0": {
+        "version": "9.0.0-rc.1",
+        "date": "2024-09-10T00:00:00\u002B00:00",
+        "year": "2024",
+        "month": "09",
+        "security": false,
+        "support_phase": "go-live",
+        "major_release": "9.0",
+        "sdk_version": "9.0.100-rc.1.24452.12",
+        "sdk_versions": [
+          "9.0.100-rc.1.24452.12"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/9.0/preview/rc1/index.json"
+          }
+        }
+      }
+    },
+    "releases": [
+      {
+        "version": "8.0.8",
+        "date": "2024-09-24T00:00:00\u002B00:00",
+        "year": "2024",
+        "month": "09",
+        "security": true,
+        "support_phase": "active",
+        "major_release": "8.0",
+        "sdk_version": "8.0.402",
+        "sdk_versions": [
+          "8.0.402",
+          "8.0.401",
+          "8.0.400",
+          "8.0.304",
+          "8.0.108"
+        ],
+        "cve_records": [
+          "CVE-2024-38167",
+          "CVE-2024-38168"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/8.0/8.0.8/index.json"
+          }
+        }
+      },
+      {
+        "version": "9.0.0-rc.1",
+        "date": "2024-09-10T00:00:00\u002B00:00",
+        "year": "2024",
+        "month": "09",
+        "security": false,
+        "support_phase": "go-live",
+        "major_release": "9.0",
+        "sdk_version": "9.0.100-rc.1.24452.12",
+        "sdk_versions": [
+          "9.0.100-rc.1.24452.12"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/9.0/preview/rc1/index.json"
+          }
+        }
+      }
+    ]
+  }
+}

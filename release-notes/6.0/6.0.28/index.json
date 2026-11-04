@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/schemas/v1/dotnet-patch-detail-index.json",
+  "kind": "patch",
+  "title": ".NET Patch Release Index - 6.0.28",
+  "version": "6.0.28",
+  "date": "2024-03-12T00:00:00\u002B00:00",
+  "support_phase": "active",
+  "security": false,
+  "cve_records": null,
+  "prev_patch_date": "2024-02-13T00:00:00\u002B00:00",
+  "prev_security_patch_date": "2024-02-13T00:00:00\u002B00:00",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/6.0/6.0.28/index.json"
+    },
+    "prev-patch": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/6.0/6.0.27/index.json",
+      "title": "Previous patch release - 6.0.27"
+    },
+    "prev-security-patch": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/6.0/6.0.27/index.json",
+      "title": "Previous security patch release - 6.0.27"
+    },
+    "major": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/6.0/index.json",
+      "title": ".NET Major Release Index - 6.0"
+    },
+    "month": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2024/03/index.json",
+      "title": ".NET Month Timeline Index - March 2024"
+    },
+    "root": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/index.json",
+      "title": ".NET Release Index"
+    }
+  },
+  "_embedded": {
+    "runtime": {
+      "version": "6.0.28",
+      "_links": {
+        "release-notes": {
+          "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/6.0/6.0.28/6.0.28.md",
+          "type": "application/markdown"
+        }
+      }
+    }
+  }
+}

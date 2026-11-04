@@ -1,0 +1,172 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/schemas/v1/dotnet-release-timeline-index.json",
+  "kind": "month",
+  "title": ".NET Month Timeline Index - July 2023",
+  "year": "2023",
+  "month": "07",
+  "date": "2023-07-11T00:00:00\u002B00:00",
+  "security": true,
+  "prev_month_date": "2023-06-22T00:00:00\u002B00:00",
+  "prev_security_month_date": "2023-06-22T00:00:00\u002B00:00",
+  "cve_records": [
+    "CVE-2023-33127",
+    "CVE-2023-33170"
+  ],
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2023/07/index.json"
+    },
+    "prev-month": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2023/06/index.json",
+      "title": "Previous month - June 2023"
+    },
+    "prev-security-month": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2023/06/index.json",
+      "title": "Previous security month - June 2023"
+    },
+    "timeline": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/index.json",
+      "title": ".NET Release Timeline Index"
+    },
+    "year": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2023/index.json",
+      "title": ".NET Year Timeline Index - 2023"
+    }
+  },
+  "_embedded": {
+    "patches": {
+      "8.0": {
+        "version": "8.0.0-preview.6",
+        "date": "2023-07-11T00:00:00\u002B00:00",
+        "year": "2023",
+        "month": "07",
+        "security": false,
+        "support_phase": "preview",
+        "major_release": "8.0",
+        "sdk_version": "8.0.100-preview.6.23330.14",
+        "sdk_versions": [
+          "8.0.100-preview.6.23330.14"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/8.0/preview/preview6/index.json"
+          }
+        }
+      },
+      "7.0": {
+        "version": "7.0.9",
+        "date": "2023-07-11T00:00:00\u002B00:00",
+        "year": "2023",
+        "month": "07",
+        "security": true,
+        "support_phase": "active",
+        "major_release": "7.0",
+        "sdk_version": "7.0.306",
+        "sdk_versions": [
+          "7.0.306",
+          "7.0.109"
+        ],
+        "cve_records": [
+          "CVE-2023-33127",
+          "CVE-2023-33170"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/7.0/7.0.9/index.json"
+          }
+        }
+      },
+      "6.0": {
+        "version": "6.0.20",
+        "date": "2023-07-11T00:00:00\u002B00:00",
+        "year": "2023",
+        "month": "07",
+        "security": true,
+        "support_phase": "active",
+        "major_release": "6.0",
+        "sdk_version": "6.0.412",
+        "sdk_versions": [
+          "6.0.412",
+          "6.0.315",
+          "6.0.120"
+        ],
+        "cve_records": [
+          "CVE-2023-33127",
+          "CVE-2023-33170"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/6.0/6.0.20/index.json"
+          }
+        }
+      }
+    },
+    "releases": [
+      {
+        "version": "8.0.0-preview.6",
+        "date": "2023-07-11T00:00:00\u002B00:00",
+        "year": "2023",
+        "month": "07",
+        "security": false,
+        "support_phase": "preview",
+        "major_release": "8.0",
+        "sdk_version": "8.0.100-preview.6.23330.14",
+        "sdk_versions": [
+          "8.0.100-preview.6.23330.14"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/8.0/preview/preview6/index.json"
+          }
+        }
+      },
+      {
+        "version": "7.0.9",
+        "date": "2023-07-11T00:00:00\u002B00:00",
+        "year": "2023",
+        "month": "07",
+        "security": true,
+        "support_phase": "active",
+        "major_release": "7.0",
+        "sdk_version": "7.0.306",
+        "sdk_versions": [
+          "7.0.306",
+          "7.0.109"
+        ],
+        "cve_records": [
+          "CVE-2023-33127",
+          "CVE-2023-33170"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/7.0/7.0.9/index.json"
+          }
+        }
+      },
+      {
+        "version": "6.0.20",
+        "date": "2023-07-11T00:00:00\u002B00:00",
+        "year": "2023",
+        "month": "07",
+        "security": true,
+        "support_phase": "active",
+        "major_release": "6.0",
+        "sdk_version": "6.0.412",
+        "sdk_versions": [
+          "6.0.412",
+          "6.0.315",
+          "6.0.120"
+        ],
+        "cve_records": [
+          "CVE-2023-33127",
+          "CVE-2023-33170"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/6.0/6.0.20/index.json"
+          }
+        }
+      }
+    ]
+  }
+}
