@@ -1,0 +1,1031 @@
+{
+  "last_updated": "2026-08-11",
+  "title": ".NET Security Updates for August 2026 (2026-08-11)",
+  "disclosures": [
+    {
+      "id": "CVE-2026-62886",
+      "problem": ".NET Elevation of Privilege Vulnerability",
+      "weakness": "CWE-190",
+      "timeline": {
+        "disclosure": {
+          "date": "2026-08-11",
+          "description": "Disclosed"
+        },
+        "fixed": {
+          "date": "2026-08-11",
+          "description": "Fixed"
+        }
+      },
+      "cna": {
+        "name": "microsoft",
+        "severity": "high",
+        "impact": "Elevation of Privilege",
+        "acknowledgments": []
+      },
+      "description": [
+        "Integer overflow or wraparound in .NET allows an unauthorized attacker to elevate privileges locally."
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "architectures": [
+        "x86",
+        "x64",
+        "arm64"
+      ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
+        "score": 7.8,
+        "severity": "high"
+      }
+    },
+    {
+      "id": "CVE-2026-62897",
+      "problem": ".NET Remote Code Execution Vulnerability",
+      "weakness": "CWE-190",
+      "timeline": {
+        "disclosure": {
+          "date": "2026-08-11",
+          "description": "Disclosed"
+        },
+        "fixed": {
+          "date": "2026-08-11",
+          "description": "Fixed"
+        }
+      },
+      "cna": {
+        "name": "microsoft",
+        "severity": "high",
+        "impact": "Remote Code Execution",
+        "acknowledgments": []
+      },
+      "description": [
+        "Integer overflow or wraparound in .NET allows an unauthorized attacker to execute code locally"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "architectures": [
+        "x64",
+        "arm64"
+      ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
+        "score": 7,
+        "severity": "high"
+      }
+    },
+    {
+      "id": "CVE-2026-62898",
+      "problem": ".NET Information Disclosure Vulnerability",
+      "weakness": "CWE-416",
+      "timeline": {
+        "disclosure": {
+          "date": "2026-08-11",
+          "description": "Disclosed"
+        },
+        "fixed": {
+          "date": "2026-08-11",
+          "description": "Fixed"
+        }
+      },
+      "cna": {
+        "name": "microsoft",
+        "severity": "high",
+        "impact": "Information Disclosure",
+        "acknowledgments": []
+      },
+      "description": [
+        "Use after free in Microsoft QUIC allows an unauthorized attacker to disclose information over a network."
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "architectures": [
+        "x64",
+        "arm64"
+      ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C",
+        "score": 7.5,
+        "severity": "high"
+      }
+    },
+    {
+      "id": "CVE-2026-62899",
+      "problem": ".NET Security Feature Bypass Vulnerability",
+      "weakness": "CWE-444",
+      "timeline": {
+        "disclosure": {
+          "date": "2026-08-11",
+          "description": "Disclosed"
+        },
+        "fixed": {
+          "date": "2026-08-11",
+          "description": "Fixed"
+        }
+      },
+      "cna": {
+        "name": "microsoft",
+        "severity": "medium",
+        "impact": "Security Feature Bypass",
+        "acknowledgments": []
+      },
+      "description": [
+        "Inconsistent interpretation of HTTP requests (\u0027HTTP request/response smuggling\u0027) in .NET allows an unauthorized attacker to bypass a security feature over a network"
+      ],
+      "platforms": [
+        "linux",
+        "macos"
+      ],
+      "architectures": [
+        "all"
+      ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C",
+        "score": 5.9,
+        "severity": "medium"
+      }
+    },
+    {
+      "id": "CVE-2026-62900",
+      "problem": ".NET Information Disclosure Vulnerability",
+      "weakness": "CWE-212",
+      "timeline": {
+        "disclosure": {
+          "date": "2026-08-11",
+          "description": "Disclosed"
+        },
+        "fixed": {
+          "date": "2026-08-11",
+          "description": "Fixed"
+        }
+      },
+      "cna": {
+        "name": "microsoft",
+        "severity": "medium",
+        "impact": "Information Disclosure",
+        "acknowledgments": []
+      },
+      "description": [
+        "Improper removal of sensitive information before storage or transfer in .NET allows an unauthorized attacker to disclose information over a network."
+      ],
+      "platforms": [
+        "all"
+      ],
+      "architectures": [
+        "all"
+      ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C",
+        "score": 5.9,
+        "severity": "medium"
+      }
+    },
+    {
+      "id": "CVE-2026-62901",
+      "problem": ".NET Denial of Service Vulnerability",
+      "weakness": "CWE-400",
+      "timeline": {
+        "disclosure": {
+          "date": "2026-08-11",
+          "description": "Disclosed"
+        },
+        "fixed": {
+          "date": "2026-08-11",
+          "description": "Fixed"
+        }
+      },
+      "cna": {
+        "name": "microsoft",
+        "severity": "high",
+        "impact": "Denial of Service",
+        "acknowledgments": []
+      },
+      "description": [
+        "Uncontrolled resource consumption in .NET allows an unauthorized attacker to deny service over a network."
+      ],
+      "platforms": [
+        "all"
+      ],
+      "architectures": [
+        "all"
+      ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C",
+        "score": 7.5,
+        "severity": "high"
+      }
+    },
+    {
+      "id": "CVE-2026-62902",
+      "problem": ".NET Information Disclosure Vulnerability",
+      "weakness": "CWE-829",
+      "timeline": {
+        "disclosure": {
+          "date": "2026-08-11",
+          "description": "Disclosed"
+        },
+        "fixed": {
+          "date": "2026-08-11",
+          "description": "Fixed"
+        }
+      },
+      "cna": {
+        "name": "microsoft",
+        "severity": "medium",
+        "impact": "Information Disclosure",
+        "acknowledgments": []
+      },
+      "description": [
+        "Inclusion of functionality from an untrusted control sphere in .NET allows an unauthorized attacker to disclose information over a network."
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "architectures": [
+        "x64",
+        "arm64"
+      ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C",
+        "score": 6.5,
+        "severity": "medium"
+      }
+    },
+    {
+      "id": "CVE-2026-62909",
+      "problem": ".NET Elevation of Privilege Vulnerability",
+      "weakness": "CWE-248",
+      "timeline": {
+        "disclosure": {
+          "date": "2026-08-11",
+          "description": "Disclosed"
+        },
+        "fixed": {
+          "date": "2026-08-11",
+          "description": "Fixed"
+        }
+      },
+      "cna": {
+        "name": "microsoft",
+        "severity": "high",
+        "impact": "Elevation of Privilege",
+        "acknowledgments": []
+      },
+      "description": [
+        "Improper handling of exceptional conditions in .NET allows an authorized attacker to elevate privileges locally."
+      ],
+      "platforms": [
+        "macos",
+        "linux"
+      ],
+      "architectures": [
+        "all"
+      ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
+        "score": 7,
+        "severity": "high"
+      }
+    },
+    {
+      "id": "CVE-2026-70354",
+      "problem": ".NET Elevation of Privilege Vulnerability",
+      "weakness": "CWE-787",
+      "timeline": {
+        "disclosure": {
+          "date": "2026-08-11",
+          "description": "Disclosed"
+        },
+        "fixed": {
+          "date": "2026-08-11",
+          "description": "Fixed"
+        }
+      },
+      "cna": {
+        "name": "microsoft",
+        "severity": "high",
+        "impact": "Elevation of Privilege",
+        "acknowledgments": []
+      },
+      "description": [
+        "Out-of-bounds write in .NET allows an unauthorized attacker to elevate privileges locally."
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "architectures": [
+        "x86",
+        "x64",
+        "arm64"
+      ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
+        "score": 7.8,
+        "severity": "high"
+      }
+    }
+  ],
+  "products": [
+    {
+      "cve_id": "CVE-2026-62886",
+      "name": "dotnet-windows-desktop",
+      "min_vulnerable": "8.0.0",
+      "max_vulnerable": "8.0.29",
+      "fixed": "8.0.30",
+      "release": "8.0",
+      "commits": [
+        "wpf@dec809f"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-62886",
+      "name": "dotnet-windows-desktop",
+      "min_vulnerable": "9.0.0",
+      "max_vulnerable": "9.0.18",
+      "fixed": "9.0.19",
+      "release": "9.0",
+      "commits": [
+        "wpf@891e0d2"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-62886",
+      "name": "dotnet-windows-desktop",
+      "min_vulnerable": "10.0.0",
+      "max_vulnerable": "10.0.10",
+      "fixed": "10.0.11",
+      "release": "10.0",
+      "commits": [
+        "dotnet@eaa1eaa"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-70354",
+      "name": "dotnet-windows-desktop",
+      "min_vulnerable": "8.0.0",
+      "max_vulnerable": "8.0.29",
+      "fixed": "8.0.30",
+      "release": "8.0",
+      "commits": [
+        "wpf@dec809f"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-70354",
+      "name": "dotnet-windows-desktop",
+      "min_vulnerable": "9.0.0",
+      "max_vulnerable": "9.0.18",
+      "fixed": "9.0.19",
+      "release": "9.0",
+      "commits": [
+        "wpf@891e0d2"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-70354",
+      "name": "dotnet-windows-desktop",
+      "min_vulnerable": "10.0.0",
+      "max_vulnerable": "10.0.10",
+      "fixed": "10.0.11",
+      "release": "10.0",
+      "commits": [
+        "dotnet@eaa1eaa"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-62897",
+      "name": "dotnet-windows-desktop",
+      "min_vulnerable": "8.0.0",
+      "max_vulnerable": "8.0.29",
+      "fixed": "8.0.30",
+      "release": "8.0",
+      "commits": [
+        "wpf@d8a18ad"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-62897",
+      "name": "dotnet-windows-desktop",
+      "min_vulnerable": "9.0.0",
+      "max_vulnerable": "9.0.18",
+      "fixed": "9.0.19",
+      "release": "9.0",
+      "commits": [
+        "wpf@1341c78"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-62897",
+      "name": "dotnet-windows-desktop",
+      "min_vulnerable": "10.0.0",
+      "max_vulnerable": "10.0.10",
+      "fixed": "10.0.11",
+      "release": "10.0",
+      "commits": [
+        "dotnet@8c13ead"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-62898",
+      "name": "dotnet-runtime",
+      "min_vulnerable": "8.0.0",
+      "max_vulnerable": "8.0.29",
+      "fixed": "8.0.30",
+      "release": "8.0",
+      "commits": [
+        "runtime@3e849cf"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-62898",
+      "name": "dotnet-runtime",
+      "min_vulnerable": "9.0.0",
+      "max_vulnerable": "9.0.18",
+      "fixed": "9.0.19",
+      "release": "9.0",
+      "commits": [
+        "runtime@51c3ebf"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-62898",
+      "name": "dotnet-runtime",
+      "min_vulnerable": "10.0.0",
+      "max_vulnerable": "10.0.10",
+      "fixed": "10.0.11",
+      "release": "10.0",
+      "commits": [
+        "dotnet@5aaefa8"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-62899",
+      "name": "dotnet-runtime",
+      "min_vulnerable": "8.0.0",
+      "max_vulnerable": "8.0.29",
+      "fixed": "8.0.30",
+      "release": "8.0",
+      "commits": [
+        "runtime@e2844c3"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-62899",
+      "name": "dotnet-runtime",
+      "min_vulnerable": "9.0.0",
+      "max_vulnerable": "9.0.18",
+      "fixed": "9.0.19",
+      "release": "9.0",
+      "commits": [
+        "runtime@c458318"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-62899",
+      "name": "dotnet-runtime",
+      "min_vulnerable": "10.0.0",
+      "max_vulnerable": "10.0.10",
+      "fixed": "10.0.11",
+      "release": "10.0",
+      "commits": [
+        "dotnet@fc6b2f3"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-62900",
+      "name": "dotnet-sdk",
+      "min_vulnerable": "8.0.100",
+      "max_vulnerable": "8.0.129",
+      "fixed": "8.0.130",
+      "release": "8.0",
+      "commits": [
+        "sdk@9fab0a6"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-62900",
+      "name": "dotnet-sdk",
+      "min_vulnerable": "9.0.300",
+      "max_vulnerable": "9.0.316",
+      "fixed": "9.0.317",
+      "release": "9.0",
+      "commits": [
+        "sdk@03f38b5"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-62900",
+      "name": "dotnet-sdk",
+      "min_vulnerable": "10.0.100",
+      "max_vulnerable": "10.0.110",
+      "fixed": "10.0.111",
+      "release": "10.0",
+      "commits": [
+        "dotnet@f43ea97"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-62900",
+      "name": "dotnet-sdk",
+      "min_vulnerable": "8.0.400",
+      "max_vulnerable": "8.0.423",
+      "fixed": "8.0.424",
+      "release": "8.0",
+      "commits": [
+        "sdk@9fab0a6"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-62900",
+      "name": "dotnet-sdk",
+      "min_vulnerable": "9.0.100",
+      "max_vulnerable": "9.0.119",
+      "fixed": "9.0.120",
+      "release": "9.0",
+      "commits": [
+        "sdk@eaa62a7"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-62900",
+      "name": "dotnet-sdk",
+      "min_vulnerable": "10.0.300",
+      "max_vulnerable": "10.0.302",
+      "fixed": "10.0.303",
+      "release": "10.0",
+      "commits": [
+        "dotnet@65e6737"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-62901",
+      "name": "dotnet-runtime",
+      "min_vulnerable": "8.0.0",
+      "max_vulnerable": "8.0.29",
+      "fixed": "8.0.30",
+      "release": "8.0",
+      "commits": [
+        "runtime@b5bc6d0"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-62901",
+      "name": "dotnet-runtime",
+      "min_vulnerable": "9.0.0",
+      "max_vulnerable": "9.0.18",
+      "fixed": "9.0.19",
+      "release": "9.0",
+      "commits": [
+        "runtime@dbae148"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-62901",
+      "name": "dotnet-runtime",
+      "min_vulnerable": "10.0.0",
+      "max_vulnerable": "10.0.10",
+      "fixed": "10.0.11",
+      "release": "10.0",
+      "commits": [
+        "dotnet@2083a16"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-62902",
+      "name": "dotnet-windows-desktop",
+      "min_vulnerable": "8.0.0",
+      "max_vulnerable": "8.0.29",
+      "fixed": "8.0.30",
+      "release": "8.0",
+      "commits": [
+        "wpf@4d8d1ea"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-62902",
+      "name": "dotnet-windows-desktop",
+      "min_vulnerable": "9.0.0",
+      "max_vulnerable": "9.0.18",
+      "fixed": "9.0.19",
+      "release": "9.0",
+      "commits": [
+        "wpf@9ff3f9d"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-62902",
+      "name": "dotnet-windows-desktop",
+      "min_vulnerable": "10.0.0",
+      "max_vulnerable": "10.0.10",
+      "fixed": "10.0.11",
+      "release": "10.0",
+      "commits": [
+        "dotnet@7fddcd3"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-62909",
+      "name": "dotnet-runtime",
+      "min_vulnerable": "10.0.0",
+      "max_vulnerable": "10.0.10",
+      "fixed": "10.0.11",
+      "release": "10.0",
+      "commits": [
+        "dotnet@90e1097"
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "cve_id": "CVE-2026-62900",
+      "name": "Microsoft.SourceLink.AzureRepos.Git",
+      "min_vulnerable": "8.0.0",
+      "max_vulnerable": "8.0.0",
+      "fixed": "8.0.1",
+      "release": "8.0",
+      "commits": [
+        "sourcelink@07d01e9"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-62900",
+      "name": "Microsoft.SourceLink.AzureRepos.Git",
+      "min_vulnerable": "10.0.300",
+      "max_vulnerable": "10.0.301",
+      "fixed": "10.0.302",
+      "release": "10.0",
+      "commits": [
+        "sourcelink@07d01e9"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-62900",
+      "name": "Microsoft.SourceLink.AzureRepos.Git",
+      "min_vulnerable": "10.0.102",
+      "max_vulnerable": "10.0.110",
+      "fixed": "10.0.111",
+      "release": "10.0",
+      "commits": [
+        "sourcelink@07d01e9"
+      ]
+    }
+  ],
+  "commits": {
+    "wpf@dec809f": {
+      "repo": "wpf",
+      "branch": "release/8.0",
+      "hash": "dec809f8d14d4daae9dd78994f7abd65af262308",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/wpf/commit/dec809f8d14d4daae9dd78994f7abd65af262308"
+    },
+    "wpf@891e0d2": {
+      "repo": "wpf",
+      "branch": "release/9.0",
+      "hash": "891e0d20bd583b01c17a92487f71bd47852cda19",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/wpf/commit/891e0d20bd583b01c17a92487f71bd47852cda19"
+    },
+    "dotnet@eaa1eaa": {
+      "repo": "dotnet",
+      "branch": "release/10.0.1xx",
+      "hash": "eaa1eaaf10b5c3a6d3ae9eb1389b4634ca3903d8",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/dotnet/commit/eaa1eaaf10b5c3a6d3ae9eb1389b4634ca3903d8"
+    },
+    "wpf@d8a18ad": {
+      "repo": "wpf",
+      "branch": "release/8.0",
+      "hash": "d8a18ad60fc83c24d1a36f962f80c0a4a2808675",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/wpf/commit/d8a18ad60fc83c24d1a36f962f80c0a4a2808675"
+    },
+    "wpf@1341c78": {
+      "repo": "wpf",
+      "branch": "release/9.0",
+      "hash": "1341c788dfdb1f2a93e7f829390f0321511e9324",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/wpf/commit/1341c788dfdb1f2a93e7f829390f0321511e9324"
+    },
+    "dotnet@8c13ead": {
+      "repo": "dotnet",
+      "branch": "release/10.0.1xx",
+      "hash": "8c13eade27b464c91aab802f8bb4368850966ff6",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/dotnet/commit/8c13eade27b464c91aab802f8bb4368850966ff6"
+    },
+    "runtime@3e849cf": {
+      "repo": "runtime",
+      "branch": "release/8.0",
+      "hash": "3e849cfecd37b0c9f4d4ffee6083b057ac7c41f0",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/runtime/commit/3e849cfecd37b0c9f4d4ffee6083b057ac7c41f0"
+    },
+    "runtime@51c3ebf": {
+      "repo": "runtime",
+      "branch": "release/9.0",
+      "hash": "51c3ebfa01fb1b9b65e48f7fb98093db39d61810",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/runtime/commit/51c3ebfa01fb1b9b65e48f7fb98093db39d61810"
+    },
+    "dotnet@5aaefa8": {
+      "repo": "dotnet",
+      "branch": "release/10.0.1xx",
+      "hash": "5aaefa8ca0ce122412440dc5154dcea9546c4282",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/dotnet/commit/5aaefa8ca0ce122412440dc5154dcea9546c4282"
+    },
+    "runtime@e2844c3": {
+      "repo": "runtime",
+      "branch": "release/8.0",
+      "hash": "e2844c3b693240e0abb0786d548bdfd5cfe17443",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/runtime/commit/e2844c3b693240e0abb0786d548bdfd5cfe17443"
+    },
+    "runtime@c458318": {
+      "repo": "runtime",
+      "branch": "release/9.0",
+      "hash": "c458318a4386122b78e9291c1bacc11c71516d65",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/runtime/commit/c458318a4386122b78e9291c1bacc11c71516d65"
+    },
+    "dotnet@fc6b2f3": {
+      "repo": "dotnet",
+      "branch": "release/10.0.1xx",
+      "hash": "fc6b2f39a60a699abfb4207f8f06c03d0129751c",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/dotnet/commit/fc6b2f39a60a699abfb4207f8f06c03d0129751c"
+    },
+    "sdk@9fab0a6": {
+      "repo": "sdk",
+      "branch": "release/8.0.1xx",
+      "hash": "9fab0a6aa01fa7abe22e311f538faf578af95f68",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/sdk/commit/9fab0a6aa01fa7abe22e311f538faf578af95f68"
+    },
+    "sourcelink@07d01e9": {
+      "repo": "sourcelink",
+      "branch": "release/10.0.3xx",
+      "hash": "07d01e952e02380410a08bc966845a40d77d5b09",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/sourcelink/commit/07d01e952e02380410a08bc966845a40d77d5b09"
+    },
+    "sdk@03f38b5": {
+      "repo": "sdk",
+      "branch": "release/9.0.3xx",
+      "hash": "03f38b5f577a23484819d4df292741a4b800c340",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/sdk/commit/03f38b5f577a23484819d4df292741a4b800c340"
+    },
+    "dotnet@f43ea97": {
+      "repo": "dotnet",
+      "branch": "release/10.0.1xx",
+      "hash": "f43ea97d3a81089d43116b2a239b5e7a9c30b983",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/dotnet/commit/f43ea97d3a81089d43116b2a239b5e7a9c30b983"
+    },
+    "sdk@eaa62a7": {
+      "repo": "sdk",
+      "branch": "release/9.0.1xx",
+      "hash": "eaa62a7c42d62a29a0773289d90ce6335f3a5cd8",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/sdk/commit/eaa62a7c42d62a29a0773289d90ce6335f3a5cd8"
+    },
+    "dotnet@65e6737": {
+      "repo": "dotnet",
+      "branch": "release/10.0.3xx",
+      "hash": "65e6737a6fee7b6a35b52bb17d3c8b89d1282492",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/dotnet/commit/65e6737a6fee7b6a35b52bb17d3c8b89d1282492"
+    },
+    "runtime@b5bc6d0": {
+      "repo": "runtime",
+      "branch": "release/8.0",
+      "hash": "b5bc6d048729ae728cc3375025760b429df33d85",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/runtime/commit/b5bc6d048729ae728cc3375025760b429df33d85"
+    },
+    "runtime@dbae148": {
+      "repo": "runtime",
+      "branch": "release/9.0",
+      "hash": "dbae1481593bcee5eb70b151b18593a40074cbaf",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/runtime/commit/dbae1481593bcee5eb70b151b18593a40074cbaf"
+    },
+    "dotnet@2083a16": {
+      "repo": "dotnet",
+      "branch": "release/10.0.1xx",
+      "hash": "2083a16fd0f5412b4923714f595635a0716d9e6d",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/dotnet/commit/2083a16fd0f5412b4923714f595635a0716d9e6d"
+    },
+    "wpf@4d8d1ea": {
+      "repo": "wpf",
+      "branch": "release/8.0",
+      "hash": "4d8d1ea457e1c1b1c8d437d7b22ad08303a909d3",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/wpf/commit/4d8d1ea457e1c1b1c8d437d7b22ad08303a909d3"
+    },
+    "wpf@9ff3f9d": {
+      "repo": "wpf",
+      "branch": "release/9.0",
+      "hash": "9ff3f9d090b219229e7774b8cbcb3b5f8078be8a",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/wpf/commit/9ff3f9d090b219229e7774b8cbcb3b5f8078be8a"
+    },
+    "dotnet@7fddcd3": {
+      "repo": "dotnet",
+      "branch": "release/10.0.1xx",
+      "hash": "7fddcd3836d23e067bb6efb182abc8463b284694",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/dotnet/commit/7fddcd3836d23e067bb6efb182abc8463b284694"
+    },
+    "dotnet@90e1097": {
+      "repo": "dotnet",
+      "branch": "release/10.0.1xx",
+      "hash": "90e1097e9e4ad09e4aa3da19bf7dd73ee0eaaa2a",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/dotnet/commit/90e1097e9e4ad09e4aa3da19bf7dd73ee0eaaa2a"
+    }
+  },
+  "product_name": {
+    "dotnet-windows-desktop": ".NET Windows Desktop Runtime",
+    "dotnet-runtime": ".NET Runtime Libraries",
+    "dotnet-sdk": ".NET SDK"
+  },
+  "product_cves": {
+    "dotnet-windows-desktop": [
+      "CVE-2026-62886",
+      "CVE-2026-62897",
+      "CVE-2026-62902",
+      "CVE-2026-70354"
+    ],
+    "dotnet-runtime": [
+      "CVE-2026-62898",
+      "CVE-2026-62899",
+      "CVE-2026-62901",
+      "CVE-2026-62909"
+    ],
+    "dotnet-sdk": [
+      "CVE-2026-62900"
+    ]
+  },
+  "package_cves": {
+    "Microsoft.SourceLink.AzureRepos.Git": [
+      "CVE-2026-62900"
+    ]
+  },
+  "release_cves": {
+    "8.0": [
+      "CVE-2026-62886",
+      "CVE-2026-62897",
+      "CVE-2026-62898",
+      "CVE-2026-62899",
+      "CVE-2026-62900",
+      "CVE-2026-62901",
+      "CVE-2026-62902",
+      "CVE-2026-70354"
+    ],
+    "9.0": [
+      "CVE-2026-62886",
+      "CVE-2026-62897",
+      "CVE-2026-62898",
+      "CVE-2026-62899",
+      "CVE-2026-62900",
+      "CVE-2026-62901",
+      "CVE-2026-62902",
+      "CVE-2026-70354"
+    ],
+    "10.0": [
+      "CVE-2026-62886",
+      "CVE-2026-62897",
+      "CVE-2026-62898",
+      "CVE-2026-62899",
+      "CVE-2026-62900",
+      "CVE-2026-62901",
+      "CVE-2026-62902",
+      "CVE-2026-62909",
+      "CVE-2026-70354"
+    ]
+  },
+  "severity_cves": {
+    "critical": [],
+    "high": [
+      "CVE-2026-62886",
+      "CVE-2026-62897",
+      "CVE-2026-62898",
+      "CVE-2026-62901",
+      "CVE-2026-62909",
+      "CVE-2026-70354"
+    ],
+    "medium": [
+      "CVE-2026-62899",
+      "CVE-2026-62900",
+      "CVE-2026-62902"
+    ],
+    "low": []
+  },
+  "cve_releases": {
+    "CVE-2026-62886": [
+      "8.0",
+      "9.0",
+      "10.0"
+    ],
+    "CVE-2026-62897": [
+      "8.0",
+      "9.0",
+      "10.0"
+    ],
+    "CVE-2026-62898": [
+      "8.0",
+      "9.0",
+      "10.0"
+    ],
+    "CVE-2026-62899": [
+      "8.0",
+      "9.0",
+      "10.0"
+    ],
+    "CVE-2026-62900": [
+      "8.0",
+      "9.0",
+      "10.0"
+    ],
+    "CVE-2026-62901": [
+      "8.0",
+      "9.0",
+      "10.0"
+    ],
+    "CVE-2026-62902": [
+      "8.0",
+      "9.0",
+      "10.0"
+    ],
+    "CVE-2026-62909": [
+      "10.0"
+    ],
+    "CVE-2026-70354": [
+      "8.0",
+      "9.0",
+      "10.0"
+    ]
+  },
+  "cve_commits": {
+    "CVE-2026-62886": [
+      "wpf@dec809f",
+      "wpf@891e0d2",
+      "dotnet@eaa1eaa"
+    ],
+    "CVE-2026-62897": [
+      "wpf@d8a18ad",
+      "wpf@1341c78",
+      "dotnet@8c13ead"
+    ],
+    "CVE-2026-62898": [
+      "runtime@3e849cf",
+      "runtime@51c3ebf",
+      "dotnet@5aaefa8"
+    ],
+    "CVE-2026-62899": [
+      "runtime@e2844c3",
+      "runtime@c458318",
+      "dotnet@fc6b2f3"
+    ],
+    "CVE-2026-62900": [
+      "sdk@9fab0a6",
+      "sourcelink@07d01e9",
+      "sdk@03f38b5",
+      "dotnet@f43ea97",
+      "sdk@eaa62a7",
+      "dotnet@65e6737"
+    ],
+    "CVE-2026-62901": [
+      "runtime@b5bc6d0",
+      "runtime@dbae148",
+      "dotnet@2083a16"
+    ],
+    "CVE-2026-62902": [
+      "wpf@4d8d1ea",
+      "wpf@9ff3f9d",
+      "dotnet@7fddcd3"
+    ],
+    "CVE-2026-62909": [
+      "dotnet@90e1097"
+    ],
+    "CVE-2026-70354": [
+      "wpf@dec809f",
+      "wpf@891e0d2",
+      "dotnet@eaa1eaa"
+    ]
+  }
+}

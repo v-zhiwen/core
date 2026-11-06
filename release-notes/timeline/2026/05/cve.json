@@ -1,0 +1,230 @@
+{
+  "last_updated": "2026-05-12",
+  "title": ".NET Security Updates for May 2026 (2026-05-12)",
+  "disclosures": [
+    {
+      "id": "CVE-2026-32177",
+      "problem": ".NET Elevation of Privilege Vulnerability",
+      "weakness": "CWE-122",
+      "timeline": {
+        "disclosure": {
+          "date": "2026-05-12",
+          "description": "CVE disclosed"
+        },
+        "fixed": {
+          "date": "2026-05-12",
+          "description": "CVE fixed"
+        }
+      },
+      "cna": {
+        "name": "microsoft",
+        "severity": "high",
+        "impact": "Elevation of Privilege",
+        "acknowledgments": []
+      },
+      "description": [
+        "Microsoft is releasing this security advisory to provide information about a vulnerability in .NET 8.0, .NET 9.0, and .NET 10.0. This advisory also provides guidance on what developers can do to update their applications to remove this vulnerability. Heap-based buffer overflow in .NET allows an unauthorized attacker to elevate privileges locally. ",
+        "WPF TrueType subsetter (DirectWriteForwarder / TtfDelta ModSbit) heap corruption via malformed EBDT table length."
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "architectures": [
+        "x86",
+        "x64"
+      ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:L",
+        "score": 7.3,
+        "severity": "high"
+      }
+    },
+    {
+      "id": "CVE-2026-35433",
+      "problem": ".NET Elevation of Privilege Vulnerability",
+      "weakness": "CWE-122",
+      "timeline": {
+        "disclosure": {
+          "date": "2026-05-12",
+          "description": "CVE disclosed"
+        },
+        "fixed": {
+          "date": "2026-05-12",
+          "description": "CVE fixed"
+        }
+      },
+      "cna": {
+        "name": "microsoft",
+        "severity": "high",
+        "impact": "Elevation of Privilege",
+        "acknowledgments": []
+      },
+      "description": [
+        "Microsoft is releasing this security advisory to provide information about a vulnerability in .NET 8.0, .NET 9.0, and .NET 10.0. This advisory also provides guidance on what developers can do to update their applications to remove this vulnerability. Improper input validation in .NET allows an unauthorized attacker to elevate privileges locally. "
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "architectures": [
+        "x86",
+        "x64"
+      ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:L/E:U/RL:O/RC:C",
+        "score": 7.3,
+        "severity": "high"
+      }
+    }
+  ],
+  "products": [
+    {
+      "cve_id": "CVE-2026-32177",
+      "name": "dotnet-windows-desktop",
+      "min_vulnerable": "10.0.0",
+      "max_vulnerable": "10.0.7",
+      "fixed": "10.0.8",
+      "release": "10.0",
+      "commits": [
+        "dotnet@f0d59d5"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-32177",
+      "name": "dotnet-windows-desktop",
+      "min_vulnerable": "9.0.0",
+      "max_vulnerable": "9.0.15",
+      "fixed": "9.0.16",
+      "release": "9.0",
+      "commits": [
+        "wpf@5f76ce8"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-32177",
+      "name": "dotnet-windows-desktop",
+      "min_vulnerable": "8.0.0",
+      "max_vulnerable": "8.0.26",
+      "fixed": "8.0.27",
+      "release": "8.0",
+      "commits": [
+        "wpf@e962174"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-35433",
+      "name": "dotnet-windows-desktop",
+      "min_vulnerable": "8.0.0",
+      "max_vulnerable": "8.0.26",
+      "fixed": "8.0.27",
+      "release": "8.0",
+      "commits": [
+        "wpf@e962174"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-35433",
+      "name": "dotnet-windows-desktop",
+      "min_vulnerable": "9.0.0",
+      "max_vulnerable": "9.0.15",
+      "fixed": "9.0.16",
+      "release": "9.0",
+      "commits": [
+        "wpf@5f76ce8"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-35433",
+      "name": "dotnet-windows-desktop",
+      "min_vulnerable": "10.0.0",
+      "max_vulnerable": "10.0.7",
+      "fixed": "10.0.8",
+      "release": "10.0",
+      "commits": [
+        "dotnet@f0d59d5"
+      ]
+    }
+  ],
+  "packages": [],
+  "commits": {
+    "dotnet@f0d59d5": {
+      "repo": "dotnet",
+      "branch": "release/10.0.1xx",
+      "hash": "f0d59d51ffb442b57dff47fd69efe264404950da",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/dotnet/commit/f0d59d51ffb442b57dff47fd69efe264404950da"
+    },
+    "wpf@5f76ce8": {
+      "repo": "wpf",
+      "branch": "release/9.0",
+      "hash": "5f76ce85d3b88d46ca6684519eff091983e4ab02",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/wpf/commit/5f76ce85d3b88d46ca6684519eff091983e4ab02"
+    },
+    "wpf@e962174": {
+      "repo": "wpf",
+      "branch": "release/8.0",
+      "hash": "e962174a2dcff865ff187ff8f02954d46d4c764f",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/wpf/commit/e962174a2dcff865ff187ff8f02954d46d4c764f"
+    }
+  },
+  "product_name": {
+    "dotnet-windows-desktop": ".NET Windows Desktop Runtime"
+  },
+  "product_cves": {
+    "dotnet-windows-desktop": [
+      "CVE-2026-32177",
+      "CVE-2026-35433"
+    ]
+  },
+  "package_cves": {},
+  "release_cves": {
+    "10.0": [
+      "CVE-2026-32177",
+      "CVE-2026-35433"
+    ],
+    "9.0": [
+      "CVE-2026-32177",
+      "CVE-2026-35433"
+    ],
+    "8.0": [
+      "CVE-2026-32177",
+      "CVE-2026-35433"
+    ]
+  },
+  "severity_cves": {
+    "critical": [],
+    "high": [
+      "CVE-2026-32177",
+      "CVE-2026-35433"
+    ],
+    "medium": [],
+    "low": []
+  },
+  "cve_releases": {
+    "CVE-2026-32177": [
+      "10.0",
+      "9.0",
+      "8.0"
+    ],
+    "CVE-2026-35433": [
+      "10.0",
+      "9.0",
+      "8.0"
+    ]
+  },
+  "cve_commits": {
+    "CVE-2026-32177": [
+      "dotnet@f0d59d5",
+      "wpf@5f76ce8",
+      "wpf@e962174"
+    ],
+    "CVE-2026-35433": [
+      "wpf@e962174",
+      "wpf@5f76ce8",
+      "dotnet@f0d59d5"
+    ]
+  }
+}

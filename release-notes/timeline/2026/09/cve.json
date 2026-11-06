@@ -1,0 +1,767 @@
+{
+  "last_updated": "2026-09-08",
+  "title": "CVE disclosures for September 2026",
+  "disclosures": [
+    {
+      "id": "CVE-2026-58649",
+      "problem": ".NET Information Disclosure Vulnerability",
+      "weakness": "CWE-346",
+      "timeline": {
+        "disclosure": {
+          "date": "2026-09-08",
+          "description": "Disclosed"
+        },
+        "fixed": {
+          "date": "2026-09-08",
+          "description": "Fixed"
+        }
+      },
+      "cna": {
+        "name": "microsoft",
+        "severity": "medium",
+        "impact": "Information Disclosure",
+        "acknowledgments": []
+      },
+      "description": [
+        "dotnet watch BrowserRefreshServer does not adequately validate cross-origin WebSocket origins, potentially allowing IL and PDB information disclosure."
+      ],
+      "platforms": [
+        "all"
+      ],
+      "architectures": [
+        "all"
+      ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+        "score": 6.5,
+        "severity": "medium"
+      }
+    },
+    {
+      "id": "CVE-2026-69304",
+      "problem": ".NET Denial of Service Vulnerability",
+      "weakness": "CWE-409",
+      "timeline": {
+        "disclosure": {
+          "date": "2026-09-08",
+          "description": "Disclosed"
+        },
+        "fixed": {
+          "date": "2026-09-08",
+          "description": "Fixed"
+        }
+      },
+      "cna": {
+        "name": "microsoft",
+        "severity": "medium",
+        "impact": "Denial of Service",
+        "acknowledgments": []
+      },
+      "description": [
+        "On IIS out-of-process hosting, IISMiddleware cleared MaxRequestBodySize, allowing RequestDecompressionMiddleware to treat the decompressed-body budget as unbounded and exposing an anonymous Gzip decompression-bomb denial of service."
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "architectures": [
+        "x86",
+        "x64",
+        "arm64"
+      ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "score": 5.9,
+        "severity": "medium"
+      }
+    },
+    {
+      "id": "CVE-2026-69439",
+      "problem": "out-of-bounds write",
+      "weakness": "CWE-122-M2",
+      "timeline": {
+        "disclosure": {
+          "date": "2026-09-08",
+          "description": "Disclosed"
+        },
+        "fixed": {
+          "date": "2026-09-08",
+          "description": "Fixed"
+        }
+      },
+      "cna": {
+        "name": "microsoft",
+        "severity": "high",
+        "impact": "Security Feature Bypass",
+        "acknowledgments": []
+      },
+      "description": [
+        "A 64-bit-to-32-bit truncation in Microsoft.DiaSymReader.Native PortablePDB::ComposeSrcInfo can cause a large out-of-bounds write on the native heap when parsing a crafted Portable PDB."
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "architectures": [
+        "x86",
+        "arm64"
+      ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+        "score": 8.8,
+        "severity": "high"
+      }
+    },
+    {
+      "id": "CVE-2026-69522",
+      "problem": "out-of-bounds write",
+      "weakness": "CWE-122-M2",
+      "timeline": {
+        "disclosure": {
+          "date": "2026-09-08",
+          "description": "Disclosed"
+        },
+        "fixed": {
+          "date": "2026-09-08",
+          "description": "Fixed"
+        }
+      },
+      "cna": {
+        "name": "microsoft",
+        "severity": "high",
+        "impact": "Security Feature Bypass",
+        "acknowledgments": []
+      },
+      "description": [
+        "DiaSymReader.Native EnumC13Lines::getLinesColumns can perform an oversized memcpy and write out of bounds when processing a specially crafted PDB."
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "architectures": [
+        "x86",
+        "x64",
+        "arm64"
+      ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+        "score": 8.8,
+        "severity": "high"
+      }
+    },
+    {
+      "id": "CVE-2026-69805",
+      "problem": ".NET Elevation of Privilege Vulnerability",
+      "weakness": "CWE-73, CWE-522, CWE-200",
+      "timeline": {
+        "disclosure": {
+          "date": "2026-09-08",
+          "description": "Disclosed"
+        },
+        "fixed": {
+          "date": "2026-09-08",
+          "description": "Fixed"
+        }
+      },
+      "cna": {
+        "name": "microsoft",
+        "severity": "high",
+        "impact": "Elevation of Privilege",
+        "acknowledgments": []
+      },
+      "description": [
+        "Microsoft.Diagnostics.Runtime ModuleListStream accepts dump-controlled remote paths, enabling NTLMv2 credential disclosure and a TOCTOU race that can load attacker-controlled native code."
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "architectures": [
+        "x86",
+        "x64",
+        "arm64"
+      ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+        "score": 7.5,
+        "severity": "high"
+      }
+    },
+    {
+      "id": "CVE-2026-69806",
+      "problem": ".NET Elevation of Privilege Vulnerability",
+      "weakness": "CWE-200, CWE-94",
+      "timeline": {
+        "disclosure": {
+          "date": "2026-09-08",
+          "description": "Disclosed"
+        },
+        "fixed": {
+          "date": "2026-09-08",
+          "description": "Fixed"
+        }
+      },
+      "cna": {
+        "name": "microsoft",
+        "severity": "high",
+        "impact": "Elevation of Privilege",
+        "acknowledgments": []
+      },
+      "description": [
+        "dotnet-watch AspireServerService exposes information through procfs arguments that can enable injection into the /run_session endpoint."
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "architectures": [
+        "all"
+      ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+        "score": 7,
+        "severity": "high"
+      }
+    },
+    {
+      "id": "CVE-2026-71328",
+      "problem": "Heap out-of-bounds",
+      "weakness": "CWE-122",
+      "timeline": {
+        "disclosure": {
+          "date": "2026-09-08",
+          "description": "Disclosed"
+        },
+        "fixed": {
+          "date": "2026-09-08",
+          "description": "Fixed"
+        }
+      },
+      "cna": {
+        "name": "microsoft",
+        "severity": "high",
+        "impact": "Security Feature Bypass",
+        "acknowledgments": []
+      },
+      "description": [
+        "DiaSymReader.Native PSGSI1::readAddrMap can suffer an integer wrap while processing an MSFZ PDB, causing a heap out-of-bounds write."
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "architectures": [
+        "x86",
+        "x64",
+        "arm64"
+      ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+        "score": 8.8,
+        "severity": "high"
+      }
+    }
+  ],
+  "products": [
+    {
+      "cve_id": "CVE-2026-69304",
+      "name": "dotnet-aspnetcore",
+      "min_vulnerable": "10.0.0",
+      "max_vulnerable": "10.0.11",
+      "fixed": "10.0.12",
+      "release": "10.0",
+      "commits": [
+        "dotnet@07edabd"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-69304",
+      "name": "dotnet-aspnetcore",
+      "min_vulnerable": "8.0.0",
+      "max_vulnerable": "8.0.30",
+      "fixed": "8.0.31",
+      "release": "8.0",
+      "commits": [
+        "aspnetcore@5ae9e5a"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-69304",
+      "name": "dotnet-aspnetcore",
+      "min_vulnerable": "9.0.0",
+      "max_vulnerable": "9.0.19",
+      "fixed": "9.0.20",
+      "release": "9.0",
+      "commits": [
+        "aspnetcore@57681e4"
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "cve_id": "CVE-2026-58649",
+      "name": "dotnet-sdk",
+      "min_vulnerable": "10.0.400",
+      "max_vulnerable": "10.0.400",
+      "fixed": "10.0.401",
+      "release": "10.0",
+      "commits": [
+        "dotnet@ae39133"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-58649",
+      "name": "dotnet-sdk",
+      "min_vulnerable": "9.0.300",
+      "max_vulnerable": "9.0.317",
+      "fixed": "9.0.318",
+      "release": "9.0",
+      "commits": [
+        "sdk@d78666e"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-58649",
+      "name": "dotnet-sdk",
+      "min_vulnerable": "10.0.100",
+      "max_vulnerable": "10.0.111",
+      "fixed": "10.0.112",
+      "release": "10.0",
+      "commits": [
+        "dotnet@882ef16"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-58649",
+      "name": "dotnet-sdk",
+      "min_vulnerable": "8.0.100",
+      "max_vulnerable": "8.0.130",
+      "fixed": "8.0.131",
+      "release": "8.0",
+      "commits": [
+        "sdk@de67b09"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-58649",
+      "name": "dotnet-sdk",
+      "min_vulnerable": "8.0.400",
+      "max_vulnerable": "8.0.424",
+      "fixed": "8.0.425",
+      "release": "8.0",
+      "commits": [
+        "sdk@71ec990"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-58649",
+      "name": "dotnet-sdk",
+      "min_vulnerable": "9.0.100",
+      "max_vulnerable": "9.0.120",
+      "fixed": "9.0.121",
+      "release": "9.0",
+      "commits": [
+        "sdk@97124d7"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-69439",
+      "name": "Microsoft.DiaSymReader.Native",
+      "min_vulnerable": "17.12.0-beta1.24603.5",
+      "max_vulnerable": "18.8.4-beta1.26356.2",
+      "fixed": "18.9.0-beta1.26405.2",
+      "release": "8.0",
+      "commits": [
+        "runtime@93dd9dc"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-69439",
+      "name": "Microsoft.DiaSymReader.Native",
+      "min_vulnerable": "17.12.0-beta1.24603.5",
+      "max_vulnerable": "18.8.4-beta1.26356.2",
+      "fixed": "18.9.0-beta1.26405.2",
+      "release": "10.0",
+      "commits": [
+        "dotnet@fe06051"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-69439",
+      "name": "Microsoft.DiaSymReader.Native",
+      "min_vulnerable": "17.12.0-beta1.24603.5",
+      "max_vulnerable": "18.8.4-beta1.26356.2",
+      "fixed": "18.9.0-beta1.26405.2",
+      "release": "9.0",
+      "commits": [
+        "runtime@845dbeb"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-69522",
+      "name": "Microsoft.DiaSymReader.Native",
+      "min_vulnerable": "7.12.0-beta1.24603.5",
+      "max_vulnerable": "18.8.4-beta1.26356.2",
+      "fixed": "18.9.0-beta1.26405.2",
+      "release": "8.0",
+      "commits": [
+        "runtime@93dd9dc"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-69522",
+      "name": "Microsoft.DiaSymReader.Native",
+      "min_vulnerable": "7.12.0-beta1.24603.5",
+      "max_vulnerable": "18.8.4-beta1.26356.2",
+      "fixed": "18.9.0-beta1.26405.2",
+      "release": "9.0",
+      "commits": [
+        "runtime@845dbeb"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-69522",
+      "name": "Microsoft.DiaSymReader.Native",
+      "min_vulnerable": "7.12.0-beta1.24603.5",
+      "max_vulnerable": "18.8.4-beta1.26356.2",
+      "fixed": "18.9.0-beta1.26405.2",
+      "release": "10.0",
+      "commits": [
+        "dotnet@fe06051"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-69805",
+      "name": "Microsoft.Diagnostics.Runtime",
+      "min_vulnerable": "4.0.0",
+      "max_vulnerable": "4.0.732401",
+      "fixed": "4.0.732402",
+      "release": "9.0",
+      "commits": [
+        "Microsoft-clrmd@ec63d00"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-69805",
+      "name": "Microsoft.Diagnostics.Runtime",
+      "min_vulnerable": "4.0.0",
+      "max_vulnerable": "4.0.732401",
+      "fixed": "4.0.732402",
+      "release": "10.0",
+      "commits": [
+        "Microsoft-clrmd@ec63d00"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-69805",
+      "name": "Microsoft.Diagnostics.Runtime",
+      "min_vulnerable": "4.0.0",
+      "max_vulnerable": "4.0.732401",
+      "fixed": "4.0.732402",
+      "release": "8.0",
+      "commits": [
+        "Microsoft-clrmd@ec63d00"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-69806",
+      "name": "dotnet-sdk",
+      "min_vulnerable": "10.0.100",
+      "max_vulnerable": "10.0.111",
+      "fixed": "10.0.112",
+      "release": "10.0",
+      "commits": [
+        "dotnet@882ef16"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-69806",
+      "name": "dotnet-sdk",
+      "min_vulnerable": "9.0.300",
+      "max_vulnerable": "9.0.317",
+      "fixed": "9.0.318",
+      "release": "9.0",
+      "commits": [
+        "sdk@d78666e"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-69806",
+      "name": "dotnet-sdk",
+      "min_vulnerable": "10.0.400",
+      "max_vulnerable": "10.0.400",
+      "fixed": "10.0.401",
+      "release": "10.0",
+      "commits": [
+        "dotnet@ae39133"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-71328",
+      "name": "Microsoft.DiaSymReader.Native",
+      "min_vulnerable": "17.12.0-beta1.24603.5",
+      "max_vulnerable": "18.8.4-beta1.26356.2",
+      "fixed": "18.9.0-beta1.26405.2",
+      "release": "8.0",
+      "commits": [
+        "runtime@93dd9dc"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-71328",
+      "name": "Microsoft.DiaSymReader.Native",
+      "min_vulnerable": "17.12.0-beta1.24603.5",
+      "max_vulnerable": "18.8.4-beta1.26356.2",
+      "fixed": "18.9.0-beta1.26405.2",
+      "release": "10.0",
+      "commits": [
+        "dotnet@fe06051"
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-71328",
+      "name": "Microsoft.DiaSymReader.Native",
+      "min_vulnerable": "17.12.0-beta1.24603.5",
+      "max_vulnerable": "18.8.4-beta1.26356.2",
+      "fixed": "18.9.0-beta1.26405.2",
+      "release": "9.0",
+      "commits": [
+        "runtime@845dbeb"
+      ]
+    }
+  ],
+  "commits": {
+    "dotnet@ae39133": {
+      "repo": "dotnet",
+      "branch": "release/10.0.4xx",
+      "hash": "ae39133877be792de27db50aaf415b5e9f003e11",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/dotnet/commit/ae39133877be792de27db50aaf415b5e9f003e11"
+    },
+    "sdk@d78666e": {
+      "repo": "sdk",
+      "branch": "release/9.0.3xx",
+      "hash": "d78666eeb83defc38c76bdf36f57a9a37b8e6e2a",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/sdk/commit/d78666eeb83defc38c76bdf36f57a9a37b8e6e2a"
+    },
+    "dotnet@882ef16": {
+      "repo": "dotnet",
+      "branch": "release/10.0.1xx",
+      "hash": "882ef164b92836bf0cabcf8eb8719274e9dc075e",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/dotnet/commit/882ef164b92836bf0cabcf8eb8719274e9dc075e"
+    },
+    "sdk@de67b09": {
+      "repo": "sdk",
+      "branch": "release/8.0.1xx",
+      "hash": "de67b096e71fd0df5ebe2cfd517270651f9f8ef6",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/sdk/commit/de67b096e71fd0df5ebe2cfd517270651f9f8ef6"
+    },
+    "sdk@71ec990": {
+      "repo": "sdk",
+      "branch": "release/8.0.4xx",
+      "hash": "71ec9905155a8271ee90d42c20aaa54b9425f4ae",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/sdk/commit/71ec9905155a8271ee90d42c20aaa54b9425f4ae"
+    },
+    "sdk@97124d7": {
+      "repo": "sdk",
+      "branch": "release/9.0.1xx",
+      "hash": "97124d73362451fe8c40ab5dbaab3396908029cb",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/sdk/commit/97124d73362451fe8c40ab5dbaab3396908029cb"
+    },
+    "dotnet@07edabd": {
+      "repo": "dotnet",
+      "branch": "release/10.0.1xx",
+      "hash": "07edabd8a618eac4ac8d6698697eaf52e6752ff1",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/dotnet/commit/07edabd8a618eac4ac8d6698697eaf52e6752ff1"
+    },
+    "aspnetcore@5ae9e5a": {
+      "repo": "aspnetcore",
+      "branch": "release/8.0",
+      "hash": "5ae9e5a5f915c0c87e6df55fb15d413a51110bf9",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/aspnetcore/commit/5ae9e5a5f915c0c87e6df55fb15d413a51110bf9"
+    },
+    "aspnetcore@57681e4": {
+      "repo": "aspnetcore",
+      "branch": "release/9.0",
+      "hash": "57681e4001b1050bcb87dabf13743bb53a41ca0a",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/aspnetcore/commit/57681e4001b1050bcb87dabf13743bb53a41ca0a"
+    },
+    "runtime@93dd9dc": {
+      "repo": "runtime",
+      "branch": "release/8.0",
+      "hash": "93dd9dc828f731102a5953076d30dd766aad9430",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/runtime/commit/93dd9dc828f731102a5953076d30dd766aad9430"
+    },
+    "dotnet@fe06051": {
+      "repo": "dotnet",
+      "branch": "release/10.0.1xx",
+      "hash": "fe060512e0f1cdb8ff42b0b7c343042d80404083",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/dotnet/commit/fe060512e0f1cdb8ff42b0b7c343042d80404083"
+    },
+    "runtime@845dbeb": {
+      "repo": "runtime",
+      "branch": "release/9.0",
+      "hash": "845dbebc7cfeb77098f2aa889f18753d0d5869b8",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/runtime/commit/845dbebc7cfeb77098f2aa889f18753d0d5869b8"
+    },
+    "Microsoft-clrmd@ec63d00": {
+      "repo": "Microsoft-clrmd",
+      "branch": "msrc",
+      "hash": "ec63d005a9d35c079bf2357d57c02d7ff62eeb36",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/Microsoft-clrmd/commit/ec63d005a9d35c079bf2357d57c02d7ff62eeb36"
+    }
+  },
+  "product_name": {
+    "dotnet-aspnetcore": "ASP.NET Core Runtime"
+  },
+  "product_cves": {
+    "dotnet-aspnetcore": [
+      "CVE-2026-69304"
+    ]
+  },
+  "package_cves": {
+    "dotnet-sdk": [
+      "CVE-2026-58649",
+      "CVE-2026-69806"
+    ],
+    "Microsoft.DiaSymReader.Native": [
+      "CVE-2026-69439",
+      "CVE-2026-69522",
+      "CVE-2026-71328"
+    ],
+    "Microsoft.Diagnostics.Runtime": [
+      "CVE-2026-69805"
+    ]
+  },
+  "release_cves": {
+    "10.0": [
+      "CVE-2026-58649",
+      "CVE-2026-69304",
+      "CVE-2026-69439",
+      "CVE-2026-69522",
+      "CVE-2026-69805",
+      "CVE-2026-69806",
+      "CVE-2026-71328"
+    ],
+    "9.0": [
+      "CVE-2026-58649",
+      "CVE-2026-69304",
+      "CVE-2026-69439",
+      "CVE-2026-69522",
+      "CVE-2026-69805",
+      "CVE-2026-69806",
+      "CVE-2026-71328"
+    ],
+    "8.0": [
+      "CVE-2026-58649",
+      "CVE-2026-69304",
+      "CVE-2026-69439",
+      "CVE-2026-69522",
+      "CVE-2026-69805",
+      "CVE-2026-71328"
+    ]
+  },
+  "severity_cves": {
+    "critical": [],
+    "high": [
+      "CVE-2026-69439",
+      "CVE-2026-69522",
+      "CVE-2026-69805",
+      "CVE-2026-69806",
+      "CVE-2026-71328"
+    ],
+    "medium": [
+      "CVE-2026-58649",
+      "CVE-2026-69304"
+    ],
+    "low": []
+  },
+  "cve_releases": {
+    "CVE-2026-58649": [
+      "10.0",
+      "9.0",
+      "8.0"
+    ],
+    "CVE-2026-69304": [
+      "10.0",
+      "9.0",
+      "8.0"
+    ],
+    "CVE-2026-69439": [
+      "10.0",
+      "9.0",
+      "8.0"
+    ],
+    "CVE-2026-69522": [
+      "10.0",
+      "9.0",
+      "8.0"
+    ],
+    "CVE-2026-69805": [
+      "10.0",
+      "9.0",
+      "8.0"
+    ],
+    "CVE-2026-69806": [
+      "10.0",
+      "9.0"
+    ],
+    "CVE-2026-71328": [
+      "10.0",
+      "9.0",
+      "8.0"
+    ]
+  },
+  "cve_commits": {
+    "CVE-2026-58649": [
+      "dotnet@ae39133",
+      "sdk@d78666e",
+      "dotnet@882ef16",
+      "sdk@de67b09",
+      "sdk@71ec990",
+      "sdk@97124d7"
+    ],
+    "CVE-2026-69304": [
+      "dotnet@07edabd",
+      "aspnetcore@5ae9e5a",
+      "aspnetcore@57681e4"
+    ],
+    "CVE-2026-69439": [
+      "runtime@93dd9dc",
+      "dotnet@fe06051",
+      "runtime@845dbeb"
+    ],
+    "CVE-2026-69522": [
+      "runtime@93dd9dc",
+      "runtime@845dbeb",
+      "dotnet@fe06051"
+    ],
+    "CVE-2026-69805": [
+      "Microsoft-clrmd@ec63d00"
+    ],
+    "CVE-2026-69806": [
+      "dotnet@882ef16",
+      "sdk@d78666e",
+      "dotnet@ae39133"
+    ],
+    "CVE-2026-71328": [
+      "runtime@93dd9dc",
+      "dotnet@fe06051",
+      "runtime@845dbeb"
+    ]
+  }
+}
