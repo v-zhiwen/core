@@ -1,0 +1,102 @@
+{
+  "kind": "manifest",
+  "title": ".NET 8.0 Manifest",
+  "version": "8.0",
+  "label": ".NET 8.0",
+  "target_framework": "net8.0",
+  "release_type": "lts",
+  "support_phase": "maintenance",
+  "supported": true,
+  "ga_date": "2023-11-14T00:00:00+00:00",
+  "eol_date": "2026-11-10T00:00:00+00:00",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/8.0/manifest.json"
+    },
+    "compatibility": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/8.0/compatibility.json",
+      "title": "Compatibility",
+      "type": "application/json"
+    },
+    "compatibility-html": {
+      "href": "https://learn.microsoft.com/dotnet/core/compatibility/8.0",
+      "title": "Breaking changes in .NET 8",
+      "type": "text/html"
+    },
+    "downloads-html": {
+      "href": "https://dotnet.microsoft.com/download/dotnet/8.0",
+      "title": ".NET 8 Downloads",
+      "type": "text/html"
+    },
+    "linux-packages-html": {
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/8.0/linux-packages.md",
+      "title": "Linux Packages (HTML)",
+      "type": "text/html"
+    },
+    "linux-packages-markdown": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/8.0/linux-packages.md",
+      "title": "Linux Packages",
+      "type": "application/markdown"
+    },
+    "os-packages-json": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/8.0/os-packages.json",
+      "title": "OS Packages",
+      "type": "application/json"
+    },
+    "release-blog-html": {
+      "href": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-8/",
+      "title": "Announcing .NET 8",
+      "type": "text/html"
+    },
+    "supported-os-html": {
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/8.0/supported-os.md",
+      "title": "Supported OSes (HTML)",
+      "type": "text/html"
+    },
+    "supported-os-json": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/8.0/supported-os.json",
+      "title": "Supported OSes",
+      "type": "application/json"
+    },
+    "supported-os-markdown": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/8.0/supported-os.md",
+      "title": "Supported OSes",
+      "type": "application/markdown"
+    },
+    "target-frameworks": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/8.0/target-frameworks.json",
+      "title": "Target Frameworks",
+      "type": "application/json"
+    },
+    "usage-html": {
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/8.0/README.md",
+      "title": "Release Notes (HTML)",
+      "type": "text/html"
+    },
+    "whats-new": {
+      "href": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/whats-new/dotnet-8/overview.md",
+      "title": "What\u0027s new in .NET 8",
+      "type": "application/markdown"
+    },
+    "whats-new-containers": {
+      "href": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/whats-new/dotnet-8/containers.md",
+      "title": "What\u0027s new in containers for .NET 8",
+      "type": "application/markdown"
+    },
+    "whats-new-html": {
+      "href": "https://learn.microsoft.com/dotnet/core/whats-new/dotnet-8",
+      "title": "What\u0027s new in .NET 8",
+      "type": "text/html"
+    },
+    "whats-new-runtime": {
+      "href": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/whats-new/dotnet-8/runtime.md",
+      "title": "What\u0027s new in the .NET 8 runtime",
+      "type": "application/markdown"
+    },
+    "whats-new-sdk": {
+      "href": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/whats-new/dotnet-8/sdk.md",
+      "title": "What\u0027s new in the SDK and tooling for .NET 8",
+      "type": "application/markdown"
+    }
+  }
+}

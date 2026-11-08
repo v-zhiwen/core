@@ -1,0 +1,69 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/schemas/v1/dotnet-release-timeline-index.json",
+  "kind": "month",
+  "title": ".NET Month Timeline Index - September 2016",
+  "year": "2016",
+  "month": "09",
+  "date": "2016-09-13T00:00:00\u002B00:00",
+  "security": false,
+  "prev_month_date": "2016-06-27T00:00:00\u002B00:00",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2016/09/index.json"
+    },
+    "prev-month": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2016/06/index.json",
+      "title": "Previous month - June 2016"
+    },
+    "timeline": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/index.json",
+      "title": ".NET Release Timeline Index"
+    },
+    "year": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2016/index.json",
+      "title": ".NET Year Timeline Index - 2016"
+    }
+  },
+  "_embedded": {
+    "patches": {
+      "1.0": {
+        "version": "1.0.1",
+        "date": "2016-09-13T00:00:00\u002B00:00",
+        "year": "2016",
+        "month": "09",
+        "security": false,
+        "support_phase": "active",
+        "major_release": "1.0",
+        "sdk_version": "1.0.0-preview2-003131",
+        "sdk_versions": [
+          "1.0.0-preview2-003131"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/1.0/1.0.1/index.json"
+          }
+        }
+      }
+    },
+    "releases": [
+      {
+        "version": "1.0.1",
+        "date": "2016-09-13T00:00:00\u002B00:00",
+        "year": "2016",
+        "month": "09",
+        "security": false,
+        "support_phase": "active",
+        "major_release": "1.0",
+        "sdk_version": "1.0.0-preview2-003131",
+        "sdk_versions": [
+          "1.0.0-preview2-003131"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/1.0/1.0.1/index.json"
+          }
+        }
+      }
+    ]
+  }
+}

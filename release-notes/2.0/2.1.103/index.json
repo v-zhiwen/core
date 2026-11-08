@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/schemas/v1/dotnet-patch-detail-index.json",
+  "kind": "patch",
+  "title": ".NET Patch Release Index - 2.1.103",
+  "version": "2.1.103",
+  "date": "2018-03-22T00:00:00\u002B00:00",
+  "support_phase": "active",
+  "security": false,
+  "cve_records": null,
+  "prev_patch_date": "2018-03-19T00:00:00\u002B00:00",
+  "prev_security_patch_date": "2018-03-13T00:00:00\u002B00:00",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/2.0/2.1.103/index.json"
+    },
+    "prev-patch": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/2.0/2.1.102/index.json",
+      "title": "Previous patch release - 2.1.102"
+    },
+    "prev-security-patch": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/2.0/2.0.6/index.json",
+      "title": "Previous security patch release - 2.0.6"
+    },
+    "major": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/2.0/index.json",
+      "title": ".NET Major Release Index - 2.0"
+    },
+    "month": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2018/03/index.json",
+      "title": ".NET Month Timeline Index - March 2018"
+    },
+    "root": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/index.json",
+      "title": ".NET Release Index"
+    }
+  },
+  "_embedded": {
+    "documentation": {
+      "release-notes": {
+        "href": "https://github.com/dotnet/cli/releases/tag/v2.1.103"
+      }
+    }
+  }
+}

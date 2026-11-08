@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/schemas/v1/dotnet-patch-detail-index.json",
+  "kind": "patch",
+  "title": ".NET Patch Release Index - 1.0.4",
+  "version": "1.0.4",
+  "date": "2017-03-07T00:00:00\u002B00:00",
+  "support_phase": "active",
+  "security": false,
+  "cve_records": null,
+  "prev_patch_date": "2016-12-13T00:00:00\u002B00:00",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/1.0/1.0.4/index.json"
+    },
+    "prev-patch": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/1.0/1.0.3/index.json",
+      "title": "Previous patch release - 1.0.3"
+    },
+    "major": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/1.0/index.json",
+      "title": ".NET Major Release Index - 1.0"
+    },
+    "month": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2017/03/index.json",
+      "title": ".NET Month Timeline Index - March 2017"
+    },
+    "root": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/index.json",
+      "title": ".NET Release Index"
+    }
+  },
+  "_embedded": {
+    "runtime": {
+      "version": "1.0.4",
+      "_links": {
+        "release-notes": {
+          "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/1.0/1.0.4.md",
+          "type": "application/markdown"
+        }
+      }
+    }
+  }
+}

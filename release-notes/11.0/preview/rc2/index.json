@@ -1,0 +1,202 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/schemas/v1/dotnet-patch-detail-index.json",
+  "kind": "patch",
+  "title": ".NET Patch Release Index - 11.0.0-rc.2",
+  "version": "11.0.0-rc.2",
+  "date": "2026-10-13T00:00:00\u002B00:00",
+  "support_phase": "go-live",
+  "security": true,
+  "cve_records": [
+    "CVE-2026-102870",
+    "CVE-2026-105016",
+    "CVE-2026-58280",
+    "CVE-2026-66822",
+    "CVE-2026-69651",
+    "CVE-2026-70007",
+    "CVE-2026-70035",
+    "CVE-2026-70159",
+    "CVE-2026-70161",
+    "CVE-2026-70162",
+    "CVE-2026-70165",
+    "CVE-2026-70174",
+    "CVE-2026-70183",
+    "CVE-2026-70188",
+    "CVE-2026-70190",
+    "CVE-2026-70194",
+    "CVE-2026-70197",
+    "CVE-2026-83520",
+    "CVE-2026-84008",
+    "CVE-2026-85363",
+    "CVE-2026-85790",
+    "CVE-2026-87697",
+    "CVE-2026-88092",
+    "CVE-2026-92707",
+    "CVE-2026-96224",
+    "CVE-2026-96225",
+    "CVE-2026-96229",
+    "CVE-2026-96230",
+    "CVE-2026-96231",
+    "CVE-2026-96232",
+    "CVE-2026-96233",
+    "CVE-2026-96234",
+    "CVE-2026-96235",
+    "CVE-2026-96236",
+    "CVE-2026-96238",
+    "CVE-2026-96957",
+    "CVE-2026-96958",
+    "CVE-2026-96959",
+    "CVE-2026-96960"
+  ],
+  "prev_patch_date": "2026-09-08T00:00:00\u002B00:00",
+  "prev_security_patch_date": "2026-09-08T00:00:00\u002B00:00",
+  "sdk_version": "11.0.100-rc.2.26504.105",
+  "sdk_feature_bands": [
+    "11.0.100-rc.2.26504.105"
+  ],
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/11.0/preview/rc2/index.json"
+    },
+    "prev-patch": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/11.0/preview/rc1/index.json",
+      "title": "Previous patch release - 11.0.0-rc.1"
+    },
+    "prev-security-patch": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/11.0/preview/rc1/index.json",
+      "title": "Previous security patch release - 11.0.0-rc.1"
+    },
+    "downloads": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/11.0/downloads/index.json",
+      "title": "Downloads - .NET 11.0"
+    },
+    "major": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/11.0/index.json",
+      "title": ".NET Major Release Index - 11.0"
+    },
+    "month": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/10/index.json",
+      "title": ".NET Month Timeline Index - October 2026"
+    },
+    "root": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/index.json",
+      "title": ".NET Release Index"
+    },
+    "security-disclosures": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/10/index.json",
+      "title": "Security disclosures - October 2026"
+    },
+    "cve-json": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/10/cve.json",
+      "title": "CVE records - October 2026",
+      "type": "application/json"
+    },
+    "release-json": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/11.0/preview/rc2/release.json",
+      "title": "Release information",
+      "type": "application/json"
+    }
+  },
+  "_embedded": {
+    "runtime": {
+      "version": "11.0.0-rc.2.26504.105",
+      "_links": {
+        "release-notes": {
+          "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/11.0/preview/rc2/11.0.0-rc.2.md",
+          "type": "application/markdown"
+        }
+      }
+    },
+    "sdk": {
+      "version": "11.0.100-rc.2.26504.105",
+      "band": "11.0.1xx",
+      "date": "2026-10-13T00:00:00\u002B00:00",
+      "label": ".NET SDK 11.0.1xx",
+      "support_phase": "go-live",
+      "_links": {
+        "downloads": {
+          "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/11.0/downloads/sdk-11.0.1xx.json"
+        },
+        "release-notes": {
+          "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/11.0/preview/rc2/11.0.0-rc.2.md",
+          "type": "application/markdown"
+        }
+      }
+    },
+    "sdk_feature_bands": [
+      {
+        "version": "11.0.100-rc.2.26504.105",
+        "band": "11.0.1xx",
+        "date": "2026-10-13T00:00:00\u002B00:00",
+        "label": ".NET SDK 11.0.1xx",
+        "support_phase": "go-live",
+        "_links": {
+          "downloads": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/11.0/downloads/sdk-11.0.1xx.json"
+          },
+          "release-notes": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/11.0/preview/rc2/11.0.0-rc.2.md",
+            "type": "application/markdown"
+          }
+        }
+      }
+    ],
+    "documentation": {
+      "aspnetcore": {
+        "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/11.0/preview/rc2/aspnetcore.md",
+        "type": "application/markdown"
+      },
+      "containers": {
+        "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/11.0/preview/rc2/containers.md",
+        "type": "application/markdown"
+      },
+      "csharp": {
+        "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/11.0/preview/rc2/csharp.md",
+        "type": "application/markdown"
+      },
+      "dotnetmaui": {
+        "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/11.0/preview/rc2/dotnetmaui.md",
+        "type": "application/markdown"
+      },
+      "efcore": {
+        "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/11.0/preview/rc2/efcore.md",
+        "type": "application/markdown"
+      },
+      "fsharp-memory-savings": {
+        "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/11.0/preview/rc2/fsharp-memory-savings.md",
+        "type": "application/markdown"
+      },
+      "fsharp": {
+        "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/11.0/preview/rc2/fsharp.md",
+        "type": "application/markdown"
+      },
+      "libraries": {
+        "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/11.0/preview/rc2/libraries.md",
+        "type": "application/markdown"
+      },
+      "msbuild": {
+        "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/11.0/preview/rc2/msbuild.md",
+        "type": "application/markdown"
+      },
+      "nuget": {
+        "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/11.0/preview/rc2/nuget.md",
+        "type": "application/markdown"
+      },
+      "runtime": {
+        "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/11.0/preview/rc2/runtime.md",
+        "type": "application/markdown"
+      },
+      "sdk": {
+        "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/11.0/preview/rc2/sdk.md",
+        "type": "application/markdown"
+      },
+      "winforms": {
+        "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/11.0/preview/rc2/winforms.md",
+        "type": "application/markdown"
+      },
+      "wpf": {
+        "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/11.0/preview/rc2/wpf.md",
+        "type": "application/markdown"
+      }
+    }
+  }
+}

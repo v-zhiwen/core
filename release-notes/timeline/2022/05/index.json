@@ -1,0 +1,223 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/schemas/v1/dotnet-release-timeline-index.json",
+  "kind": "month",
+  "title": ".NET Month Timeline Index - May 2022",
+  "year": "2022",
+  "month": "05",
+  "date": "2022-05-10T00:00:00\u002B00:00",
+  "security": true,
+  "prev_month_date": "2022-04-13T00:00:00\u002B00:00",
+  "prev_security_month_date": "2022-03-15T00:00:00\u002B00:00",
+  "cve_records": [
+    "CVE-2022-23267",
+    "CVE-2022-29117",
+    "CVE-2022-29145"
+  ],
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2022/05/index.json"
+    },
+    "prev-month": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2022/04/index.json",
+      "title": "Previous month - April 2022"
+    },
+    "prev-security-month": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2022/03/index.json",
+      "title": "Previous security month - March 2022"
+    },
+    "timeline": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/index.json",
+      "title": ".NET Release Timeline Index"
+    },
+    "year": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2022/index.json",
+      "title": ".NET Year Timeline Index - 2022"
+    }
+  },
+  "_embedded": {
+    "patches": {
+      "7.0": {
+        "version": "7.0.0-preview.4",
+        "date": "2022-05-10T00:00:00\u002B00:00",
+        "year": "2022",
+        "month": "05",
+        "security": false,
+        "support_phase": "preview",
+        "major_release": "7.0",
+        "sdk_version": "7.0.100-preview.4.22252.9",
+        "sdk_versions": [
+          "7.0.100-preview.4.22252.9"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/7.0/preview/preview4/index.json"
+          }
+        }
+      },
+      "6.0": {
+        "version": "6.0.5",
+        "date": "2022-05-10T00:00:00\u002B00:00",
+        "year": "2022",
+        "month": "05",
+        "security": true,
+        "support_phase": "active",
+        "major_release": "6.0",
+        "sdk_version": "6.0.300",
+        "sdk_versions": [
+          "6.0.300",
+          "6.0.203",
+          "6.0.105"
+        ],
+        "cve_records": [
+          "CVE-2022-23267",
+          "CVE-2022-29117",
+          "CVE-2022-29145"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/6.0/6.0.5/index.json"
+          }
+        }
+      },
+      "5.0": {
+        "version": "5.0.17",
+        "date": "2022-05-10T00:00:00\u002B00:00",
+        "year": "2022",
+        "month": "05",
+        "security": true,
+        "support_phase": "maintenance",
+        "major_release": "5.0",
+        "sdk_version": "5.0.408",
+        "sdk_versions": [
+          "5.0.408",
+          "5.0.214"
+        ],
+        "cve_records": [
+          "CVE-2022-23267",
+          "CVE-2022-29117",
+          "CVE-2022-29145"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/5.0/5.0.17/index.json"
+          }
+        }
+      },
+      "3.1": {
+        "version": "3.1.25",
+        "date": "2022-05-10T00:00:00\u002B00:00",
+        "year": "2022",
+        "month": "05",
+        "security": true,
+        "support_phase": "active",
+        "major_release": "3.1",
+        "sdk_version": "3.1.419",
+        "sdk_versions": [
+          "3.1.419"
+        ],
+        "cve_records": [
+          "CVE-2022-23267",
+          "CVE-2022-29117",
+          "CVE-2022-29145"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/3.1/3.1.25/index.json"
+          }
+        }
+      }
+    },
+    "releases": [
+      {
+        "version": "7.0.0-preview.4",
+        "date": "2022-05-10T00:00:00\u002B00:00",
+        "year": "2022",
+        "month": "05",
+        "security": false,
+        "support_phase": "preview",
+        "major_release": "7.0",
+        "sdk_version": "7.0.100-preview.4.22252.9",
+        "sdk_versions": [
+          "7.0.100-preview.4.22252.9"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/7.0/preview/preview4/index.json"
+          }
+        }
+      },
+      {
+        "version": "6.0.5",
+        "date": "2022-05-10T00:00:00\u002B00:00",
+        "year": "2022",
+        "month": "05",
+        "security": true,
+        "support_phase": "active",
+        "major_release": "6.0",
+        "sdk_version": "6.0.300",
+        "sdk_versions": [
+          "6.0.300",
+          "6.0.203",
+          "6.0.105"
+        ],
+        "cve_records": [
+          "CVE-2022-23267",
+          "CVE-2022-29117",
+          "CVE-2022-29145"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/6.0/6.0.5/index.json"
+          }
+        }
+      },
+      {
+        "version": "5.0.17",
+        "date": "2022-05-10T00:00:00\u002B00:00",
+        "year": "2022",
+        "month": "05",
+        "security": true,
+        "support_phase": "maintenance",
+        "major_release": "5.0",
+        "sdk_version": "5.0.408",
+        "sdk_versions": [
+          "5.0.408",
+          "5.0.214"
+        ],
+        "cve_records": [
+          "CVE-2022-23267",
+          "CVE-2022-29117",
+          "CVE-2022-29145"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/5.0/5.0.17/index.json"
+          }
+        }
+      },
+      {
+        "version": "3.1.25",
+        "date": "2022-05-10T00:00:00\u002B00:00",
+        "year": "2022",
+        "month": "05",
+        "security": true,
+        "support_phase": "active",
+        "major_release": "3.1",
+        "sdk_version": "3.1.419",
+        "sdk_versions": [
+          "3.1.419"
+        ],
+        "cve_records": [
+          "CVE-2022-23267",
+          "CVE-2022-29117",
+          "CVE-2022-29145"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/3.1/3.1.25/index.json"
+          }
+        }
+      }
+    ]
+  }
+}
