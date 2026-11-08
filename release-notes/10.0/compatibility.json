@@ -1,0 +1,2431 @@
+{
+  "version": "10.0",
+  "title": ".NET 10.0 Breaking Changes",
+  "description": "Breaking changes introduced in .NET 10.0 across all technology areas",
+  "breaking_change_count": 83,
+  "last_updated": "2025-12-16",
+  "breaks": [
+    {
+      "id": "aspnet-core-10-apidescription-client-deprecated",
+      "title": "Microsoft.Extensions.ApiDescription.Client package deprecated",
+      "category": "aspnet-core",
+      "type": "source-incompatible",
+      "version_introduced": "10.0-preview.7",
+      "description": "Learn about the breaking change in ASP.NET Core 10 where the Microsoft.Extensions.ApiDescription.Client package has been deprecated.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/aspnet-core/10/apidescription-client-deprecated",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/aspnet-core/10/apidescription-client-deprecated.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/aspnet/Announcements/issues/518",
+          "title": "GitHub announcement"
+        }
+      ],
+      "affected_apis": [
+        "OpenApiReference",
+        "OpenApiProjectReference",
+        "dotnet openapi"
+      ]
+    },
+    {
+      "id": "aspnet-core-10-cookie-authentication-api-endpoints",
+      "title": "Cookie login redirects are disabled for known API endpoints",
+      "category": "aspnet-core",
+      "type": "behavioral-change",
+      "version_introduced": "10.0-preview.7",
+      "description": "Learn about the breaking change in ASP.NET Core 10 where cookie authentication no longer redirects to login or access denied URIs for known API endpoints.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/aspnet-core/10/cookie-authentication-api-endpoints",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/aspnet-core/10/cookie-authentication-api-endpoints.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/aspnet/Announcements/issues/525",
+          "title": "GitHub announcement"
+        }
+      ],
+      "affected_apis": [
+        "Microsoft.AspNetCore.Http.Metadata.IApiEndpointMetadata",
+        "Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationEvents.RedirectToLogin*",
+        "Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationEvents.RedirectToAccessDenied*"
+      ]
+    },
+    {
+      "id": "aspnet-core-10-exception-handler-diagnostics-suppressed",
+      "title": "Exception diagnostics are suppressed when IExceptionHandler.TryHandleAsync returns true",
+      "category": "aspnet-core",
+      "type": "behavioral-change",
+      "version_introduced": "10.0-preview.7",
+      "description": "Learn about the breaking change in ASP.NET Core 10 where exception diagnostics are no longer recorded when IExceptionHandler.TryHandleAsync returns true.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/aspnet-core/10/exception-handler-diagnostics-suppressed",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/aspnet-core/10/exception-handler-diagnostics-suppressed.md",
+          "title": "Documentation"
+        }
+      ],
+      "affected_apis": [
+        "Microsoft.AspNetCore.Builder.ExceptionHandlerExtensions.UseExceptionHandler%2A",
+        "Microsoft.AspNetCore.Diagnostics.IExceptionHandler"
+      ]
+    },
+    {
+      "id": "aspnet-core-10-iactioncontextaccessor-obsolete",
+      "title": "IActionContextAccessor and ActionContextAccessor are obsolete",
+      "category": "aspnet-core",
+      "type": "source-incompatible",
+      "version_introduced": "10.0-preview.7",
+      "description": "Learn about the breaking change in ASP.NET Core 10 where IActionContextAccessor and ActionContextAccessor are marked as obsolete.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/aspnet-core/10/iactioncontextaccessor-obsolete",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/aspnet-core/10/iactioncontextaccessor-obsolete.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/aspnet/Announcements/issues/520",
+          "title": "GitHub announcement"
+        }
+      ],
+      "affected_apis": [
+        "Microsoft.AspNetCore.Mvc.Infrastructure.IActionContextAccessor",
+        "Microsoft.AspNetCore.Mvc.Infrastructure.ActionContextAccessor"
+      ]
+    },
+    {
+      "id": "aspnet-core-10-ipnetwork-knownnetworks-obsolete",
+      "title": "IPNetwork and ForwardedHeadersOptions.KnownNetworks are obsolete",
+      "category": "aspnet-core",
+      "type": "source-incompatible",
+      "version_introduced": "10.0-preview.7",
+      "description": "Learn about the breaking change in ASP.NET Core 10.0 where IPNetwork and ForwardedHeadersOptions.KnownNetworks have been obsoleted in favor of System.Net.IPNetwork and KnownIPNetworks.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/aspnet-core/10/ipnetwork-knownnetworks-obsolete",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/aspnet-core/10/ipnetwork-knownnetworks-obsolete.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/aspnet/Announcements/issues/523",
+          "title": "GitHub announcement"
+        }
+      ],
+      "affected_apis": [
+        "Microsoft.AspNetCore.HttpOverrides.IPNetwork",
+        "Microsoft.AspNetCore.Builder.ForwardedHeadersOptions.KnownNetworks"
+      ]
+    },
+    {
+      "id": "aspnet-core-10-openapi-analyzers-deprecated",
+      "title": "IncludeOpenAPIAnalyzers property and MVC API analyzers are deprecated",
+      "category": "aspnet-core",
+      "type": "source-incompatible",
+      "version_introduced": "10.0-preview.7",
+      "description": "Learn about the breaking change in ASP.NET Core 10 where the IncludeOpenAPIAnalyzers property and its associated MVC API analyzers are deprecated.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/aspnet-core/10/openapi-analyzers-deprecated",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/aspnet-core/10/openapi-analyzers-deprecated.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/aspnet/Announcements/issues/521",
+          "title": "GitHub announcement"
+        }
+      ],
+      "affected_apis": [
+        "IncludeOpenAPIAnalyzers",
+        "IncludeOpenAPIAnalyzers"
+      ]
+    },
+    {
+      "id": "aspnet-core-10-razor-runtime-compilation-obsolete",
+      "title": "Razor runtime compilation is obsolete",
+      "category": "aspnet-core",
+      "type": "source-incompatible",
+      "version_introduced": "10.0-preview.7",
+      "description": "Learn about the breaking change in ASP.NET Core 10.0 where Razor runtime compilation APIs have been marked obsolete.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/aspnet-core/10/razor-runtime-compilation-obsolete",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/aspnet-core/10/razor-runtime-compilation-obsolete.md",
+          "title": "Documentation"
+        }
+      ],
+      "affected_apis": [
+        "Microsoft.AspNetCore.Mvc.ApplicationParts.AssemblyPartExtensions",
+        "Microsoft.Extensions.DependencyInjection.RazorRuntimeCompilationMvcBuilderExtensions.AddRazorRuntimeCompilation%2A",
+        "Microsoft.Extensions.DependencyInjection.RazorRuntimeCompilationMvcCoreBuilderExtensions.AddRazorRuntimeCompilation%2A",
+        "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.FileProviderRazorProjectItem",
+        "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.MvcRazorRuntimeCompilationOptions"
+      ]
+    },
+    {
+      "id": "aspnet-core-10-webhostbuilder-deprecated",
+      "title": "WebHostBuilder, IWebHost, and WebHost are obsolete",
+      "category": "aspnet-core",
+      "type": "source-incompatible",
+      "version_introduced": "10.0-rc.1",
+      "description": "Learn about the breaking change in ASP.NET Core 10 where WebHostBuilder, IWebHost, and WebHost are marked as obsolete.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/aspnet-core/10/webhostbuilder-deprecated",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/aspnet-core/10/webhostbuilder-deprecated.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/aspnet/Announcements/issues/526",
+          "title": "GitHub announcement"
+        }
+      ],
+      "affected_apis": [
+        "Microsoft.AspNetCore.Hosting.WebHostBuilder",
+        "Microsoft.AspNetCore.Hosting.IWebHost",
+        "Microsoft.AspNetCore.WebHost"
+      ]
+    },
+    {
+      "id": "aspnet-core-10-withopenapi-deprecated",
+      "title": "Deprecation of WithOpenApi extension method",
+      "category": "aspnet-core",
+      "type": "source-incompatible",
+      "version_introduced": "10.0-preview.7",
+      "description": "Learn about the breaking change in ASP.NET Core 10 where WithOpenApi extension methods have been deprecated and produce a compiler warning.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/aspnet-core/10/withopenapi-deprecated",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/aspnet-core/10/withopenapi-deprecated.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/aspnet/Announcements/issues/519",
+          "title": "GitHub announcement"
+        }
+      ],
+      "affected_apis": [
+        "Microsoft.AspNetCore.Builder.OpenApiEndpointConventionBuilderExtensions.WithOpenApi%2A"
+      ]
+    },
+    {
+      "id": "containers-10-default-images-use-ubuntu",
+      "title": "Default .NET container tags now use Ubuntu",
+      "category": "containers",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change where the default .NET container tags, like \u006010.0\u0060, use Ubuntu.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/containers/10.0/default-images-use-ubuntu",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/containers/10.0/default-images-use-ubuntu.md",
+          "title": "Documentation"
+        }
+      ]
+    },
+    {
+      "id": "core-libraries-10-activity-sampling",
+      "title": "ActivitySource.CreateActivity and ActivitySource.StartActivity behavior changes",
+      "category": "core-libraries",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the .NET 10.0 breaking change in core .NET libraries where ActivitySource.CreateActivity and ActivitySource.StartActivity behavior is modified.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/core-libraries/10.0/activity-sampling",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/core-libraries/10.0/activity-sampling.md",
+          "title": "Documentation"
+        }
+      ],
+      "affected_apis": [
+        "System.Diagnostics.ActivitySource.CreateActivity*",
+        "System.Diagnostics.ActivitySource.StartActivity*"
+      ]
+    },
+    {
+      "id": "core-libraries-10-asyncenumerable",
+      "title": "System.Linq.AsyncEnumerable in .NET 10",
+      "category": "core-libraries",
+      "type": "source-incompatible",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where the AsyncEnumerable class is now included.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/core-libraries/10.0/asyncenumerable",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/core-libraries/10.0/asyncenumerable.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/44886",
+          "title": "GitHub announcement"
+        }
+      ],
+      "affected_apis": [
+        "System.Linq.AsyncEnumerable",
+        "System.Collections.Generic.IAsyncEnumerable\u00601",
+        "System.Linq.Async package (community-maintained)",
+        "Ix.NET v7.0: .NET 10 and LINQ for IAsyncEnumerable\\\u003CT\u003E"
+      ]
+    },
+    {
+      "id": "core-libraries-10-bufferedstream-writebyte-flush",
+      "title": "BufferedStream.WriteByte no longer performs implicit flush",
+      "category": "core-libraries",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where BufferedStream.WriteByte no longer performs an implicit flush when the internal buffer is full.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/core-libraries/10.0/bufferedstream-writebyte-flush",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/core-libraries/10.0/bufferedstream-writebyte-flush.md",
+          "title": "Documentation"
+        }
+      ],
+      "affected_apis": [
+        "System.IO.BufferedStream.WriteByte(System.Byte)"
+      ]
+    },
+    {
+      "id": "core-libraries-10-csharp-overload-resolution",
+      "title": "C# 14 overload resolution with span parameters",
+      "category": "core-libraries",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the .NET 10 breaking change in core .NET libraries where overloads with span parameters are applicable in more scenarios.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/core-libraries/10.0/csharp-overload-resolution",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/core-libraries/10.0/csharp-overload-resolution.md",
+          "title": "Documentation"
+        }
+      ],
+      "affected_apis": [
+        "System.Linq.Expressions.Expression\u00601.Compile*"
+      ]
+    },
+    {
+      "id": "core-libraries-10-default-trace-context-propagator",
+      "title": "Default trace context propagator updated to W3C standard",
+      "category": "core-libraries",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where the default trace context propagator is switched from Legacy to W3C.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/core-libraries/10.0/default-trace-context-propagator",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/core-libraries/10.0/default-trace-context-propagator.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/45793",
+          "title": "GitHub announcement"
+        }
+      ],
+      "affected_apis": [
+        "System.Diagnostics.DistributedContextPropagator.Current",
+        "System.Diagnostics.DistributedContextPropagator.CreateDefaultPropagator"
+      ]
+    },
+    {
+      "id": "core-libraries-10-defaultvalueattribute-dynamically-accessed-members",
+      "title": "\u0027DynamicallyAccessedMembers\u0027 annotation removed from \u0027DefaultValueAttribute\u0027 ctor",
+      "category": "core-libraries",
+      "type": "binary-source-incompatible",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where a \u0027DefaultValueAttribute\u0027 constructor is no longer annotated with \u0027DynamicallyAccessedMembers\u0027.",
+      "impact": "high",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/core-libraries/10.0/defaultvalueattribute-dynamically-accessed-members",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/core-libraries/10.0/defaultvalueattribute-dynamically-accessed-members.md",
+          "title": "Documentation"
+        }
+      ],
+      "affected_apis": [
+        "System.ComponentModel.DefaultValueAttribute.%23ctor(System.Type,System.String)"
+      ]
+    },
+    {
+      "id": "core-libraries-10-driveinfo-driveformat-linux",
+      "title": "DriveInfo.DriveFormat returns Linux filesystem types",
+      "category": "core-libraries",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the .NET 10 breaking change in core .NET libraries where DriveInfo.DriveFormat on Linux systems returns Linux kernel filesystem type strings instead of mapped magic constants.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/core-libraries/10.0/driveinfo-driveformat-linux",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/core-libraries/10.0/driveinfo-driveformat-linux.md",
+          "title": "Documentation"
+        }
+      ],
+      "affected_apis": [
+        "System.IO.DriveInfo.DriveFormat"
+      ]
+    },
+    {
+      "id": "core-libraries-10-filepatternmatch-stem-nonnullable",
+      "title": "FilePatternMatch.Stem changed to non-nullable",
+      "category": "core-libraries",
+      "type": "source-incompatible",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where FilePatternMatch.Stem property was changed from nullable to non-nullable.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/core-libraries/10.0/filepatternmatch-stem-nonnullable",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/core-libraries/10.0/filepatternmatch-stem-nonnullable.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/47914",
+          "title": "GitHub announcement"
+        }
+      ],
+      "affected_apis": [
+        "FilePatternMatch(String,String) constructor)",
+        "Microsoft.Extensions.FileSystemGlobbing.FilePatternMatch.Stem"
+      ]
+    },
+    {
+      "id": "core-libraries-10-generic-math",
+      "title": "Consistent shift behavior in generic math",
+      "category": "core-libraries",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the .NET 10 breaking change in core .NET libraries where shift operations in generic math now have consistent behavior.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/core-libraries/10.0/generic-math",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/core-libraries/10.0/generic-math.md",
+          "title": "Documentation"
+        }
+      ],
+      "affected_apis": [
+        "operator \u003C\u003C",
+        "operator \u003E\u003E",
+        "operator \u003E\u003E\u003E"
+      ]
+    },
+    {
+      "id": "core-libraries-10-inlinearray-explicit-size-disallowed",
+      "title": "Specifying explicit struct Size disallowed with InlineArray",
+      "category": "core-libraries",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where specifying explicit Size to a struct decorated with InlineArrayAttribute now throws TypeLoadException.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/core-libraries/10.0/inlinearray-explicit-size-disallowed",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/core-libraries/10.0/inlinearray-explicit-size-disallowed.md",
+          "title": "Documentation"
+        }
+      ]
+    },
+    {
+      "id": "core-libraries-10-ldap-directorycontrol-parsing",
+      "title": "LDAP DirectoryControl parsing is now more stringent",
+      "category": "core-libraries",
+      "type": "behavioral-change",
+      "version_introduced": "10.0-preview.1",
+      "description": "Learn about the .NET 10 breaking change in core .NET libraries where LDAP DirectoryControl parsing is now more stringent.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/core-libraries/10.0/ldap-directorycontrol-parsing",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/core-libraries/10.0/ldap-directorycontrol-parsing.md",
+          "title": "Documentation"
+        }
+      ],
+      "affected_apis": [
+        "System.DirectoryServices.Protocols.LdapConnection.SendRequest*",
+        "System.DirectoryServices.Protocols.LdapConnection.EndSendRequest*",
+        "System.DirectoryServices.Protocols.VlvRequestControl.%23ctor*"
+      ]
+    },
+    {
+      "id": "core-libraries-10-maccatalyst-version-normalization",
+      "title": "MacCatalyst version normalization",
+      "category": "core-libraries",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the .NET 10 breaking change in core .NET libraries where MacCatalyst version components are normalized.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/core-libraries/10.0/maccatalyst-version-normalization",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/core-libraries/10.0/maccatalyst-version-normalization.md",
+          "title": "Documentation"
+        }
+      ],
+      "affected_apis": [
+        "System.OperatingSystem.IsMacCatalystVersionAtLeast(System.Int32,System.Int32,System.Int32)",
+        "System.OperatingSystem.IsOSPlatformVersionAtLeast(System.String,System.Int32,System.Int32,System.Int32,System.Int32)",
+        "System.Environment.OSVersion"
+      ]
+    },
+    {
+      "id": "core-libraries-10-obsolete-apis",
+      "title": ".NET 10 obsoletions with custom IDs",
+      "category": "core-libraries",
+      "type": "source-incompatible",
+      "version_introduced": "10.0",
+      "description": "Learn about the APIs that have been marked as obsolete in .NET 10 with a custom diagnostic ID.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/core-libraries/10.0/obsolete-apis",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/core-libraries/10.0/obsolete-apis.md",
+          "title": "Documentation"
+        }
+      ],
+      "affected_apis": [
+        "System.Net.Security.SslStream.KeyExchangeAlgorithm",
+        "System.Net.Security.SslStream.KeyExchangeStrength",
+        "System.Net.Security.SslStream.CipherAlgorithm",
+        "System.Net.Security.SslStream.CipherStrength",
+        "System.Net.Security.SslStream.HashAlgorithm",
+        "System.Net.Security.SslStream.HashStrength",
+        "System.Security.Authentication.ExchangeAlgorithmType",
+        "System.Security.Authentication.CipherAlgorithmType",
+        "System.Security.Authentication.HashAlgorithmType",
+        "Microsoft.Win32.SystemEvents.EventsThreadShutdown",
+        "System.Security.Cryptography.Rfc2898DeriveBytes",
+        "System.Security.Cryptography.Rfc2898DeriveBytes.Pbkdf2*",
+        "System.Linq.Queryable.MaxBy\u0060\u00602(System.Linq.IQueryable{\u0060\u00600},System.Linq.Expressions.Expression{System.Func{\u0060\u00600,\u0060\u00601}},System.Collections.Generic.IComparer{\u0060\u00600})",
+        "System.Linq.Queryable.MinBy\u0060\u00602(System.Linq.IQueryable{\u0060\u00600},System.Linq.Expressions.Expression{System.Func{\u0060\u00600,\u0060\u00601}},System.Collections.Generic.IComparer{\u0060\u00600})",
+        "System.Xml.Xsl.XsltSettings.EnableScript"
+      ]
+    },
+    {
+      "id": "core-libraries-10-sigterm-signal-handler",
+      "title": ".NET runtime no longer provides default termination signal handler",
+      "category": "core-libraries",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where the runtime no longer provides a default termination signal handler.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/core-libraries/10.0/sigterm-signal-handler",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/core-libraries/10.0/sigterm-signal-handler.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/46226",
+          "title": "GitHub announcement"
+        }
+      ],
+      "affected_apis": [
+        "System.AppDomain.ProcessExit",
+        "System.Runtime.Loader.AssemblyLoadContext.Unloading"
+      ]
+    },
+    {
+      "id": "core-libraries-10-sve-nonfaulting-loads-mask-parameter",
+      "title": "Arm64 SVE nonfaulting loads require mask parameter",
+      "category": "core-libraries",
+      "type": "binary-source-incompatible",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where Arm64 SVE nonfaulting load APIs now require a mask parameter as the first argument.",
+      "impact": "high",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/core-libraries/10.0/sve-nonfaulting-loads-mask-parameter",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/core-libraries/10.0/sve-nonfaulting-loads-mask-parameter.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/47439",
+          "title": "GitHub announcement"
+        }
+      ],
+      "affected_apis": [
+        "System.Runtime.Intrinsics.Arm.Sve.LoadVectorNonFaulting%2A",
+        "System.Runtime.Intrinsics.Arm.Sve.LoadVectorByteNonFaultingZeroExtendToInt16(System.Byte*)",
+        "System.Runtime.Intrinsics.Arm.Sve.LoadVectorByteNonFaultingZeroExtendToInt32(System.Byte*)",
+        "System.Runtime.Intrinsics.Arm.Sve.LoadVectorByteNonFaultingZeroExtendToInt64(System.Byte*)",
+        "System.Runtime.Intrinsics.Arm.Sve.LoadVectorByteNonFaultingZeroExtendToUInt16(System.Byte*)",
+        "System.Runtime.Intrinsics.Arm.Sve.LoadVectorByteNonFaultingZeroExtendToUInt32(System.Byte*)",
+        "System.Runtime.Intrinsics.Arm.Sve.LoadVectorByteNonFaultingZeroExtendToUInt64(System.Byte*)",
+        "System.Runtime.Intrinsics.Arm.Sve.LoadVectorInt16NonFaultingSignExtendToInt32(System.Int16*)",
+        "System.Runtime.Intrinsics.Arm.Sve.LoadVectorInt16NonFaultingSignExtendToInt64(System.Int16*)",
+        "System.Runtime.Intrinsics.Arm.Sve.LoadVectorInt16NonFaultingSignExtendToUInt32(System.Int16*)",
+        "System.Runtime.Intrinsics.Arm.Sve.LoadVectorInt16NonFaultingSignExtendToUInt64(System.Int16*)",
+        "System.Runtime.Intrinsics.Arm.Sve.LoadVectorInt32NonFaultingSignExtendToInt64(System.Int32*)",
+        "System.Runtime.Intrinsics.Arm.Sve.LoadVectorInt32NonFaultingSignExtendToUInt64(System.Int32*)",
+        "System.Runtime.Intrinsics.Arm.Sve.LoadVectorSByteNonFaultingSignExtendToInt16(System.SByte*)",
+        "System.Runtime.Intrinsics.Arm.Sve.LoadVectorSByteNonFaultingSignExtendToInt32(System.SByte*)",
+        "System.Runtime.Intrinsics.Arm.Sve.LoadVectorSByteNonFaultingSignExtendToInt64(System.SByte*)",
+        "System.Runtime.Intrinsics.Arm.Sve.LoadVectorSByteNonFaultingSignExtendToUInt16(System.SByte*)",
+        "System.Runtime.Intrinsics.Arm.Sve.LoadVectorSByteNonFaultingSignExtendToUInt32(System.SByte*)",
+        "System.Runtime.Intrinsics.Arm.Sve.LoadVectorSByteNonFaultingSignExtendToUInt64(System.SByte*)",
+        "System.Runtime.Intrinsics.Arm.Sve.LoadVectorUInt16NonFaultingZeroExtendToInt32(System.UInt16*)",
+        "System.Runtime.Intrinsics.Arm.Sve.LoadVectorUInt16NonFaultingZeroExtendToInt64(System.UInt16*)",
+        "System.Runtime.Intrinsics.Arm.Sve.LoadVectorUInt16NonFaultingZeroExtendToUInt32(System.UInt16*)",
+        "System.Runtime.Intrinsics.Arm.Sve.LoadVectorUInt16NonFaultingZeroExtendToUInt64(System.UInt16*)",
+        "System.Runtime.Intrinsics.Arm.Sve.LoadVectorUInt32NonFaultingZeroExtendToInt64(System.UInt32*)",
+        "System.Runtime.Intrinsics.Arm.Sve.LoadVectorUInt32NonFaultingZeroExtendToUInt64(System.UInt32*)"
+      ]
+    },
+    {
+      "id": "core-libraries-10-tar-atime-ctime-default",
+      "title": "GnuTarEntry and PaxTarEntry exclude atime and ctime by default",
+      "category": "core-libraries",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where GnuTarEntry and PaxTarEntry no longer automatically set access time and change time fields.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/core-libraries/10.0/tar-atime-ctime-default",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/core-libraries/10.0/tar-atime-ctime-default.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/46465",
+          "title": "GitHub announcement"
+        }
+      ],
+      "affected_apis": [
+        "System.Formats.Tar.GnuTarEntry",
+        "System.Formats.Tar.PaxTarEntry",
+        "System.Formats.Tar.TarReader",
+        "System.Formats.Tar.TarWriter"
+      ]
+    },
+    {
+      "id": "cryptography-10-composite-mldsa-draft-08",
+      "title": "CompositeMLDsa updated to draft-08",
+      "category": "cryptography",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where CompositeMLDsa was updated from draft-07 to draft-08 of the Composite ML-DSA for use in X.509 Public Key Infrastructure specification.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/cryptography/10.0/composite-mldsa-draft-08",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/cryptography/10.0/composite-mldsa-draft-08.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issue/48901",
+          "title": "GitHub announcement"
+        }
+      ],
+      "affected_apis": [
+        "System.Security.Cryptography.CompositeMLDsa"
+      ]
+    },
+    {
+      "id": "cryptography-10-cosesigner-key-null",
+      "title": "CoseSigner.Key may now be null",
+      "category": "cryptography",
+      "type": "source-incompatible",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where CoseSigner.Key may now be null when backed by Post-Quantum Cryptography algorithms.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/cryptography/10.0/cosesigner-key-null",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/cryptography/10.0/cosesigner-key-null.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/46999",
+          "title": "GitHub announcement"
+        }
+      ],
+      "affected_apis": [
+        "System.Security.Cryptography.Cose.CoseSigner.Key"
+      ]
+    },
+    {
+      "id": "cryptography-10-mldsa-slhdsa-secretkey-to-privatekey",
+      "title": "MLDsa and SlhDsa \u0027SecretKey\u0027 members renamed",
+      "category": "cryptography",
+      "type": "source-incompatible",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where MLDsa and SlhDsa members were renamed from using \u0027SecretKey\u0027 to using \u0027PrivateKey\u0027.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/cryptography/10.0/mldsa-slhdsa-secretkey-to-privatekey",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/cryptography/10.0/mldsa-slhdsa-secretkey-to-privatekey.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/47691",
+          "title": "GitHub announcement"
+        }
+      ],
+      "affected_apis": [
+        "System.Security.Cryptography.MLDsa.ImportMLDsaSecretKey()",
+        "System.Security.Cryptography.MLDsa.ExportMLDsaSecretKey()",
+        "System.Security.Cryptography.MLDsaAlgorithm.SecretKeySizeInBytes",
+        "System.Security.Cryptography.SlhDsa.ImportSlhDsaSecretKey()",
+        "System.Security.Cryptography.SlhDsa.ExportSlhDsaSecretKey()",
+        "System.Security.Cryptography.SlhDsaAlgorithm.SecretKeySizeInBytes"
+      ]
+    },
+    {
+      "id": "cryptography-10-openssl-macos-unsupported",
+      "title": "OpenSSL cryptographic primitives not supported on macOS",
+      "category": "cryptography",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where OpenSSL cryptographic primitives are no longer supported on macOS.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/cryptography/10.0/openssl-macos-unsupported",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/cryptography/10.0/openssl-macos-unsupported.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/46789",
+          "title": "GitHub announcement"
+        }
+      ],
+      "affected_apis": [
+        "System.Security.Cryptography.AesCcm",
+        "System.Security.Cryptography.DSAOpenSsl",
+        "System.Security.Cryptography.ECDiffieHellmanOpenSsl",
+        "System.Security.Cryptography.ECDsaOpenSsl",
+        "System.Security.Cryptography.RSAOpenSsl",
+        "System.Security.Cryptography.SafeEvpPKeyHandle"
+      ]
+    },
+    {
+      "id": "cryptography-10-openssl-version-requirement",
+      "title": ".NET 10 requires OpenSSL 1.1.1 or later on Unix",
+      "category": "cryptography",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where OpenSSL 1.1.1 or later is required on Unix platforms.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/cryptography/10.0/openssl-version-requirement",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/cryptography/10.0/openssl-version-requirement.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/49487",
+          "title": "GitHub announcement"
+        }
+      ]
+    },
+    {
+      "id": "cryptography-10-version-override",
+      "title": "Environment variable renamed to DOTNET_OPENSSL_VERSION_OVERRIDE",
+      "category": "cryptography",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the .NET 10 breaking change in .NET cryptography where the environment variable CLR_OPENSSL_VERSION_OVERRIDE was renamed to DOTNET_OPENSSL_VERSION_OVERRIDE.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/cryptography/10.0/version-override",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/cryptography/10.0/version-override.md",
+          "title": "Documentation"
+        }
+      ]
+    },
+    {
+      "id": "cryptography-10-x500distinguishedname-validation",
+      "title": "X500DistinguishedName validation is stricter",
+      "category": "cryptography",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the .NET 10 breaking change in cryptography where X500DistinguishedName validation is stricter.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/cryptography/10.0/x500distinguishedname-validation",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/cryptography/10.0/x500distinguishedname-validation.md",
+          "title": "Documentation"
+        }
+      ],
+      "affected_apis": [
+        "System.Security.Cryptography.X509Certificates.X500DistinguishedName.%23ctor(System.String)",
+        "System.Security.Cryptography.X509Certificates.X500DistinguishedName.%23ctor(System.String,System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags)"
+      ]
+    },
+    {
+      "id": "cryptography-10-x509-publickey-null",
+      "title": "X509Certificate and PublicKey key parameters can be null",
+      "category": "cryptography",
+      "type": "source-incompatible",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where key parameters in X509Certificate and PublicKey can be null.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/cryptography/10.0/x509-publickey-null",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/cryptography/10.0/x509-publickey-null.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/45325",
+          "title": "GitHub announcement"
+        }
+      ],
+      "affected_apis": [
+        "System.Security.Cryptography.X509Certificates.X509Certificate.GetKeyAlgorithmParameters",
+        "System.Security.Cryptography.X509Certificates.X509Certificate.GetKeyAlgorithmParametersString",
+        "System.Security.Cryptography.X509Certificates.PublicKey.%23ctor(System.Security.Cryptography.Oid,System.Security.Cryptography.AsnEncodedData,System.Security.Cryptography.AsnEncodedData)",
+        "System.Security.Cryptography.X509Certificates.PublicKey.EncodedParameters"
+      ]
+    },
+    {
+      "id": "extensions-10-backgroundservice-executeasync-task",
+      "title": "BackgroundService runs all of ExecuteAsync as a Task",
+      "category": "extensions",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where BackgroundService now runs the entirety of ExecuteAsync on a background thread instead of running the synchronous portion on the main thread.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/extensions/10.0/backgroundservice-executeasync-task",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/extensions/10.0/backgroundservice-executeasync-task.md",
+          "title": "Documentation"
+        }
+      ],
+      "affected_apis": [
+        "Microsoft.Extensions.Hosting.BackgroundService.ExecuteAsync%2A"
+      ]
+    },
+    {
+      "id": "extensions-10-configuration-null-values-preserved",
+      "title": "Null values preserved in configuration",
+      "category": "extensions",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where configuration providers now preserve null values instead of treating them as missing values.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/extensions/10.0/configuration-null-values-preserved",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/extensions/10.0/configuration-null-values-preserved.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/46890",
+          "title": "GitHub announcement"
+        }
+      ],
+      "affected_apis": [
+        "Microsoft.Extensions.Configuration"
+      ]
+    },
+    {
+      "id": "extensions-10-console-json-logging-duplicate-messages",
+      "title": "Message no longer duplicated in Console log output",
+      "category": "extensions",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where \u0060Message\u0060 is no longer duplicated in Console log output using the JSON formatter.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/extensions/10.0/console-json-logging-duplicate-messages",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/extensions/10.0/console-json-logging-duplicate-messages.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/47006",
+          "title": "GitHub announcement"
+        }
+      ],
+      "affected_apis": [
+        "Microsoft.Extensions.Logging.ConsoleLoggerExtensions.AddConsole%2A",
+        "Microsoft.Extensions.Logging.ConsoleLoggerExtensions.AddConsoleFormatter*",
+        "Microsoft.Extensions.Logging.ConsoleLoggerExtensions.AddJsonConsole*",
+        "Microsoft.Extensions.Logging.ConsoleLoggerExtensions.AddSimpleConsole*",
+        "Microsoft.Extensions.Logging.ConsoleLoggerExtensions.AddSystemdConsole*"
+      ]
+    },
+    {
+      "id": "extensions-10-dynamically-accessed-members-configuration",
+      "title": "DynamicallyAccessedMembers annotation removed from trim-unsafe configuration APIs",
+      "category": "extensions",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where DynamicallyAccessedMembers annotations were removed from trim-unsafe Microsoft.Extensions.Configuration APIs.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/extensions/10.0/dynamically-accessed-members-configuration",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/extensions/10.0/dynamically-accessed-members-configuration.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/47433",
+          "title": "GitHub announcement"
+        }
+      ],
+      "affected_apis": [
+        "Microsoft.Extensions.Configuration.ConfigurationBinder.Get(Microsoft.Extensions.Configuration.IConfiguration,System.Type,System.Action{Microsoft.Extensions.Configuration.BinderOptions})",
+        "Microsoft.Extensions.Configuration.ConfigurationBinder.GetValue(Microsoft.Extensions.Configuration.IConfiguration,System.Type,System.String)",
+        "Microsoft.Extensions.Configuration.ConfigurationBinder.GetValue(Microsoft.Extensions.Configuration.IConfiguration,System.Type,System.String,System.Object)",
+        "Microsoft.Extensions.Configuration.ConfigurationBinder.GetValue\u0060\u00601(Microsoft.Extensions.Configuration.IConfiguration,System.String)",
+        "Microsoft.Extensions.Configuration.ConfigurationBinder.GetValue\u0060\u00601(Microsoft.Extensions.Configuration.IConfiguration,System.String,\u0060\u00600)",
+        "Microsoft.Extensions.Configuration.ConfigurationBinder.Get\u0060\u00601(Microsoft.Extensions.Configuration.IConfiguration)",
+        "Microsoft.Extensions.Configuration.ConfigurationBinder.Get\u0060\u00601(Microsoft.Extensions.Configuration.IConfiguration,System.Action{Microsoft.Extensions.Configuration.BinderOptions})",
+        "Microsoft.Extensions.Logging.Configuration.LoggerProviderOptions.RegisterProviderOptions\u0060\u00602(Microsoft.Extensions.DependencyInjection.IServiceCollection)",
+        "Microsoft.Extensions.Logging.ConsoleLoggerExtensions.AddConsoleFormatter\u0060\u00602(Microsoft.Extensions.Logging.ILoggingBuilder)",
+        "Microsoft.Extensions.Logging.ConsoleLoggerExtensions.AddConsoleFormatter\u0060\u00602(Microsoft.Extensions.Logging.ILoggingBuilder,System.Action{\u0060\u00601})",
+        "Microsoft.Extensions.DependencyInjection.OptionsBuilderConfigurationExtensions.BindConfiguration\u0060\u00601(Microsoft.Extensions.Options.OptionsBuilder{\u0060\u00600},System.String,System.Action{Microsoft.Extensions.Configuration.BinderOptions})",
+        "Microsoft.Extensions.DependencyInjection.OptionsBuilderConfigurationExtensions.Bind\u0060\u00601(Microsoft.Extensions.Options.OptionsBuilder{\u0060\u00600},Microsoft.Extensions.Configuration.IConfiguration)",
+        "Microsoft.Extensions.DependencyInjection.OptionsBuilderConfigurationExtensions.Bind\u0060\u00601(Microsoft.Extensions.Options.OptionsBuilder{\u0060\u00600},Microsoft.Extensions.Configuration.IConfiguration,System.Action{Microsoft.Extensions.Configuration.BinderOptions})",
+        "Microsoft.Extensions.DependencyInjection.OptionsConfigurationServiceCollectionExtensions.Configure*",
+        "Microsoft.Extensions.Options.ConfigureFromConfigurationOptions\u00601",
+        "Microsoft.Extensions.Options.NamedConfigureFromConfigurationOptions\u00601"
+      ]
+    },
+    {
+      "id": "extensions-10-getkeyedservice-anykey",
+      "title": "Fix issues in GetKeyedService() and GetKeyedServices() with AnyKey",
+      "category": "extensions",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where GetKeyedService() and GetKeyedServices() behavior changed when using KeyedService.AnyKey as the lookup key.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/extensions/10.0/getkeyedservice-anykey",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/extensions/10.0/getkeyedservice-anykey.md",
+          "title": "Documentation"
+        }
+      ],
+      "affected_apis": [
+        "Microsoft.Extensions.DependencyInjection.ServiceProviderKeyedServiceExtensions.GetKeyedService(System.IServiceProvider,System.Type,System.Object)",
+        "Microsoft.Extensions.DependencyInjection.ServiceProviderKeyedServiceExtensions.GetKeyedServices(System.IServiceProvider,System.Type,System.Object)"
+      ]
+    },
+    {
+      "id": "extensions-10-provideraliasattribute-moved-assembly",
+      "title": "ProviderAliasAttribute moved to Microsoft.Extensions.Logging.Abstractions assembly",
+      "category": "extensions",
+      "type": "source-incompatible",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where the ProviderAliasAttribute class moved from the Microsoft.Extensions.Logging assembly to the Microsoft.Extensions.Logging.Abstractions assembly.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/extensions/10.0/provideraliasattribute-moved-assembly",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/extensions/10.0/provideraliasattribute-moved-assembly.md",
+          "title": "Documentation"
+        }
+      ],
+      "affected_apis": [
+        "Microsoft.Extensions.Logging.ProviderAliasAttribute"
+      ]
+    },
+    {
+      "id": "globalization-10-version-override",
+      "title": "Environment variable renamed to DOTNET_ICU_VERSION_OVERRIDE",
+      "category": "globalization",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the .NET 10 breaking change in globalization where the environment variable CLR_ICU_VERSION_OVERRIDE was renamed to DOTNET_ICU_VERSION_OVERRIDE.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/globalization/10.0/version-override",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/globalization/10.0/version-override.md",
+          "title": "Documentation"
+        }
+      ]
+    },
+    {
+      "id": "install-tool-10-vscode-dotnet-acquire-no-latest",
+      "title": "dotnet.acquire API for VS Code no longer always downloads latest",
+      "category": "install-tool",
+      "type": "behavioral-change",
+      "version_introduced": "3.0.0",
+      "description": "Learn about the breaking change where the dotnet.acquire VS Code API no longer always checks for the latest runtime version before returning a path.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/install-tool/3.0.0/vscode-dotnet-acquire-no-latest",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/install-tool/3.0.0/vscode-dotnet-acquire-no-latest.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/49127",
+          "title": "GitHub announcement"
+        }
+      ]
+    },
+    {
+      "id": "interop-10-idispatchex-ireflect-cast",
+      "title": "Casting IDispatchEx COM object to IReflect fails",
+      "category": "interop",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where casting a COM object that implements IDispatchEx to IReflect now fails.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/interop/10.0/idispatchex-ireflect-cast",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/interop/10.0/idispatchex-ireflect-cast.md",
+          "title": "Documentation"
+        }
+      ]
+    },
+    {
+      "id": "interop-10-native-library-search",
+      "title": "Single-file apps no longer look for native libraries in executable directory",
+      "category": "interop",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where single-file apps no longer look for native libraries in the executable directory.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/interop/10.0/native-library-search",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/interop/10.0/native-library-search.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/46356",
+          "title": "GitHub announcement"
+        }
+      ],
+      "affected_apis": [
+        "System.Runtime.InteropServices.NativeLibrary.Load*",
+        "System.Runtime.InteropServices.NativeLibrary.TryLoad*"
+      ]
+    },
+    {
+      "id": "interop-10-search-assembly-directory",
+      "title": "Specifying DllImportSearchPath.AssemblyDirectory only searches the assembly directory",
+      "category": "interop",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where specifying DllImportSearchPath.AssemblyDirectory as the only search flag restricts the search to the assembly directory.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/interop/10.0/search-assembly-directory",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/interop/10.0/search-assembly-directory.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/45911",
+          "title": "GitHub announcement"
+        }
+      ],
+      "affected_apis": [
+        "System.Runtime.InteropServices.DefaultDllImportSearchPathsAttribute",
+        "System.Runtime.InteropServices.NativeLibrary.Load*",
+        "System.Runtime.InteropServices.NativeLibrary.TryLoad*"
+      ]
+    },
+    {
+      "id": "networking-10-default-http-streaming",
+      "title": "Streaming HTTP responses enabled by default in browser HTTP clients",
+      "category": "networking",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where streaming HTTP responses are enabled by default in browser HTTP clients.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/networking/10.0/default-http-streaming",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/networking/10.0/default-http-streaming.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/45644",
+          "title": "GitHub announcement"
+        }
+      ],
+      "affected_apis": [
+        "System.Net.Http.HttpContent",
+        "System.Net.Http.HttpContent.ReadAsStreamAsync*"
+      ]
+    },
+    {
+      "id": "networking-10-http3-disabled-with-publishtrimmed",
+      "title": "HTTP/3 support in System.Net.Http disabled by default with PublishTrimmed",
+      "category": "networking",
+      "type": "source-incompatible",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where HTTP/3 support is disabled by default when PublishTrimmed or PublishAot is set to true.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/networking/10.0/http3-disabled-with-publishtrimmed",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/networking/10.0/http3-disabled-with-publishtrimmed.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/47443",
+          "title": "GitHub announcement"
+        }
+      ]
+    },
+    {
+      "id": "networking-10-uri-length-limits-removed",
+      "title": "URI length limits removed",
+      "category": "networking",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the .NET 10 breaking change in networking where URI length limits of around 65K characters have been removed.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/networking/10.0/uri-length-limits-removed",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/networking/10.0/uri-length-limits-removed.md",
+          "title": "Documentation"
+        }
+      ],
+      "affected_apis": [
+        "System.Uri.%23ctor*",
+        "System.Uri.TryCreate*",
+        "System.Uri",
+        "System.Uri.AbsolutePath",
+        "System.Uri.AbsoluteUri",
+        "System.Uri.PathAndQuery"
+      ]
+    },
+    {
+      "id": "reflection-10-ireflect-damt-annotations",
+      "title": "More restricted annotations on InvokeMember/FindMembers/DeclaredMembers",
+      "category": "reflection",
+      "type": "source-incompatible",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where System.Reflection APIs InvokeMember, FindMembers, and DeclaredMembers use more restricted annotations instead of DynamicallyAccessedMemberTypes.All.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/reflection/10/ireflect-damt-annotations",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/reflection/10/ireflect-damt-annotations.md",
+          "title": "Documentation"
+        }
+      ],
+      "affected_apis": [
+        "System.Reflection.IReflect.InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[])",
+        "System.Type.FindMembers(System.Reflection.MemberTypes,System.Reflection.BindingFlags,System.Reflection.MemberFilter,System.Object)",
+        "System.Reflection.TypeInfo.DeclaredMembers"
+      ]
+    },
+    {
+      "id": "reflection-10-makegeneric-signaturetype-validation",
+      "title": "Type.MakeGenericSignatureType argument validation",
+      "category": "reflection",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the .NET 10 breaking change in core .NET libraries where Type.MakeGenericSignatureType validates that the genericTypeDefinition argument is a generic type definition.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/reflection/10/makegeneric-signaturetype-validation",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/reflection/10/makegeneric-signaturetype-validation.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/48902",
+          "title": "GitHub announcement"
+        }
+      ],
+      "affected_apis": [
+        "System.Type.MakeGenericSignatureType(System.Type,System.Type[])"
+      ]
+    },
+    {
+      "id": "sdk-10-code-coverage-dynamic-native-instrumentation",
+      "title": "Code coverage EnableDynamicNativeInstrumentation defaults to false",
+      "category": "sdk",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where dynamic native instrumentation is disabled by default when collecting code coverage.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/sdk/10.0/code-coverage-dynamic-native-instrumentation",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/sdk/10.0/code-coverage-dynamic-native-instrumentation.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/49376",
+          "title": "GitHub announcement"
+        }
+      ]
+    },
+    {
+      "id": "sdk-10-custom-build-event-warning",
+      "title": "MSBUILDCUSTOMBUILDEVENTWARNING escape hatch removed",
+      "category": "sdk",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change where the MSBUILDCUSTOMBUILDEVENTWARNING environment variable is no longer supported.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/sdk/10.0/custom-build-event-warning",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/sdk/10.0/custom-build-event-warning.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/44998",
+          "title": "GitHub announcement"
+        }
+      ],
+      "affected_apis": [
+        "Microsoft.Build.Framework.CustomBuildEventArgs"
+      ]
+    },
+    {
+      "id": "sdk-10-default-workload-config",
+      "title": "Change default workload configuration from \u0027loose manifests\u0027 to \u0027workload sets\u0027 mode",
+      "category": "sdk",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where the default workload update mode changed.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/sdk/10.0/default-workload-config",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/sdk/10.0/default-workload-config.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/45000",
+          "title": "GitHub announcement"
+        }
+      ]
+    },
+    {
+      "id": "sdk-10-deps-json-trimmed-packages",
+      "title": "NuGet packages with no runtime assets aren\u0027t included in deps.json",
+      "category": "sdk",
+      "type": "source-incompatible",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where NuGet packages that don\u0027t contribute runtime assets might be excluded from deps.json files.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/sdk/10.0/deps-json-trimmed-packages",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/sdk/10.0/deps-json-trimmed-packages.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/48132",
+          "title": "GitHub announcement"
+        }
+      ]
+    },
+    {
+      "id": "sdk-10-dnx-ps1-removed",
+      "title": "dnx.ps1 file is no longer included in .NET SDK",
+      "category": "sdk",
+      "type": "source-incompatible",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where the dnx.ps1 script is no longer included in Windows versions of the .NET SDK.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/sdk/10.0/dnx-ps1-removed",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/sdk/10.0/dnx-ps1-removed.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/497988",
+          "title": "GitHub announcement"
+        }
+      ]
+    },
+    {
+      "id": "sdk-10-dotnet-cli-interactive",
+      "title": ".NET CLI \u0060--interactive\u0060 defaults to \u0060true\u0060 in user scenarios",
+      "category": "sdk",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where the --interactive flag defaults to true in user-centric scenarios.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/sdk/10.0/dotnet-cli-interactive",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/sdk/10.0/dotnet-cli-interactive.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/45548",
+          "title": "GitHub announcement"
+        }
+      ]
+    },
+    {
+      "id": "sdk-10-dotnet-cli-stderr-output",
+      "title": "dotnet CLI commands log non-command-relevant data to stderr",
+      "category": "sdk",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where some dotnet CLI commands log verbose and non-command-relevant data to stderr instead of stdout.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/sdk/10.0/dotnet-cli-stderr-output",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/sdk/10.0/dotnet-cli-stderr-output.md",
+          "title": "Documentation"
+        }
+      ]
+    },
+    {
+      "id": "sdk-10-dotnet-new-sln-slnx-default",
+      "title": "\u0060dotnet new sln\u0060 defaults to SLNX file format",
+      "category": "sdk",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where \u0060dotnet new sln\u0060 creates SLNX-format solution files instead of SLN-format files.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/sdk/10.0/dotnet-new-sln-slnx-default",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/sdk/10.0/dotnet-new-sln-slnx-default.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/48192",
+          "title": "GitHub announcement"
+        }
+      ]
+    },
+    {
+      "id": "sdk-10-dotnet-package-list-restore",
+      "title": "dotnet package list command now performs restore by default",
+      "category": "sdk",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where the dotnet package list command now performs a restore before listing packages.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/sdk/10.0/dotnet-package-list-restore",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/sdk/10.0/dotnet-package-list-restore.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/46103",
+          "title": "GitHub announcement"
+        }
+      ]
+    },
+    {
+      "id": "sdk-10-dotnet-restore-project-json-unsupported",
+      "title": "project.json is no longer supported in dotnet restore",
+      "category": "sdk",
+      "type": "source-incompatible",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where dotnet restore no longer supports project.json based projects.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/sdk/10.0/dotnet-restore-project-json-unsupported",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/sdk/10.0/dotnet-restore-project-json-unsupported.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/47968",
+          "title": "GitHub announcement"
+        }
+      ]
+    },
+    {
+      "id": "sdk-10-dotnet-tool-install-local-manifest",
+      "title": "\u0027dotnet tool install --local\u0027 creates manifest by default",
+      "category": "sdk",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change where \u0027dotnet tool install --local\u0027 now creates a manifest by default if no tools manifest is found.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/sdk/10.0/dotnet-tool-install-local-manifest",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/sdk/10.0/dotnet-tool-install-local-manifest.md",
+          "title": "Documentation"
+        }
+      ]
+    },
+    {
+      "id": "sdk-10-dotnet-tool-pack-publish",
+      "title": ".NET tool packaging might create RuntimeIdentifier-specific tool packages",
+      "category": "sdk",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in the .NET 10 SDK where .NET tool packaging might use RuntimeIdentifiers to create platform-specific tools",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/sdk/10.0/dotnet-tool-pack-publish",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/sdk/10.0/dotnet-tool-pack-publish.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/47916",
+          "title": "GitHub announcement"
+        }
+      ]
+    },
+    {
+      "id": "sdk-10-dotnet-watch-stderr",
+      "title": "\u0027dotnet watch\u0027 logs to stderr instead of stdout",
+      "category": "sdk",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where \u0027dotnet watch\u0027 emits its internal-facing log messages to stderr instead of stdout.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/sdk/10.0/dotnet-watch-stderr",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/sdk/10.0/dotnet-watch-stderr.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/45871",
+          "title": "GitHub announcement"
+        }
+      ]
+    },
+    {
+      "id": "sdk-10-file-level-directive-double-quotes",
+      "title": "Double quotes in file-level directives are disallowed",
+      "category": "sdk",
+      "type": "source-incompatible",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where double quotes in file-level directives are disallowed.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/sdk/10.0/file-level-directive-double-quotes",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/sdk/10.0/file-level-directive-double-quotes.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/48916",
+          "title": "GitHub announcement"
+        }
+      ]
+    },
+    {
+      "id": "sdk-10-http-warnings-to-errors",
+      "title": "HTTP warnings promoted to errors in dotnet package list and dotnet package search",
+      "category": "sdk",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where HTTP warnings are promoted to errors in dotnet package operations.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/sdk/10.0/http-warnings-to-errors",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/sdk/10.0/http-warnings-to-errors.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/45985",
+          "title": "GitHub announcement"
+        }
+      ],
+      "affected_apis": [
+        "dotnet package list",
+        "dotnet package search",
+        "NuGet.Protocol.Core.Types.PackageUpdateResource.PushAsync",
+        "NuGet.Protocol.Core.Types.PackageUpdateResource.Delete"
+      ]
+    },
+    {
+      "id": "sdk-10-msbuild-custom-culture",
+      "title": "MSBuild custom culture resource handling",
+      "category": "sdk",
+      "type": "behavioral-change",
+      "version_introduced": "10.0-preview.1",
+      "description": "Learn about the breaking change in MSBuild 17.14 where custom culture resource handling now requires explicit opt-in.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/sdk/10.0/msbuild-custom-culture",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/sdk/10.0/msbuild-custom-culture.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/45501",
+          "title": "GitHub announcement"
+        }
+      ]
+    },
+    {
+      "id": "sdk-10-nu1015-packagereference-version",
+      "title": "PackageReference without a version raises an error",
+      "category": "sdk",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where PackageReference without a version raises NU1015 error instead of NU1604 warning.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/sdk/10.0/nu1015-packagereference-version",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/sdk/10.0/nu1015-packagereference-version.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/46386",
+          "title": "GitHub announcement"
+        }
+      ]
+    },
+    {
+      "id": "sdk-10-nu1510-pruned-references",
+      "title": "NU1510 is raised for direct references pruned by NuGet",
+      "category": "sdk",
+      "type": "source-incompatible",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in the .NET 10 SDK where NU1510 is raised for unnecessary direct package references.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/sdk/10.0/nu1510-pruned-references",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/sdk/10.0/nu1510-pruned-references.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/45462",
+          "title": "GitHub announcement"
+        }
+      ]
+    },
+    {
+      "id": "sdk-10-nuget-enhanced-http-retry-removed",
+      "title": "NUGET_ENABLE_ENHANCED_HTTP_RETRY environment variable removed",
+      "category": "sdk",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where NUGET_ENABLE_ENHANCED_HTTP_RETRY environment variable no longer disables exponential retry.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/sdk/10.0/nuget-enhanced-http-retry-removed",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/sdk/10.0/nuget-enhanced-http-retry-removed.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/46537",
+          "title": "GitHub announcement"
+        }
+      ]
+    },
+    {
+      "id": "sdk-10-nuget-packageid-validation",
+      "title": "NuGet logs an error for invalid package IDs",
+      "category": "sdk",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where NuGet validates package IDs when constructing URLs and throws exceptions for invalid formats.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/sdk/10.0/nuget-packageid-validation",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/sdk/10.0/nuget-packageid-validation.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/47984",
+          "title": "GitHub announcement"
+        }
+      ]
+    },
+    {
+      "id": "sdk-10-nugetaudit-transitive-packages",
+      "title": "\u0027dotnet restore\u0027 audits transitive packages",
+      "category": "sdk",
+      "type": "behavioral-change",
+      "version_introduced": "10.0-preview.3",
+      "description": "Learn about a breaking change in the .NET 10 SDK where \u0027dotnet restore\u0027 also produces security vulnerability warnings for transitive packages by default.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/sdk/10.0/nugetaudit-transitive-packages",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/sdk/10.0/nugetaudit-transitive-packages.md",
+          "title": "Documentation"
+        }
+      ]
+    },
+    {
+      "id": "sdk-10-prune-packagereference-privateassets",
+      "title": "PrunePackageReference privatizes direct prunable references",
+      "category": "sdk",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in the .NET 10 SDK where PrunePackageReference automatically marks directly prunable PackageReference with PrivateAssets=all and IncludeAssets=none.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/sdk/10.0/prune-packagereference-privateassets",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/sdk/10.0/prune-packagereference-privateassets.md",
+          "title": "Documentation"
+        }
+      ]
+    },
+    {
+      "id": "sdk-10-toolcommandname-not-set",
+      "title": "ToolCommandName is not set for non tool packages",
+      "category": "sdk",
+      "type": "source-incompatible",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where ToolCommandName is only set for projects with PackAsTool set to true.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/sdk/10.0/toolcommandname-not-set",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/sdk/10.0/toolcommandname-not-set.md",
+          "title": "Documentation"
+        }
+      ]
+    },
+    {
+      "id": "serialization-10-property-name-validation",
+      "title": "System.Text.Json checks for property name conflicts",
+      "category": "serialization",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where System.Text.Json validates that user-defined property names don\u0027t conflict with reserved metadata property names.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/serialization/10/property-name-validation",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/serialization/10/property-name-validation.md",
+          "title": "Documentation"
+        }
+      ],
+      "affected_apis": [
+        "System.Text.Json.JsonSerializer.Deserialize*",
+        "System.Text.Json.JsonSerializer.DeserializeAsync*"
+      ]
+    },
+    {
+      "id": "serialization-10-xmlserializer-obsolete-properties",
+      "title": "XmlSerializer no longer ignores properties marked with ObsoleteAttribute",
+      "category": "serialization",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where properties marked with ObsoleteAttribute are now serialized by XmlSerializer instead of being ignored.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/serialization/10/xmlserializer-obsolete-properties",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/serialization/10/xmlserializer-obsolete-properties.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/49054",
+          "title": "GitHub announcement"
+        }
+      ],
+      "affected_apis": [
+        "System.Xml.Serialization.XmlSerializer"
+      ]
+    },
+    {
+      "id": "windows-forms-10-insertadjacentelement-orientation",
+      "title": "Renamed parameter in HtmlElement.InsertAdjacentElement",
+      "category": "windows-forms",
+      "type": "source-incompatible",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in Windows Forms where the parameter \u0060orient\u0060 was renamed to \u0060orientation\u0060.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/windows-forms/10.0/insertadjacentelement-orientation",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/windows-forms/10.0/insertadjacentelement-orientation.md",
+          "title": "Documentation"
+        }
+      ],
+      "affected_apis": [
+        "System.Windows.Forms.HtmlElement.InsertAdjacentElement(System.Windows.Forms.HtmlElementInsertionOrientation,System.Windows.Forms.HtmlElement)"
+      ]
+    },
+    {
+      "id": "windows-forms-10-menuitem-contextmenu",
+      "title": "Applications referencing both WPF and WinForms must disambiguate MenuItem and ContextMenu types",
+      "category": "windows-forms",
+      "type": "source-incompatible",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where applications referencing both WPF and WinForms must disambiguate MenuItem and ContextMenu types.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/windows-forms/10.0/menuitem-contextmenu",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/windows-forms/10.0/menuitem-contextmenu.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/44738",
+          "title": "GitHub announcement"
+        }
+      ],
+      "affected_apis": [
+        "System.Windows.Forms.ContextMenu",
+        "System.Windows.Forms.DataGrid",
+        "System.Windows.Forms.DataGridCell",
+        "System.Windows.Forms.Menu",
+        "System.Windows.Forms.MenuItem",
+        "System.Windows.Forms.ToolBar",
+        "System.Windows.Forms.StatusBar",
+        "System.Windows.Controls.ContextMenu",
+        "System.Windows.Controls.DataGrid",
+        "System.Windows.Controls.DataGridCell",
+        "System.Windows.Controls.Menu",
+        "System.Windows.Controls.MenuItem",
+        "System.Windows.Controls.ToolBar",
+        "System.Windows.Controls.StatusBar"
+      ]
+    },
+    {
+      "id": "windows-forms-10-obsolete-apis",
+      "title": ".NET 10 obsoletions in Windows Forms",
+      "category": "windows-forms",
+      "type": "source-incompatible",
+      "version_introduced": "10.0",
+      "description": "Learn about the .NET 10 breaking change where some Windows Forms APIs have been marked as obsolete.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/windows-forms/10.0/obsolete-apis",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/windows-forms/10.0/obsolete-apis.md",
+          "title": "Documentation"
+        }
+      ],
+      "affected_apis": [
+        "System.Windows.Forms.Form.OnClosing(System.ComponentModel.CancelEventArgs)",
+        "System.Windows.Forms.Form.OnClosed(System.EventArgs)",
+        "System.Windows.Clipboard.GetData(System.String)",
+        "System.Windows.Forms.ContextMenu",
+        "System.Windows.Forms.DataGrid",
+        "System.Windows.Forms.MainMenu",
+        "System.Windows.Forms.Menu",
+        "System.Windows.Forms.StatusBar",
+        "System.Windows.Forms.ToolBar"
+      ]
+    },
+    {
+      "id": "windows-forms-10-statusstrip-renderer",
+      "title": "System.Windows.Forms.StatusStrip uses System RenderMode by default",
+      "category": "windows-forms",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 for Windows Forms where System.Windows.Forms.StatusStrip uses a different default value for the RenderMode property.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/windows-forms/10.0/statusstrip-renderer",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/windows-forms/10.0/statusstrip-renderer.md",
+          "title": "Documentation"
+        }
+      ],
+      "affected_apis": [
+        "System.Windows.Forms.StatusStrip",
+        "System.Windows.Forms.ToolStripManager.RenderMode"
+      ]
+    },
+    {
+      "id": "windows-forms-10-system-drawing-outofmemory-externalexception",
+      "title": "System.Drawing OutOfMemoryException changed to ExternalException",
+      "category": "windows-forms",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where System.Drawing GDI\u002B OutOfMemory errors now throw ExternalException instead of OutOfMemoryException.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/windows-forms/10.0/system-drawing-outofmemory-externalexception",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/windows-forms/10.0/system-drawing-outofmemory-externalexception.md",
+          "title": "Documentation"
+        }
+      ],
+      "affected_apis": [
+        "OutOfMemoryException",
+        "System.Drawing.Bitmap",
+        "System.Drawing.Graphics",
+        "System.Drawing.Image",
+        "System.Drawing.Icon",
+        "Other System.Drawing types that use GDI\u002B internally"
+      ]
+    },
+    {
+      "id": "windows-forms-10-treeview-text-location",
+      "title": "TreeView checkbox image truncation",
+      "category": "windows-forms",
+      "type": "behavioral-change",
+      "version_introduced": "10.0",
+      "description": "Learn about the .NET 10 breaking change in Windows Forms where the TreeView checkbox image is truncated under certain conditions.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/windows-forms/10.0/treeview-text-location",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/windows-forms/10.0/treeview-text-location.md",
+          "title": "Documentation"
+        }
+      ],
+      "affected_apis": [
+        "System.Windows.Forms.TreeView.CheckBoxes"
+      ]
+    },
+    {
+      "id": "wpf-10-dynamicresource-crash",
+      "title": "Incorrect usage of DynamicResource causes application crash",
+      "category": "wpf",
+      "type": "source-incompatible",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in .NET 10 where incorrect usage of DynamicResource now causes application crashes.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/wpf/10.0/dynamicresource-crash",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/wpf/10.0/dynamicresource-crash.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/46089",
+          "title": "GitHub announcement"
+        }
+      ]
+    },
+    {
+      "id": "wpf-10-empty-grid-definitions",
+      "title": "Empty ColumnDefinitions and RowDefinitions are disallowed",
+      "category": "wpf",
+      "type": "source-incompatible",
+      "version_introduced": "10.0",
+      "description": "Learn about the breaking change in WPF in .NET 10 where empty Grid.ColumnDefinitions or Grid.RowDefinitions declarations now cause MC3063 compilation errors.",
+      "impact": "medium",
+      "references": [
+        {
+          "type": "documentation-html",
+          "url": "https://learn.microsoft.com/dotnet/core/compatibility/wpf/10.0/empty-grid-definitions",
+          "title": "Documentation (rendered)"
+        },
+        {
+          "type": "documentation",
+          "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/compatibility/wpf/10.0/empty-grid-definitions.md",
+          "title": "Documentation"
+        },
+        {
+          "type": "announcement",
+          "url": "https://github.com/dotnet/docs/issues/47743",
+          "title": "GitHub announcement"
+        }
+      ]
+    }
+  ],
+  "categories": {
+    "aspnet-core": [
+      "aspnet-core-10-cookie-authentication-api-endpoints",
+      "aspnet-core-10-withopenapi-deprecated",
+      "aspnet-core-10-exception-handler-diagnostics-suppressed",
+      "aspnet-core-10-iactioncontextaccessor-obsolete",
+      "aspnet-core-10-openapi-analyzers-deprecated",
+      "aspnet-core-10-ipnetwork-knownnetworks-obsolete",
+      "aspnet-core-10-apidescription-client-deprecated",
+      "aspnet-core-10-razor-runtime-compilation-obsolete",
+      "aspnet-core-10-webhostbuilder-deprecated"
+    ],
+    "containers": [
+      "containers-10-default-images-use-ubuntu"
+    ],
+    "core-libraries": [
+      "core-libraries-10-obsolete-apis",
+      "core-libraries-10-activity-sampling",
+      "core-libraries-10-sve-nonfaulting-loads-mask-parameter",
+      "core-libraries-10-bufferedstream-writebyte-flush",
+      "core-libraries-10-csharp-overload-resolution",
+      "core-libraries-10-generic-math",
+      "core-libraries-10-default-trace-context-propagator",
+      "core-libraries-10-driveinfo-driveformat-linux",
+      "core-libraries-10-defaultvalueattribute-dynamically-accessed-members",
+      "core-libraries-10-inlinearray-explicit-size-disallowed",
+      "core-libraries-10-filepatternmatch-stem-nonnullable",
+      "core-libraries-10-tar-atime-ctime-default",
+      "core-libraries-10-ldap-directorycontrol-parsing",
+      "core-libraries-10-maccatalyst-version-normalization",
+      "core-libraries-10-sigterm-signal-handler",
+      "core-libraries-10-asyncenumerable"
+    ],
+    "cryptography": [
+      "cryptography-10-composite-mldsa-draft-08",
+      "cryptography-10-cosesigner-key-null",
+      "cryptography-10-version-override",
+      "cryptography-10-mldsa-slhdsa-secretkey-to-privatekey",
+      "cryptography-10-openssl-macos-unsupported",
+      "cryptography-10-openssl-version-requirement",
+      "cryptography-10-x500distinguishedname-validation",
+      "cryptography-10-x509-publickey-null"
+    ],
+    "extensions": [
+      "extensions-10-backgroundservice-executeasync-task",
+      "extensions-10-getkeyedservice-anykey",
+      "extensions-10-console-json-logging-duplicate-messages",
+      "extensions-10-configuration-null-values-preserved",
+      "extensions-10-provideraliasattribute-moved-assembly",
+      "extensions-10-dynamically-accessed-members-configuration"
+    ],
+    "globalization": [
+      "globalization-10-version-override"
+    ],
+    "install-tool": [
+      "install-tool-10-vscode-dotnet-acquire-no-latest"
+    ],
+    "interop": [
+      "interop-10-idispatchex-ireflect-cast",
+      "interop-10-native-library-search",
+      "interop-10-search-assembly-directory"
+    ],
+    "networking": [
+      "networking-10-http3-disabled-with-publishtrimmed",
+      "networking-10-default-http-streaming",
+      "networking-10-uri-length-limits-removed"
+    ],
+    "reflection": [
+      "reflection-10-ireflect-damt-annotations",
+      "reflection-10-makegeneric-signaturetype-validation"
+    ],
+    "sdk": [
+      "sdk-10-code-coverage-dynamic-native-instrumentation",
+      "sdk-10-dotnet-cli-interactive",
+      "sdk-10-dotnet-cli-stderr-output",
+      "sdk-10-dotnet-tool-pack-publish",
+      "sdk-10-dnx-ps1-removed",
+      "sdk-10-file-level-directive-double-quotes",
+      "sdk-10-nugetaudit-transitive-packages",
+      "sdk-10-dotnet-restore-project-json-unsupported",
+      "sdk-10-default-workload-config",
+      "sdk-10-dotnet-new-sln-slnx-default",
+      "sdk-10-dotnet-package-list-restore",
+      "sdk-10-dotnet-tool-install-local-manifest",
+      "sdk-10-dotnet-watch-stderr",
+      "sdk-10-http-warnings-to-errors",
+      "sdk-10-custom-build-event-warning",
+      "sdk-10-msbuild-custom-culture",
+      "sdk-10-nu1510-pruned-references",
+      "sdk-10-deps-json-trimmed-packages",
+      "sdk-10-nuget-enhanced-http-retry-removed",
+      "sdk-10-nuget-packageid-validation",
+      "sdk-10-nu1015-packagereference-version",
+      "sdk-10-prune-packagereference-privateassets",
+      "sdk-10-toolcommandname-not-set"
+    ],
+    "serialization": [
+      "serialization-10-property-name-validation",
+      "serialization-10-xmlserializer-obsolete-properties"
+    ],
+    "windows-forms": [
+      "windows-forms-10-obsolete-apis",
+      "windows-forms-10-menuitem-contextmenu",
+      "windows-forms-10-insertadjacentelement-orientation",
+      "windows-forms-10-treeview-text-location",
+      "windows-forms-10-statusstrip-renderer",
+      "windows-forms-10-system-drawing-outofmemory-externalexception"
+    ],
+    "wpf": [
+      "wpf-10-empty-grid-definitions",
+      "wpf-10-dynamicresource-crash"
+    ]
+  },
+  "type_breakdown": {
+    "source-incompatible": 27,
+    "behavioral-change": 54,
+    "binary-source-incompatible": 2
+  },
+  "impact_breakdown": {
+    "medium": 81,
+    "high": 2
+  },
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_on": "2025-12-16T01:22:33.5933664+00:00",
+    "generated_by": "BreakingChangesIndex",
+    "source_repository": "https://github.com/dotnet/docs",
+    "source_path": "docs/core/compatibility/10.md"
+  }
+}
