@@ -1,0 +1,166 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/schemas/v1/dotnet-release-version-index.json",
+  "kind": "major",
+  "title": ".NET Major Release Index - Core 3.0",
+  "target_framework": "netcoreapp3.0",
+  "latest_patch": "3.0.3",
+  "latest_patch_date": "2020-02-18T00:00:00\u002B00:00",
+  "latest_security_patch": "3.0.2",
+  "latest_security_patch_date": "2020-01-14T00:00:00\u002B00:00",
+  "release_type": "sts",
+  "support_phase": "eol",
+  "supported": false,
+  "ga_date": "2019-09-23T00:00:00\u002B00:00",
+  "eol_date": "2020-03-03T00:00:00\u002B00:00",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/3.0/index.json"
+    },
+    "latest-month": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2020/02/index.json",
+      "title": "Latest month - February 2020"
+    },
+    "latest-patch": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/3.0/3.0.3/index.json",
+      "title": "Latest patch - 3.0.3"
+    },
+    "latest-security-disclosures": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2020/01/index.json",
+      "title": "Latest security disclosures - January 2020"
+    },
+    "latest-security-month": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2020/01/index.json",
+      "title": "Latest security month - January 2020"
+    },
+    "latest-security-patch": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/3.0/3.0.2/index.json",
+      "title": "Latest security patch - 3.0.2"
+    },
+    "manifest": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/3.0/manifest.json",
+      "title": "Manifest - .NET 3.0"
+    },
+    "root": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/index.json",
+      "title": ".NET Release Index"
+    },
+    "cve-index": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/3.0/cve-index.json",
+      "title": "CVE index (JSON) - .NET 3.0",
+      "type": "application/json"
+    }
+  },
+  "_embedded": {
+    "patches": [
+      {
+        "version": "3.0.3",
+        "date": "2020-02-18T00:00:00\u002B00:00",
+        "year": "2020",
+        "month": "02",
+        "security": false,
+        "support_phase": "maintenance",
+        "sdk_version": "3.0.103",
+        "sdk_versions": [
+          "3.0.103"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/3.0/3.0.3/index.json"
+          },
+          "month": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2020/02/index.json"
+          }
+        }
+      },
+      {
+        "version": "3.0.2",
+        "date": "2020-01-14T00:00:00\u002B00:00",
+        "year": "2020",
+        "month": "01",
+        "security": true,
+        "support_phase": "maintenance",
+        "sdk_version": "3.0.102",
+        "sdk_versions": [
+          "3.0.102"
+        ],
+        "cve_records": [
+          "CVE-2020-0602",
+          "CVE-2020-0603",
+          "CVE-2020-0605",
+          "CVE-2020-0606"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/3.0/3.0.2/index.json"
+          },
+          "month": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2020/01/index.json"
+          },
+          "security-disclosures": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2020/01/index.json"
+          }
+        }
+      },
+      {
+        "version": "3.0.1",
+        "date": "2019-11-19T00:00:00\u002B00:00",
+        "year": "2019",
+        "month": "11",
+        "security": false,
+        "support_phase": "maintenance",
+        "sdk_version": "3.0.101",
+        "sdk_versions": [
+          "3.0.101"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/3.0/3.0.1/index.json"
+          },
+          "month": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2019/11/index.json"
+          }
+        }
+      },
+      {
+        "version": "3.0.0",
+        "date": "2019-09-23T00:00:00\u002B00:00",
+        "year": "2019",
+        "month": "09",
+        "security": false,
+        "support_phase": "maintenance",
+        "sdk_version": "3.0.100",
+        "sdk_versions": [
+          "3.0.100"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/3.0/3.0.0/index.json"
+          },
+          "month": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2019/09/index.json"
+          }
+        }
+      },
+      {
+        "version": "3.0.0-rc1",
+        "date": "2019-09-16T00:00:00\u002B00:00",
+        "year": "2019",
+        "month": "09",
+        "security": false,
+        "support_phase": "go-live",
+        "sdk_version": "3.0.100-rc1-014190",
+        "sdk_versions": [
+          "3.0.100-rc1-014190"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/3.0/3.0.0-rc1/index.json"
+          },
+          "month": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2019/09/index.json"
+          }
+        }
+      }
+    ]
+  }
+}

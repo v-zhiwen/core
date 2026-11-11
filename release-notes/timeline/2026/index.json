@@ -1,0 +1,179 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/schemas/v1/dotnet-release-timeline-index.json",
+  "kind": "year",
+  "title": ".NET Year Timeline Index - 2026",
+  "year": "2026",
+  "latest_month": "10",
+  "latest_security_month": "10",
+  "latest_major": "10.0",
+  "major_releases": [
+    "11.0",
+    "10.0",
+    "9.0",
+    "8.0"
+  ],
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/index.json"
+    },
+    "prev-year": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2025/index.json",
+      "title": "Previous year - 2025"
+    },
+    "latest-major": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/10.0/index.json",
+      "title": "Latest major - .NET 10.0"
+    },
+    "latest-month": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/10/index.json",
+      "title": "Latest month - October 2026"
+    },
+    "latest-security-disclosures": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/10/index.json",
+      "title": "Latest security disclosures - October 2026"
+    },
+    "latest-security-month": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/10/index.json",
+      "title": "Latest security month - October 2026"
+    },
+    "timeline": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/index.json",
+      "title": ".NET Release Timeline Index"
+    },
+    "latest-cve-json": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/10/cve.json",
+      "title": "Latest CVE records - October 2026",
+      "type": "application/json"
+    }
+  },
+  "_embedded": {
+    "months": [
+      {
+        "month": "10",
+        "security": true,
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/10/index.json"
+          },
+          "cve-json": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/10/cve.json",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "month": "09",
+        "security": true,
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/09/index.json"
+          },
+          "cve-json": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/09/cve.json",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "month": "08",
+        "security": true,
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/08/index.json"
+          },
+          "cve-json": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/08/cve.json",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "month": "07",
+        "security": true,
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/07/index.json"
+          },
+          "cve-json": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/07/cve.json",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "month": "06",
+        "security": true,
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/06/index.json"
+          },
+          "cve-json": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/06/cve.json",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "month": "05",
+        "security": true,
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/05/index.json"
+          },
+          "cve-json": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/05/cve.json",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "month": "04",
+        "security": true,
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/04/index.json"
+          },
+          "cve-json": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/04/cve.json",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "month": "03",
+        "security": true,
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/03/index.json"
+          },
+          "cve-json": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/03/cve.json",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "month": "02",
+        "security": true,
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/02/index.json"
+          },
+          "cve-json": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/02/cve.json",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "month": "01",
+        "security": false,
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/01/index.json"
+          }
+        }
+      }
+    ]
+  }
+}

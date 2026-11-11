@@ -1,0 +1,132 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/schemas/v1/dotnet-patch-detail-index.json",
+  "kind": "patch",
+  "title": ".NET Patch Release Index - 9.0.19",
+  "version": "9.0.19",
+  "date": "2026-08-11T00:00:00\u002B00:00",
+  "support_phase": "maintenance",
+  "security": true,
+  "cve_records": [
+    "CVE-2026-62871",
+    "CVE-2026-62886",
+    "CVE-2026-62897",
+    "CVE-2026-62898",
+    "CVE-2026-62899",
+    "CVE-2026-62900",
+    "CVE-2026-62901",
+    "CVE-2026-62902",
+    "CVE-2026-62909",
+    "CVE-2026-70354"
+  ],
+  "prev_patch_date": "2026-07-14T00:00:00\u002B00:00",
+  "prev_security_patch_date": "2026-07-14T00:00:00\u002B00:00",
+  "sdk_version": "9.0.317",
+  "sdk_feature_bands": [
+    "9.0.317",
+    "9.0.120"
+  ],
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/9.0/9.0.19/index.json"
+    },
+    "prev-patch": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/9.0/9.0.18/index.json",
+      "title": "Previous patch release - 9.0.18"
+    },
+    "prev-security-patch": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/9.0/9.0.18/index.json",
+      "title": "Previous security patch release - 9.0.18"
+    },
+    "downloads": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/9.0/downloads/index.json",
+      "title": "Downloads - .NET 9.0"
+    },
+    "major": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/9.0/index.json",
+      "title": ".NET Major Release Index - 9.0"
+    },
+    "month": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/08/index.json",
+      "title": ".NET Month Timeline Index - August 2026"
+    },
+    "root": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/index.json",
+      "title": ".NET Release Index"
+    },
+    "security-disclosures": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/08/index.json",
+      "title": "Security disclosures - August 2026"
+    },
+    "cve-json": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/08/cve.json",
+      "title": "CVE records - August 2026",
+      "type": "application/json"
+    },
+    "release-json": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/9.0/9.0.19/release.json",
+      "title": "Release information",
+      "type": "application/json"
+    }
+  },
+  "_embedded": {
+    "runtime": {
+      "version": "9.0.19",
+      "_links": {
+        "release-notes": {
+          "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/9.0/9.0.19/9.0.19.md",
+          "type": "application/markdown"
+        }
+      }
+    },
+    "sdk": {
+      "version": "9.0.317",
+      "band": "9.0.3xx",
+      "date": "2026-08-11T00:00:00\u002B00:00",
+      "label": ".NET SDK 9.0.3xx",
+      "support_phase": "maintenance",
+      "_links": {
+        "downloads": {
+          "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/9.0/downloads/sdk-9.0.3xx.json"
+        },
+        "release-notes": {
+          "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/9.0/9.0.19/9.0.19.md",
+          "type": "application/markdown"
+        }
+      }
+    },
+    "sdk_feature_bands": [
+      {
+        "version": "9.0.317",
+        "band": "9.0.3xx",
+        "date": "2026-08-11T00:00:00\u002B00:00",
+        "label": ".NET SDK 9.0.3xx",
+        "support_phase": "maintenance",
+        "_links": {
+          "downloads": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/9.0/downloads/sdk-9.0.3xx.json"
+          },
+          "release-notes": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/9.0/9.0.19/9.0.19.md",
+            "type": "application/markdown"
+          }
+        }
+      },
+      {
+        "version": "9.0.120",
+        "band": "9.0.1xx",
+        "date": "2026-08-11T00:00:00\u002B00:00",
+        "label": ".NET SDK 9.0.1xx",
+        "support_phase": "maintenance",
+        "_links": {
+          "downloads": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/9.0/downloads/sdk-9.0.1xx.json"
+          },
+          "release-notes": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/9.0/9.0.19/9.0.120.md",
+            "type": "application/markdown"
+          }
+        }
+      }
+    ]
+  }
+}

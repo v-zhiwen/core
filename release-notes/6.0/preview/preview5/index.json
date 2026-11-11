@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/schemas/v1/dotnet-patch-detail-index.json",
+  "kind": "patch",
+  "title": ".NET Patch Release Index - 6.0.0-preview.5",
+  "version": "6.0.0-preview.5",
+  "date": "2021-06-17T00:00:00\u002B00:00",
+  "support_phase": "preview",
+  "security": false,
+  "cve_records": null,
+  "prev_patch_date": "2021-05-25T00:00:00\u002B00:00",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/6.0/preview/preview5/index.json"
+    },
+    "prev-patch": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/6.0/preview/preview4/index.json",
+      "title": "Previous patch release - 6.0.0-preview.4"
+    },
+    "major": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/6.0/index.json",
+      "title": ".NET Major Release Index - 6.0"
+    },
+    "month": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2021/06/index.json",
+      "title": ".NET Month Timeline Index - June 2021"
+    },
+    "root": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/index.json",
+      "title": ".NET Release Index"
+    }
+  },
+  "_embedded": {
+    "runtime": {
+      "version": "6.0.0-preview.5.21301.5",
+      "_links": {
+        "release-notes": {
+          "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/6.0/preview/6.0.0-preview.5.md",
+          "type": "application/markdown"
+        }
+      }
+    }
+  }
+}

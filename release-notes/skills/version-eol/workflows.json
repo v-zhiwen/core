@@ -1,0 +1,98 @@
+{
+  "kind": "workflows",
+  "title": "Version EOL Workflows",
+  "schema_version": "2.0",
+  "skill": "version-eol",
+  "ai_note": "Workflows chain via next_workflow. releases.{version} selects the matching version in root._embedded.releases[]; self then follows that entry's link. Follow only links present in the response. CVE detail workflows require disclosures/cve-json; if absent, report details unavailable rather than no CVEs. Version lifecycle and security patch dates remain usable.",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/skills/version-eol/workflows.json"
+    }
+  },
+  "_embedded": {
+    "entry_point": {
+      "description": "Route version/EOL queries to the right workflow",
+      "pre_check": {
+        "description": "Check if version is in supported_releases before navigating",
+        "supported_version_pattern": {
+          "matches": ["Is .NET X supported?", "What versions are supported?", "LTS or STS?"],
+          "logic": "Check llms.json.supported_releases array",
+          "if_version_in_supported_releases": {
+            "answer": "Use _embedded.patches[version] directly",
+            "fetch_needed": false,
+            "stop": true
+          },
+          "if_version_not_in_supported_releases": {
+            "continue_to": "decision"
+          }
+        }
+      },
+      "decision": {
+        "supported_info": { "workflow": "supported-versions", "hint": "current versions, LTS/STS, support phase" },
+        "eol_date": { "workflow": "eol-date", "hint": "when EOL, end of support" },
+        "release_type": { "workflow": "release-type", "hint": "LTS or STS" },
+        "eol_cves": { "workflow": "eol-cves", "hint": "CVEs fixed in final patch for EOL version" }
+      }
+    },
+    "workflows": {
+      "supported-versions": {
+        "description": "List all currently supported .NET versions",
+        "follow_path": ["kind:llms"],
+        "destination_kind": "llms",
+        "yields": {
+          "data": "_embedded.patches",
+          "fields": ["version", "release_type", "support_phase", "supported"]
+        },
+        "note": "Zero additional fetches needed—data is embedded"
+      },
+      "release-type": {
+        "description": "Check if a version is LTS or STS",
+        "follow_path": ["kind:llms"],
+        "destination_kind": "llms",
+        "yields": {
+          "data": "_embedded.patches['{version}'].release_type"
+        },
+        "note": "If the version is not embedded, use eol-date to reach its major index and read release_type there. Use the data rather than inferring support policy from version numbering."
+      },
+      "eol-date": {
+        "description": "EOL date and last patch info for any version",
+        "follow_path": ["kind:llms", "root", "releases.{version}", "self"],
+        "destination_kind": "major",
+        "yields": {
+          "data": "eol_date, latest_security_patch, latest_security_patch_date",
+          "note": "All available at major index—no need to fetch patch index"
+        },
+        "next_workflow": {
+          "condition": "CVE details needed",
+          "workflow": "eol-cves",
+          "note": "Skip patch index—go directly to timeline via latest-security-disclosures"
+        }
+      },
+      "eol-cves": {
+        "description": "CVEs fixed in the final security patch for an EOL version",
+        "follow_path": ["kind:llms", "root", "releases.{version}", "self", "latest-security-disclosures"],
+        "destination_kind": "month",
+        "templated": true,
+        "yields": {
+          "data": "_embedded.disclosures[]",
+          "fields": ["id", "title", "cvss_severity", "cvss_score"]
+        },
+        "warning": "Do NOT fetch the patch index (e.g., 6.0.35/index.json)—CVE details come from timeline, not patches",
+        "next_workflow": {
+          "condition": "full CVE details (CVSS vectors, CWE, packages) needed",
+          "workflow": "eol-cve-details",
+          "via": "follow _links.cve-json from month index"
+        }
+      },
+      "eol-cve-details": {
+        "kind": "extraction",
+        "description": "Full CVE details from cve.json",
+        "source": "follow _links.cve-json from month index",
+        "destination_kind": "cve",
+        "yields": {
+          "data": "disclosures[], packages[], products[]"
+        }
+      }
+    }
+  }
+}

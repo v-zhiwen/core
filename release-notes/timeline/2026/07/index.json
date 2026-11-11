@@ -1,0 +1,635 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/schemas/v1/dotnet-release-timeline-index.json",
+  "kind": "month",
+  "title": ".NET Month Timeline Index - July 2026",
+  "year": "2026",
+  "month": "07",
+  "date": "2026-07-14T00:00:00\u002B00:00",
+  "security": true,
+  "prev_month_date": "2026-06-09T00:00:00\u002B00:00",
+  "prev_security_month_date": "2026-06-09T00:00:00\u002B00:00",
+  "cve_records": [
+    "CVE-2026-47300",
+    "CVE-2026-47302",
+    "CVE-2026-47303",
+    "CVE-2026-47304",
+    "CVE-2026-50524",
+    "CVE-2026-50525",
+    "CVE-2026-50526",
+    "CVE-2026-50527",
+    "CVE-2026-50528",
+    "CVE-2026-50646",
+    "CVE-2026-50648",
+    "CVE-2026-50649",
+    "CVE-2026-50650",
+    "CVE-2026-50651",
+    "CVE-2026-50659",
+    "CVE-2026-56158",
+    "CVE-2026-57108"
+  ],
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/07/index.json"
+    },
+    "prev-month": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/06/index.json",
+      "title": "Previous month - June 2026"
+    },
+    "prev-security-month": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/06/index.json",
+      "title": "Previous security month - June 2026"
+    },
+    "timeline": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/index.json",
+      "title": ".NET Release Timeline Index"
+    },
+    "year": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/index.json",
+      "title": ".NET Year Timeline Index - 2026"
+    },
+    "cve-json": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/07/cve.json",
+      "title": "CVE records - July 2026",
+      "type": "application/json"
+    }
+  },
+  "_embedded": {
+    "patches": {
+      "11.0": {
+        "version": "11.0.0-preview.6",
+        "date": "2026-07-14T00:00:00\u002B00:00",
+        "year": "2026",
+        "month": "07",
+        "security": false,
+        "support_phase": "preview",
+        "major_release": "11.0",
+        "sdk_version": "11.0.100-preview.6.26359.118",
+        "sdk_versions": [
+          "11.0.100-preview.6.26359.118"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/11.0/preview/preview6/index.json"
+          }
+        }
+      },
+      "10.0": {
+        "version": "10.0.10",
+        "date": "2026-07-14T00:00:00\u002B00:00",
+        "year": "2026",
+        "month": "07",
+        "security": true,
+        "support_phase": "active",
+        "major_release": "10.0",
+        "sdk_version": "10.0.302",
+        "sdk_versions": [
+          "10.0.302",
+          "10.0.110"
+        ],
+        "cve_records": [
+          "CVE-2026-47300",
+          "CVE-2026-47302",
+          "CVE-2026-47303",
+          "CVE-2026-47304",
+          "CVE-2026-50524",
+          "CVE-2026-50525",
+          "CVE-2026-50526",
+          "CVE-2026-50527",
+          "CVE-2026-50528",
+          "CVE-2026-50646",
+          "CVE-2026-50648",
+          "CVE-2026-50649",
+          "CVE-2026-50650",
+          "CVE-2026-50651",
+          "CVE-2026-50659",
+          "CVE-2026-56158",
+          "CVE-2026-57108"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/10.0/10.0.10/index.json"
+          }
+        }
+      },
+      "9.0": {
+        "version": "9.0.18",
+        "date": "2026-07-14T00:00:00\u002B00:00",
+        "year": "2026",
+        "month": "07",
+        "security": true,
+        "support_phase": "maintenance",
+        "major_release": "9.0",
+        "sdk_version": "9.0.316",
+        "sdk_versions": [
+          "9.0.316",
+          "9.0.119"
+        ],
+        "cve_records": [
+          "CVE-2026-47300",
+          "CVE-2026-47302",
+          "CVE-2026-47303",
+          "CVE-2026-47304",
+          "CVE-2026-50524",
+          "CVE-2026-50525",
+          "CVE-2026-50526",
+          "CVE-2026-50527",
+          "CVE-2026-50528",
+          "CVE-2026-50646",
+          "CVE-2026-50648",
+          "CVE-2026-50649",
+          "CVE-2026-50650",
+          "CVE-2026-50651",
+          "CVE-2026-50659",
+          "CVE-2026-56158",
+          "CVE-2026-57108"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/9.0/9.0.18/index.json"
+          }
+        }
+      },
+      "8.0": {
+        "version": "8.0.29",
+        "date": "2026-07-14T00:00:00\u002B00:00",
+        "year": "2026",
+        "month": "07",
+        "security": true,
+        "support_phase": "maintenance",
+        "major_release": "8.0",
+        "sdk_version": "8.0.423",
+        "sdk_versions": [
+          "8.0.423",
+          "8.0.129"
+        ],
+        "cve_records": [
+          "CVE-2026-47300",
+          "CVE-2026-47302",
+          "CVE-2026-47303",
+          "CVE-2026-47304",
+          "CVE-2026-50524",
+          "CVE-2026-50525",
+          "CVE-2026-50526",
+          "CVE-2026-50527",
+          "CVE-2026-50528",
+          "CVE-2026-50646",
+          "CVE-2026-50648",
+          "CVE-2026-50649",
+          "CVE-2026-50650",
+          "CVE-2026-50651",
+          "CVE-2026-50659",
+          "CVE-2026-56158",
+          "CVE-2026-57108"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/8.0/8.0.29/index.json"
+          }
+        }
+      }
+    },
+    "releases": [
+      {
+        "version": "11.0.0-preview.6",
+        "date": "2026-07-14T00:00:00\u002B00:00",
+        "year": "2026",
+        "month": "07",
+        "security": false,
+        "support_phase": "preview",
+        "major_release": "11.0",
+        "sdk_version": "11.0.100-preview.6.26359.118",
+        "sdk_versions": [
+          "11.0.100-preview.6.26359.118"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/11.0/preview/preview6/index.json"
+          }
+        }
+      },
+      {
+        "version": "10.0.10",
+        "date": "2026-07-14T00:00:00\u002B00:00",
+        "year": "2026",
+        "month": "07",
+        "security": true,
+        "support_phase": "active",
+        "major_release": "10.0",
+        "sdk_version": "10.0.302",
+        "sdk_versions": [
+          "10.0.302",
+          "10.0.110"
+        ],
+        "cve_records": [
+          "CVE-2026-47300",
+          "CVE-2026-47302",
+          "CVE-2026-47303",
+          "CVE-2026-47304",
+          "CVE-2026-50524",
+          "CVE-2026-50525",
+          "CVE-2026-50526",
+          "CVE-2026-50527",
+          "CVE-2026-50528",
+          "CVE-2026-50646",
+          "CVE-2026-50648",
+          "CVE-2026-50649",
+          "CVE-2026-50650",
+          "CVE-2026-50651",
+          "CVE-2026-50659",
+          "CVE-2026-56158",
+          "CVE-2026-57108"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/10.0/10.0.10/index.json"
+          }
+        }
+      },
+      {
+        "version": "9.0.18",
+        "date": "2026-07-14T00:00:00\u002B00:00",
+        "year": "2026",
+        "month": "07",
+        "security": true,
+        "support_phase": "maintenance",
+        "major_release": "9.0",
+        "sdk_version": "9.0.316",
+        "sdk_versions": [
+          "9.0.316",
+          "9.0.119"
+        ],
+        "cve_records": [
+          "CVE-2026-47300",
+          "CVE-2026-47302",
+          "CVE-2026-47303",
+          "CVE-2026-47304",
+          "CVE-2026-50524",
+          "CVE-2026-50525",
+          "CVE-2026-50526",
+          "CVE-2026-50527",
+          "CVE-2026-50528",
+          "CVE-2026-50646",
+          "CVE-2026-50648",
+          "CVE-2026-50649",
+          "CVE-2026-50650",
+          "CVE-2026-50651",
+          "CVE-2026-50659",
+          "CVE-2026-56158",
+          "CVE-2026-57108"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/9.0/9.0.18/index.json"
+          }
+        }
+      },
+      {
+        "version": "8.0.29",
+        "date": "2026-07-14T00:00:00\u002B00:00",
+        "year": "2026",
+        "month": "07",
+        "security": true,
+        "support_phase": "maintenance",
+        "major_release": "8.0",
+        "sdk_version": "8.0.423",
+        "sdk_versions": [
+          "8.0.423",
+          "8.0.129"
+        ],
+        "cve_records": [
+          "CVE-2026-47300",
+          "CVE-2026-47302",
+          "CVE-2026-47303",
+          "CVE-2026-47304",
+          "CVE-2026-50524",
+          "CVE-2026-50525",
+          "CVE-2026-50526",
+          "CVE-2026-50527",
+          "CVE-2026-50528",
+          "CVE-2026-50646",
+          "CVE-2026-50648",
+          "CVE-2026-50649",
+          "CVE-2026-50650",
+          "CVE-2026-50651",
+          "CVE-2026-50659",
+          "CVE-2026-56158",
+          "CVE-2026-57108"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/8.0/8.0.29/index.json"
+          }
+        }
+      }
+    ],
+    "disclosures": [
+      {
+        "id": "CVE-2026-47300",
+        "title": ".NET Elevation of Privilege Vulnerability",
+        "cvss_score": 9.8,
+        "cvss_severity": "critical",
+        "disclosure_date": "2026-07-14",
+        "affected_releases": [
+          "8.0",
+          "9.0",
+          "10.0"
+        ],
+        "affected_packages": [
+          "Microsoft.AspNetCore.Authentication.Negotiate"
+        ],
+        "platforms": [
+          "all"
+        ]
+      },
+      {
+        "id": "CVE-2026-47302",
+        "title": ".NET Denial of Service Vulnerability",
+        "cvss_score": 7.5,
+        "cvss_severity": "high",
+        "disclosure_date": "2026-07-14",
+        "affected_releases": [
+          "8.0",
+          "9.0",
+          "10.0"
+        ],
+        "affected_packages": [
+          "System.Security.Cryptography.Xml"
+        ],
+        "platforms": [
+          "all"
+        ]
+      },
+      {
+        "id": "CVE-2026-47303",
+        "title": ".NET Security Feature Bypass Vulnerability",
+        "cvss_score": 8.8,
+        "cvss_severity": "high",
+        "disclosure_date": "2026-07-14",
+        "affected_releases": [
+          "8.0",
+          "9.0",
+          "10.0"
+        ],
+        "affected_packages": [
+          "Microsoft.AspNetCore.Authentication.Negotiate"
+        ],
+        "platforms": [
+          "all"
+        ]
+      },
+      {
+        "id": "CVE-2026-47304",
+        "title": ".NET Security Feature Bypass Vulnerability",
+        "cvss_score": 8.1,
+        "cvss_severity": "high",
+        "disclosure_date": "2026-07-14",
+        "affected_releases": [
+          "8.0",
+          "9.0",
+          "10.0"
+        ],
+        "affected_packages": [
+          "System.Security.Cryptography.Xml"
+        ],
+        "platforms": [
+          "all"
+        ]
+      },
+      {
+        "id": "CVE-2026-50524",
+        "title": ".NET Denial of Service Vulnerability",
+        "cvss_score": 7.5,
+        "cvss_severity": "high",
+        "disclosure_date": "2026-07-14",
+        "affected_releases": [
+          "8.0",
+          "9.0",
+          "10.0"
+        ],
+        "affected_products": [
+          "dotnet-runtime"
+        ],
+        "platforms": [
+          "all"
+        ]
+      },
+      {
+        "id": "CVE-2026-50525",
+        "title": ".NET Denial of Service Vulnerability",
+        "cvss_score": 7.5,
+        "cvss_severity": "high",
+        "disclosure_date": "2026-07-14",
+        "affected_releases": [
+          "8.0",
+          "9.0",
+          "10.0"
+        ],
+        "affected_packages": [
+          "System.Security.Cryptography.Xml"
+        ],
+        "platforms": [
+          "all"
+        ]
+      },
+      {
+        "id": "CVE-2026-50526",
+        "title": ".NET Security Feature Bypass Vulnerability",
+        "cvss_score": 7,
+        "cvss_severity": "high",
+        "disclosure_date": "2026-07-14",
+        "affected_releases": [
+          "8.0",
+          "9.0",
+          "10.0"
+        ],
+        "affected_packages": [
+          "Microsoft.NET.Build.Containers"
+        ],
+        "platforms": [
+          "all"
+        ]
+      },
+      {
+        "id": "CVE-2026-50527",
+        "title": ".NET Denial of Service Vulnerability",
+        "cvss_score": 7.5,
+        "cvss_severity": "high",
+        "disclosure_date": "2026-07-14",
+        "affected_releases": [
+          "8.0",
+          "9.0",
+          "10.0"
+        ],
+        "affected_packages": [
+          "System.Security.Cryptography.Xml"
+        ],
+        "platforms": [
+          "all"
+        ]
+      },
+      {
+        "id": "CVE-2026-50528",
+        "title": ".NET Security Feature Bypass Vulnerability",
+        "cvss_score": 8.2,
+        "cvss_severity": "high",
+        "disclosure_date": "2026-07-14",
+        "affected_releases": [
+          "8.0",
+          "9.0",
+          "10.0"
+        ],
+        "affected_products": [
+          "dotnet-runtime"
+        ],
+        "platforms": [
+          "all"
+        ]
+      },
+      {
+        "id": "CVE-2026-50646",
+        "title": ".NET Security Feature Bypass Vulnerability",
+        "cvss_score": 7.8,
+        "cvss_severity": "high",
+        "disclosure_date": "2026-07-14",
+        "affected_releases": [
+          "8.0",
+          "9.0",
+          "10.0"
+        ],
+        "affected_products": [
+          "dotnet-windows-desktop"
+        ],
+        "platforms": [
+          "windows"
+        ]
+      },
+      {
+        "id": "CVE-2026-50648",
+        "title": ".NET Denial of Service Vulnerability",
+        "cvss_score": 7.5,
+        "cvss_severity": "high",
+        "disclosure_date": "2026-07-14",
+        "affected_releases": [
+          "8.0",
+          "9.0",
+          "10.0"
+        ],
+        "affected_packages": [
+          "System.Security.Cryptography.Xml"
+        ],
+        "platforms": [
+          "all"
+        ]
+      },
+      {
+        "id": "CVE-2026-50649",
+        "title": ".NET Remote Code Execution Vulnerability",
+        "cvss_score": 7.8,
+        "cvss_severity": "high",
+        "disclosure_date": "2026-07-14",
+        "affected_releases": [
+          "8.0",
+          "9.0",
+          "10.0"
+        ],
+        "affected_products": [
+          "dotnet-windows-desktop"
+        ],
+        "platforms": [
+          "windows"
+        ]
+      },
+      {
+        "id": "CVE-2026-50650",
+        "title": ".NET Elevation of Privilege Vulnerability",
+        "cvss_score": 7.8,
+        "cvss_severity": "high",
+        "disclosure_date": "2026-07-14",
+        "affected_releases": [
+          "8.0",
+          "9.0",
+          "10.0"
+        ],
+        "affected_products": [
+          "dotnet-windows-desktop"
+        ],
+        "platforms": [
+          "windows"
+        ]
+      },
+      {
+        "id": "CVE-2026-50651",
+        "title": ".NET Denial of Service Vulnerability",
+        "cvss_score": 7.5,
+        "cvss_severity": "high",
+        "disclosure_date": "2026-07-14",
+        "affected_releases": [
+          "8.0",
+          "9.0",
+          "10.0"
+        ],
+        "affected_products": [
+          "dotnet-runtime"
+        ],
+        "platforms": [
+          "all"
+        ]
+      },
+      {
+        "id": "CVE-2026-50659",
+        "title": ".NET Security Feature Bypass Vulnerability",
+        "cvss_score": 6.5,
+        "cvss_severity": "medium",
+        "disclosure_date": "2026-07-14",
+        "affected_releases": [
+          "8.0",
+          "9.0",
+          "10.0"
+        ],
+        "affected_products": [
+          "dotnet-runtime"
+        ],
+        "platforms": [
+          "all"
+        ]
+      },
+      {
+        "id": "CVE-2026-56158",
+        "title": ".NET Remote Code Execution Vulnerability",
+        "cvss_score": 7.8,
+        "cvss_severity": "high",
+        "disclosure_date": "2026-07-14",
+        "affected_releases": [
+          "8.0",
+          "9.0",
+          "10.0"
+        ],
+        "affected_products": [
+          "dotnet-windows-desktop"
+        ],
+        "platforms": [
+          "windows"
+        ]
+      },
+      {
+        "id": "CVE-2026-57108",
+        "title": ".NET Denial of Service Vulnerability",
+        "cvss_score": 7.5,
+        "cvss_severity": "high",
+        "disclosure_date": "2026-07-14",
+        "affected_releases": [
+          "8.0",
+          "9.0",
+          "10.0"
+        ],
+        "affected_products": [
+          "dotnet-runtime"
+        ],
+        "platforms": [
+          "macos",
+          "linux"
+        ]
+      }
+    ]
+  }
+}

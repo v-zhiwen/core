@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/schemas/v1/dotnet-patch-detail-index.json",
+  "kind": "patch",
+  "title": ".NET Patch Release Index - 2.2.200-preview",
+  "version": "2.2.200-preview",
+  "date": "2018-12-06T00:00:00\u002B00:00",
+  "support_phase": "preview",
+  "security": false,
+  "cve_records": null,
+  "prev_patch_date": "2018-12-04T00:00:00\u002B00:00",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/2.2/2.2.200-preview/index.json"
+    },
+    "prev-patch": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/2.2/2.2.0/index.json",
+      "title": "Previous patch release - 2.2.0"
+    },
+    "major": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/2.2/index.json",
+      "title": ".NET Major Release Index - 2.2"
+    },
+    "month": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2018/12/index.json",
+      "title": ".NET Month Timeline Index - December 2018"
+    },
+    "root": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/index.json",
+      "title": ".NET Release Index"
+    }
+  },
+  "_embedded": {
+    "documentation": {
+      "release-notes": {
+        "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/2.2/preview/2.2.200-preview.md",
+        "type": "application/markdown"
+      }
+    }
+  }
+}

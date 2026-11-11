@@ -1,0 +1,156 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/schemas/v1/dotnet-release-timeline-index.json",
+  "kind": "year",
+  "title": ".NET Year Timeline Index - 2021",
+  "year": "2021",
+  "latest_month": "12",
+  "latest_security_month": "12",
+  "latest_major": "6.0",
+  "major_releases": [
+    "6.0",
+    "5.0",
+    "3.1",
+    "2.1"
+  ],
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2021/index.json"
+    },
+    "prev-year": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2020/index.json",
+      "title": "Previous year - 2020"
+    },
+    "latest-major": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/6.0/index.json",
+      "title": "Latest major - .NET 6.0"
+    },
+    "latest-month": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2021/12/index.json",
+      "title": "Latest month - December 2021"
+    },
+    "latest-security-disclosures": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2021/12/index.json",
+      "title": "Latest security disclosures - December 2021"
+    },
+    "latest-security-month": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2021/12/index.json",
+      "title": "Latest security month - December 2021"
+    },
+    "timeline": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/index.json",
+      "title": ".NET Release Timeline Index"
+    }
+  },
+  "_embedded": {
+    "months": [
+      {
+        "month": "12",
+        "security": true,
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2021/12/index.json"
+          }
+        }
+      },
+      {
+        "month": "11",
+        "security": false,
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2021/11/index.json"
+          }
+        }
+      },
+      {
+        "month": "10",
+        "security": true,
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2021/10/index.json"
+          }
+        }
+      },
+      {
+        "month": "09",
+        "security": false,
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2021/09/index.json"
+          }
+        }
+      },
+      {
+        "month": "08",
+        "security": true,
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2021/08/index.json"
+          }
+        }
+      },
+      {
+        "month": "07",
+        "security": false,
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2021/07/index.json"
+          }
+        }
+      },
+      {
+        "month": "06",
+        "security": true,
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2021/06/index.json"
+          }
+        }
+      },
+      {
+        "month": "05",
+        "security": true,
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2021/05/index.json"
+          }
+        }
+      },
+      {
+        "month": "04",
+        "security": false,
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2021/04/index.json"
+          }
+        }
+      },
+      {
+        "month": "03",
+        "security": true,
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2021/03/index.json"
+          }
+        }
+      },
+      {
+        "month": "02",
+        "security": true,
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2021/02/index.json"
+          }
+        }
+      },
+      {
+        "month": "01",
+        "security": true,
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2021/01/index.json"
+          }
+        }
+      }
+    ]
+  }
+}

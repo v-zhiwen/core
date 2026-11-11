@@ -1,0 +1,152 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/schemas/v1/dotnet-release-timeline-index.json",
+  "kind": "month",
+  "title": ".NET Month Timeline Index - February 2025",
+  "year": "2025",
+  "month": "02",
+  "date": "2025-02-25T00:00:00\u002B00:00",
+  "security": false,
+  "prev_month_date": "2025-01-14T00:00:00\u002B00:00",
+  "prev_security_month_date": "2025-01-14T00:00:00\u002B00:00",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2025/02/index.json"
+    },
+    "prev-month": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2025/01/index.json",
+      "title": "Previous month - January 2025"
+    },
+    "prev-security-month": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2025/01/index.json",
+      "title": "Previous security month - January 2025"
+    },
+    "timeline": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/index.json",
+      "title": ".NET Release Timeline Index"
+    },
+    "year": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2025/index.json",
+      "title": ".NET Year Timeline Index - 2025"
+    }
+  },
+  "_embedded": {
+    "patches": {
+      "10.0": {
+        "version": "10.0.0-preview.1",
+        "date": "2025-02-25T00:00:00\u002B00:00",
+        "year": "2025",
+        "month": "02",
+        "security": false,
+        "support_phase": "preview",
+        "major_release": "10.0",
+        "sdk_version": "10.0.100-preview.1.25120.13",
+        "sdk_versions": [
+          "10.0.100-preview.1.25120.13"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/10.0/preview/preview1/index.json"
+          }
+        }
+      },
+      "9.0": {
+        "version": "9.0.2",
+        "date": "2025-02-11T00:00:00\u002B00:00",
+        "year": "2025",
+        "month": "02",
+        "security": false,
+        "support_phase": "active",
+        "major_release": "9.0",
+        "sdk_version": "9.0.200",
+        "sdk_versions": [
+          "9.0.200",
+          "9.0.103"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/9.0/9.0.2/index.json"
+          }
+        }
+      },
+      "8.0": {
+        "version": "8.0.13",
+        "date": "2025-02-11T00:00:00\u002B00:00",
+        "year": "2025",
+        "month": "02",
+        "security": false,
+        "support_phase": "active",
+        "major_release": "8.0",
+        "sdk_version": "8.0.406",
+        "sdk_versions": [
+          "8.0.406",
+          "8.0.309",
+          "8.0.113"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/8.0/8.0.13/index.json"
+          }
+        }
+      }
+    },
+    "releases": [
+      {
+        "version": "10.0.0-preview.1",
+        "date": "2025-02-25T00:00:00\u002B00:00",
+        "year": "2025",
+        "month": "02",
+        "security": false,
+        "support_phase": "preview",
+        "major_release": "10.0",
+        "sdk_version": "10.0.100-preview.1.25120.13",
+        "sdk_versions": [
+          "10.0.100-preview.1.25120.13"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/10.0/preview/preview1/index.json"
+          }
+        }
+      },
+      {
+        "version": "9.0.2",
+        "date": "2025-02-11T00:00:00\u002B00:00",
+        "year": "2025",
+        "month": "02",
+        "security": false,
+        "support_phase": "active",
+        "major_release": "9.0",
+        "sdk_version": "9.0.200",
+        "sdk_versions": [
+          "9.0.200",
+          "9.0.103"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/9.0/9.0.2/index.json"
+          }
+        }
+      },
+      {
+        "version": "8.0.13",
+        "date": "2025-02-11T00:00:00\u002B00:00",
+        "year": "2025",
+        "month": "02",
+        "security": false,
+        "support_phase": "active",
+        "major_release": "8.0",
+        "sdk_version": "8.0.406",
+        "sdk_versions": [
+          "8.0.406",
+          "8.0.309",
+          "8.0.113"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/8.0/8.0.13/index.json"
+          }
+        }
+      }
+    ]
+  }
+}

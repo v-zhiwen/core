@@ -1,0 +1,481 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Provides chronological access to .NET releases organized by time periods (years \u2192 months \u2192 releases)",
+  "type": [
+    "object",
+    "null"
+  ],
+  "properties": {
+    "$schema": {
+      "description": "URI of the JSON Schema that validates this document",
+      "type": "string",
+      "format": "uri"
+    },
+    "kind": {
+      "description": "Type of timeline index (release-timeline-index, timeline-year-index, timeline-month-index)",
+      "enum": [
+        "timeline",
+        "year",
+        "month",
+        "manifest"
+      ]
+    },
+    "title": {
+      "description": "Concise title for the document",
+      "type": "string"
+    },
+    "description": {
+      "description": "Context-aware description of the time period",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "latest_major": {
+      "description": "Latest major .NET version (e.g., \u002710.0\u0027)",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "latest_lts_major": {
+      "description": "Latest LTS major .NET version (e.g., \u002710.0\u0027)",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "latest_year": {
+      "description": "Latest year with .NET releases (primary)",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "latest_security_month": {
+      "description": "Latest month with security releases (format: YYYY-MM, e.g., \u00272025-10\u0027)",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "_links": {
+      "description": "HAL\u002BJSON links for hypermedia navigation",
+      "type": "object",
+      "additionalProperties": {
+        "description": "HAL\u002BJSON hypermedia link providing navigation to related resources",
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "href": {
+            "description": "Absolute URL to the linked resource",
+            "type": "string"
+          },
+          "title": {
+            "description": "Descriptive title for the linked resource",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "type": {
+            "description": "MIME type of the linked resource. Omit for HAL\u002BJSON (default).",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "templated": {
+            "description": "Indicates that the href is a URI template (RFC 6570)",
+            "type": [
+              "boolean",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "href"
+        ]
+      }
+    },
+    "glossary": {
+      "description": "Glossary of timeline-specific terms and definitions",
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": {
+        "type": [
+          "string",
+          "null"
+        ]
+      }
+    },
+    "_embedded": {
+      "description": "Embedded time-based navigation entries and release summaries",
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "years": {
+          "description": "Yearly navigation entries (root level history index)",
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "description": "Year entry in the release history, containing annual release information",
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "year": {
+                "description": "Year identifier (e.g., \u00272025\u0027)",
+                "type": "string"
+              },
+              "description": {
+                "description": "Description of the year\u0027s releases",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "major_releases": {
+                "description": "List of .NET major version identifiers released during this year",
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "items": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "_links": {
+                "description": "HAL\u002BJSON links for navigation to this year\u0027s content",
+                "type": "object",
+                "additionalProperties": {
+                  "$ref": "#/properties/_links/additionalProperties"
+                }
+              }
+            },
+            "required": [
+              "year"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "links": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/properties/_links/additionalProperties"
+      }
+    },
+    "patch": {
+      "type": "object",
+      "properties": {
+        "version": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "year": {
+          "type": "string",
+          "pattern": "^[0-9]{4}$"
+        },
+        "month": {
+          "type": "string",
+          "pattern": "^(0[1-9]|1[0-2])$"
+        },
+        "security": {
+          "type": "boolean"
+        },
+        "support_phase": {
+          "enum": [
+            "preview",
+            "go-live",
+            "active",
+            "maintenance",
+            "eol"
+          ]
+        },
+        "major_release": {
+          "type": "string"
+        },
+        "sdk_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sdk_versions": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "cve_records": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "_links": {
+          "$ref": "#/$defs/links"
+        }
+      },
+      "required": [
+        "version",
+        "date",
+        "year",
+        "month",
+        "security",
+        "support_phase",
+        "_links"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "allOf": [
+    {
+      "properties": {
+        "kind": {
+          "enum": [
+            "timeline",
+            "year",
+            "month"
+          ]
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "enum": [
+              "timeline"
+            ]
+          }
+        },
+        "required": [
+          "kind"
+        ]
+      },
+      "then": {
+        "properties": {
+          "_embedded": {
+            "type": "object",
+            "properties": {
+              "years": {
+                "$ref": "#/properties/_embedded/properties/years"
+              }
+            },
+            "required": [
+              "years"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "_links",
+          "_embedded"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "enum": [
+              "year"
+            ]
+          }
+        },
+        "required": [
+          "kind"
+        ]
+      },
+      "then": {
+        "properties": {
+          "year": {
+            "type": "string",
+            "pattern": "^[0-9]{4}$"
+          },
+          "latest_month": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^(0[1-9]|1[0-2])$"
+          },
+          "major_releases": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "string"
+            }
+          },
+          "_embedded": {
+            "type": "object",
+            "properties": {
+              "months": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "month": {
+                      "type": "string",
+                      "pattern": "^(0[1-9]|1[0-2])$"
+                    },
+                    "security": {
+                      "type": "boolean"
+                    },
+                    "_links": {
+                      "$ref": "#/$defs/links"
+                    }
+                  },
+                  "required": [
+                    "month",
+                    "security",
+                    "_links"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "required": [
+              "months"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "year",
+          "_links",
+          "_embedded"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "enum": [
+              "month"
+            ]
+          }
+        },
+        "required": [
+          "kind"
+        ]
+      },
+      "then": {
+        "properties": {
+          "year": {
+            "type": "string",
+            "pattern": "^[0-9]{4}$"
+          },
+          "month": {
+            "type": "string",
+            "pattern": "^(0[1-9]|1[0-2])$"
+          },
+          "date": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          },
+          "security": {
+            "type": "boolean"
+          },
+          "prev_month_date": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          },
+          "prev_security_month_date": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          },
+          "cve_records": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "string"
+            }
+          },
+          "_embedded": {
+            "type": "object",
+            "properties": {
+              "patches": {
+                "type": "object",
+                "additionalProperties": {
+                  "$ref": "#/$defs/patch"
+                }
+              },
+              "releases": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/$defs/patch"
+                }
+              },
+              "disclosures": {
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "items": {
+                  "type": "object"
+                }
+              }
+            },
+            "required": [
+              "patches",
+              "releases"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "year",
+          "month",
+          "security",
+          "_links",
+          "_embedded"
+        ]
+      }
+    }
+  ],
+  "required": [
+    "kind",
+    "title"
+  ],
+  "unevaluatedProperties": false
+}

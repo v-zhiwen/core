@@ -1,0 +1,315 @@
+{
+  "description": "Detailed index for a specific patch release. For CVE details, use month or cve-json link.",
+  "type": [
+    "object",
+    "null"
+  ],
+  "properties": {
+    "kind": {
+      "description": "Type of release document, always \u0027patch-index\u0027 for patch detail indexes",
+      "enum": [
+        "root",
+        "major",
+        "patch",
+        "sdk",
+        "manifest",
+        "band",
+        "sdk-download",
+        "downloads",
+        "component-download",
+        "llms",
+        "content",
+        "unknown"
+      ]
+    },
+    "title": {
+      "description": "Concise title for the document",
+      "type": "string"
+    },
+    "version": {
+      "description": "Patch version identifier (e.g., \u00278.0.1\u0027, \u00279.0.2\u0027)",
+      "type": "string"
+    },
+    "date": {
+      "description": "Release date when this patch became generally available",
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "support_phase": {
+      "description": "Support phase at time of release (preview, go-live, active, maintenance, eol)",
+      "enum": [
+        "preview",
+        "go-live",
+        "active",
+        "maintenance",
+        "eol",
+        null
+      ]
+    },
+    "security": {
+      "description": "True if this release includes security fixes (CVEs)",
+      "type": "boolean"
+    },
+    "cve_records": {
+      "description": "CVE identifiers fixed in this release (for quick enumeration)",
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "string",
+          "null"
+        ]
+      }
+    },
+    "description": {
+      "description": "Description of the patch release",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "prev_patch_date": {
+      "description": "Release date of the previous patch",
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "prev_security_patch_date": {
+      "description": "Release date of the previous security patch",
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "sdk_version": {
+      "description": "Highest SDK version shipped with this runtime patch",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "sdk_feature_bands": {
+      "description": "SDK feature band versions shipped with this runtime patch",
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "string",
+          "null"
+        ]
+      }
+    },
+    "_links": {
+      "description": "HAL\u002BJSON links for hypermedia navigation",
+      "type": "object",
+      "additionalProperties": {
+        "description": "HAL\u002BJSON hypermedia link providing navigation to related resources",
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "href": {
+            "description": "Absolute URL to the linked resource",
+            "type": "string"
+          },
+          "title": {
+            "description": "Descriptive title for the linked resource",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "type": {
+            "description": "MIME type of the linked resource. Omit for HAL\u002BJSON (default).",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "templated": {
+            "description": "Indicates that the href is a URI template (RFC 6570)",
+            "type": [
+              "boolean",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "href"
+        ]
+      }
+    },
+    "_embedded": {
+      "description": "Embedded runtime, SDK, and CVE disclosure information",
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "runtime": {
+          "description": "Runtime release with download links and release notes",
+          "type": [
+            "object",
+            "null"
+          ],
+          "properties": {
+            "version": {
+              "description": "Runtime component version (e.g., \u00279.0.1\u0027)",
+              "type": "string"
+            },
+            "_links": {
+              "description": "HAL\u002BJSON links for runtime downloads and release notes",
+              "type": "object",
+              "additionalProperties": {
+                "$ref": "#/properties/_links/additionalProperties"
+              }
+            }
+          },
+          "required": [
+            "version",
+            "_links"
+          ]
+        },
+        "sdk": {
+          "description": "Highest SDK release as a feature band object (for quick lookup)",
+          "type": [
+            "object",
+            "null"
+          ],
+          "properties": {
+            "version": {
+              "description": "Latest SDK version in this feature band (e.g., \u00279.0.307\u0027)",
+              "type": "string"
+            },
+            "band": {
+              "description": "Feature band identifier (e.g., \u00279.0.3xx\u0027)",
+              "type": "string"
+            },
+            "date": {
+              "description": "Release date of the latest SDK in this feature band",
+              "type": [
+                "string",
+                "null"
+              ],
+              "format": "date-time"
+            },
+            "label": {
+              "description": "Descriptive label for the feature band",
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "support_phase": {
+              "description": "Support phase (preview, go-live, active, maintenance, eol)",
+              "enum": [
+                "preview",
+                "go-live",
+                "active",
+                "maintenance",
+                "eol",
+                null
+              ]
+            },
+            "_links": {
+              "description": "HAL\u002BJSON links for navigation to this feature band\u0027s content",
+              "type": "object",
+              "additionalProperties": {
+                "$ref": "#/properties/_links/additionalProperties"
+              }
+            }
+          },
+          "required": [
+            "version",
+            "band",
+            "date",
+            "label",
+            "support_phase",
+            "_links"
+          ]
+        },
+        "sdk_feature_bands": {
+          "description": "All SDK feature bands shipped with this runtime patch",
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "description": "Individual SDK feature band entry containing version metadata and navigation links",
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "version": {
+                "description": "Latest SDK version in this feature band (e.g., \u00279.0.307\u0027)",
+                "type": "string"
+              },
+              "band": {
+                "description": "Feature band identifier (e.g., \u00279.0.3xx\u0027)",
+                "type": "string"
+              },
+              "date": {
+                "description": "Release date of the latest SDK in this feature band",
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "format": "date-time"
+              },
+              "label": {
+                "description": "Descriptive label for the feature band",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "support_phase": {
+                "description": "Support phase (preview, go-live, active, maintenance, eol)",
+                "enum": [
+                  "preview",
+                  "go-live",
+                  "active",
+                  "maintenance",
+                  "eol",
+                  null
+                ]
+              },
+              "_links": {
+                "$ref": "#/properties/_embedded/properties/sdk/properties/_links"
+              }
+            },
+            "required": [
+              "version",
+              "band",
+              "date",
+              "label",
+              "support_phase",
+              "_links"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "kind",
+    "title",
+    "version",
+    "date",
+    "support_phase",
+    "security",
+    "cve_records"
+  ]
+}

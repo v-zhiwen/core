@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/schemas/v1/dotnet-patch-detail-index.json",
+  "kind": "patch",
+  "title": ".NET Patch Release Index - 7.0.0-preview.4",
+  "version": "7.0.0-preview.4",
+  "date": "2022-05-10T00:00:00\u002B00:00",
+  "support_phase": "preview",
+  "security": false,
+  "cve_records": null,
+  "prev_patch_date": "2022-04-13T00:00:00\u002B00:00",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/7.0/preview/preview4/index.json"
+    },
+    "prev-patch": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/7.0/preview/preview3/index.json",
+      "title": "Previous patch release - 7.0.0-preview.3"
+    },
+    "major": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/7.0/index.json",
+      "title": ".NET Major Release Index - 7.0"
+    },
+    "month": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2022/05/index.json",
+      "title": ".NET Month Timeline Index - May 2022"
+    },
+    "root": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/index.json",
+      "title": ".NET Release Index"
+    }
+  },
+  "_embedded": {
+    "runtime": {
+      "version": "7.0.0-preview.4.22229.4",
+      "_links": {
+        "release-notes": {
+          "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/7.0/preview/7.0.0-preview.4.md",
+          "type": "application/markdown"
+        }
+      }
+    }
+  }
+}

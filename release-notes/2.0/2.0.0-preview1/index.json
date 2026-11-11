@@ -1,0 +1,27 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/schemas/v1/dotnet-patch-detail-index.json",
+  "kind": "patch",
+  "title": ".NET Patch Release Index - 2.0.0-preview1",
+  "version": "2.0.0-preview1",
+  "date": "2017-05-10T00:00:00\u002B00:00",
+  "support_phase": "preview",
+  "security": false,
+  "cve_records": null,
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/2.0/2.0.0-preview1/index.json"
+    },
+    "major": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/2.0/index.json",
+      "title": ".NET Major Release Index - 2.0"
+    },
+    "month": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2017/05/index.json",
+      "title": ".NET Month Timeline Index - May 2017"
+    },
+    "root": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/index.json",
+      "title": ".NET Release Index"
+    }
+  }
+}

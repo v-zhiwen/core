@@ -1,0 +1,186 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/schemas/v1/dotnet-release-timeline-index.json",
+  "kind": "timeline",
+  "title": ".NET Release Timeline Index",
+  "latest_major": "10.0",
+  "latest_lts_major": "10.0",
+  "latest_year": "2026",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/index.json"
+    },
+    "latest-lts-major": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/10.0/index.json",
+      "title": "Latest LTS major release - .NET 10.0"
+    },
+    "latest-major": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/10.0/index.json",
+      "title": "Latest major release - .NET 10.0"
+    },
+    "latest-year": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/index.json",
+      "title": "Latest year - 2026"
+    },
+    "root": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/index.json",
+      "title": ".NET Release Index"
+    }
+  },
+  "_embedded": {
+    "years": [
+      {
+        "year": "2026",
+        "major_releases": [
+          "11.0",
+          "10.0",
+          "9.0",
+          "8.0"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2026/index.json"
+          }
+        }
+      },
+      {
+        "year": "2025",
+        "major_releases": [
+          "10.0",
+          "9.0",
+          "8.0"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2025/index.json"
+          }
+        }
+      },
+      {
+        "year": "2024",
+        "major_releases": [
+          "9.0",
+          "8.0",
+          "7.0",
+          "6.0"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2024/index.json"
+          }
+        }
+      },
+      {
+        "year": "2023",
+        "major_releases": [
+          "8.0",
+          "7.0",
+          "6.0"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2023/index.json"
+          }
+        }
+      },
+      {
+        "year": "2022",
+        "major_releases": [
+          "7.0",
+          "6.0",
+          "5.0",
+          "3.1"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2022/index.json"
+          }
+        }
+      },
+      {
+        "year": "2021",
+        "major_releases": [
+          "6.0",
+          "5.0",
+          "3.1",
+          "2.1"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2021/index.json"
+          }
+        }
+      },
+      {
+        "year": "2020",
+        "major_releases": [
+          "5.0",
+          "3.1",
+          "3.0",
+          "2.1"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2020/index.json"
+          }
+        }
+      },
+      {
+        "year": "2019",
+        "major_releases": [
+          "3.1",
+          "3.0",
+          "2.2",
+          "2.1",
+          "1.1",
+          "1.0"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2019/index.json"
+          }
+        }
+      },
+      {
+        "year": "2018",
+        "major_releases": [
+          "3.0",
+          "2.2",
+          "2.1",
+          "2.0",
+          "1.1",
+          "1.0"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2018/index.json"
+          }
+        }
+      },
+      {
+        "year": "2017",
+        "major_releases": [
+          "2.0",
+          "1.1",
+          "1.0"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2017/index.json"
+          }
+        }
+      },
+      {
+        "year": "2016",
+        "major_releases": [
+          "1.1",
+          "1.0"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/refs/heads/main/release-notes/timeline/2016/index.json"
+          }
+        }
+      }
+    ]
+  }
+}
